@@ -1,0 +1,104 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Introduction\n\n\nA place for our \nSudofy\n's Developers to share their knowledge. \n\n\nWe Conduct Session every 2 to 3 weeks on latest Technology trends. Outsiders are currently not allowed but can grant access prior to an STS\n\n\n\n\nTimeline\n\n\n\n\n\n\n\n\nAuthor\n\n\nTechnology\n\n\nDate\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\n\n\n\n\nZubiar Irfan\n\n\nRxJS with NG2\n\n\n10-01-2018\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nMuhammad Daniyal\n\n\nTesting with Frisby\n\n\n27-12-2017\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nAmin Ahmed Khan\n\n\nSTS Intro\n\n\n20-12-2017\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\n\n\n\n\nNotes\n\n\n\n\nConduct a session maybe?\n\n\nIf you want to conduct any session. Just Shout out in the #STS channel on sudofy's slack workspace", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#introduction", 
+            "text": "A place for our  Sudofy 's Developers to share their knowledge.   We Conduct Session every 2 to 3 weeks on latest Technology trends. Outsiders are currently not allowed but can grant access prior to an STS", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/#timeline", 
+            "text": "Author  Technology  Date  Docs  Slide      Zubiar Irfan  RxJS with NG2  10-01-2018  Docs  Slide    Muhammad Daniyal  Testing with Frisby  27-12-2017  Docs  Slide    Amin Ahmed Khan  STS Intro  20-12-2017  Docs  Slide", 
+            "title": "Timeline"
+        }, 
+        {
+            "location": "/#notes", 
+            "text": "Conduct a session maybe?  If you want to conduct any session. Just Shout out in the #STS channel on sudofy's slack workspace", 
+            "title": "Notes"
+        }, 
+        {
+            "location": "/sts-intro/", 
+            "text": "STS Intro\n\n\nThis STS is based on, The importance of and general announcement of the Sudofy Tech Session! \n\n\nLinks\n\n\nSlide\n\n\n\n\nIntroduction\n\n\nSudofy Tech Session is an awesome way of sharing your experience at sudofy! These session helps create technology awareness between the developers of sudofy. These session will be conducted every alternate week on Monday. A session can only be 30 to 45 mins long.\n\n\n\n\nWHY STS ?\n\n\n\n\nThe greatest enemy of learning is knowing.\n\n\n\n\nJohn Maxwell\n\n\nSTS is going to help us involve in healthy discussion on development and daily process. Each Session will comply to these common goals\n\n\n\n\nHow to value customer satisfaction\n\n\nHow to increase efficiency at work\n\n\nDeliver Quality code\n\n\nWays to improve UI/UX\n\n\nFuture Technology that can beneficial\n\n\nIncrease governance and security of apps \n\n\n\n\n\n\nHOW STS ?\n\n\nThe next question is how are we going to conduct these session at sudofy. As mentioned above we are going to do this every alternate week on Monday. Further lets discuss the flow of the session \n\n\nSTS Days\n\n\n\n\nEvery Alternate Monday\n\n\n\n\nSTS Duration\n\n\n\n\n30-45 Mins \n\n\n\n\nSTS Timeline\n\n\n\n\nThe \nTimeline\n for this session will updated frequently and all future and past STS will be listed over here\n\n\n\n\nSTS contribution\n\n\n\n\nBefore giving any STS you have to submit a PR with your docs and slides. The PR must be submitted 3 days before the STS\n\n\n\n\nSTS Docs\n\n\n\n\nEach STS will include its own Doc page written in \nMkdDos\n \n\n\n\n\nSTS Slides\n\n\n\n\nEach STS Will include its own slides created on \nSlides.com\n\n\n\n\nSTS Snacks are on the house\n\n\n\n\nEach STS session will end with refreshments and snacks \n\n\n\n\n\n\nWHAT STS ?\n\n\nWhat will be included in a STS? STS Will be a short byte sized session on any Technology that the developer want to share with his follow developers.\n\n\nSTS Topics\n\n\n\n\nNew Technology\n\n\nQA/Testing\n\n\nDeployment Techniques\n\n\nFramework upgrade\n\n\nDev Tools\n\n\n\n\n\n\nFAQS\n\n\n\n\nWhere to host my Slides\n\n\nKindly use \nSlides.com\n\n\n\n\n\n\nHow to write the Docs\n\n\nKindly use \nMkdDos\n\n\n\n\n\n\nWhen To Submit a PR\n\n\nA PR for STS Should be submitted 3 days before the STS\n\n\n\n\n\n\nIn case of not conducting (as a speaker) the STS\n\n\nFor any case if you are not able to conduct the STS kindly inform 4 days before the STS\n\n\n\n\n\n\nDo I have to attend a STS\n\n\nEvery Developer at sudofy must attend every STS", 
+            "title": "0. Introduction"
+        }, 
+        {
+            "location": "/sts-intro/#sts-intro", 
+            "text": "This STS is based on, The importance of and general announcement of the Sudofy Tech Session!", 
+            "title": "STS Intro"
+        }, 
+        {
+            "location": "/sts-intro/#links", 
+            "text": "Slide", 
+            "title": "Links"
+        }, 
+        {
+            "location": "/sts-intro/#introduction", 
+            "text": "Sudofy Tech Session is an awesome way of sharing your experience at sudofy! These session helps create technology awareness between the developers of sudofy. These session will be conducted every alternate week on Monday. A session can only be 30 to 45 mins long.", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/sts-intro/#why-sts", 
+            "text": "The greatest enemy of learning is knowing.   John Maxwell  STS is going to help us involve in healthy discussion on development and daily process. Each Session will comply to these common goals   How to value customer satisfaction  How to increase efficiency at work  Deliver Quality code  Ways to improve UI/UX  Future Technology that can beneficial  Increase governance and security of apps", 
+            "title": "WHY STS ?"
+        }, 
+        {
+            "location": "/sts-intro/#how-sts", 
+            "text": "The next question is how are we going to conduct these session at sudofy. As mentioned above we are going to do this every alternate week on Monday. Further lets discuss the flow of the session", 
+            "title": "HOW STS ?"
+        }, 
+        {
+            "location": "/sts-intro/#sts-days", 
+            "text": "Every Alternate Monday", 
+            "title": "STS Days"
+        }, 
+        {
+            "location": "/sts-intro/#sts-duration", 
+            "text": "30-45 Mins", 
+            "title": "STS Duration"
+        }, 
+        {
+            "location": "/sts-intro/#sts-timeline", 
+            "text": "The  Timeline  for this session will updated frequently and all future and past STS will be listed over here", 
+            "title": "STS Timeline"
+        }, 
+        {
+            "location": "/sts-intro/#sts-contribution", 
+            "text": "Before giving any STS you have to submit a PR with your docs and slides. The PR must be submitted 3 days before the STS", 
+            "title": "STS contribution"
+        }, 
+        {
+            "location": "/sts-intro/#sts-docs", 
+            "text": "Each STS will include its own Doc page written in  MkdDos", 
+            "title": "STS Docs"
+        }, 
+        {
+            "location": "/sts-intro/#sts-slides", 
+            "text": "Each STS Will include its own slides created on  Slides.com", 
+            "title": "STS Slides"
+        }, 
+        {
+            "location": "/sts-intro/#sts-snacks-are-on-the-house", 
+            "text": "Each STS session will end with refreshments and snacks", 
+            "title": "STS Snacks are on the house"
+        }, 
+        {
+            "location": "/sts-intro/#what-sts", 
+            "text": "What will be included in a STS? STS Will be a short byte sized session on any Technology that the developer want to share with his follow developers.", 
+            "title": "WHAT STS ?"
+        }, 
+        {
+            "location": "/sts-intro/#sts-topics", 
+            "text": "New Technology  QA/Testing  Deployment Techniques  Framework upgrade  Dev Tools", 
+            "title": "STS Topics"
+        }, 
+        {
+            "location": "/sts-intro/#faqs", 
+            "text": "Where to host my Slides  Kindly use  Slides.com    How to write the Docs  Kindly use  MkdDos    When To Submit a PR  A PR for STS Should be submitted 3 days before the STS    In case of not conducting (as a speaker) the STS  For any case if you are not able to conduct the STS kindly inform 4 days before the STS    Do I have to attend a STS  Every Developer at sudofy must attend every STS", 
+            "title": "FAQS"
+        }
+    ]
+}

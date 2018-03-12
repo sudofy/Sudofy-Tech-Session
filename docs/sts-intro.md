@@ -2,7 +2,7 @@
 This STS is based on, The importance of and general announcement of the Sudofy Tech Session! 
 
 ## Links
-[Slide](http://bit.ly/2BgiKGe)
+[Slide](https://goo.gl/VC5uf9)
 ___
 ## Introduction
 Sudofy Tech Session is an awesome way of sharing your experience at sudofy! These session helps create technology awareness between the developers of sudofy. These session will be conducted every alternate week on Monday. A session can only be 30 to 45 mins long.
@@ -45,7 +45,7 @@ The next question is how are we going to conduct these session at sudofy. As men
 > Each STS will include its own Doc page written in [MkdDos](http://www.mkdocs.org/) 
 
 #### STS Slides
-> Each STS Will include its own slides created on [Slides.com](http://slides.com/)
+> Each STS Will include its own slides created on [Google Docs Slides](https://www.google.com/slides/about/)
 
 #### STS Snacks are on the house
 > Each STS session will end with refreshments and snacks 
@@ -68,7 +68,7 @@ ___
 ## FAQS
 
 !!! question "Where to host my Slides"
-    Kindly use [Slides.com](http://slides.com/)
+    Kindly use [Google Docs Slides](https://www.google.com/slides/about/)
 
 !!! question "How to write the Docs"
     Kindly use [MkdDos](http://www.mkdocs.org/)

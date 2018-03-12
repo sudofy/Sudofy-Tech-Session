@@ -2,7 +2,7 @@
 This STS is based on, The importance of and general announcement of the Sudofy Tech Session! 
 
 ## Links
-[Slide](https://goo.gl/VC5uf9)
+[Slide](http://bit.ly/2Gm15gB)
 ___
 ## Introduction
 Sudofy Tech Session is an awesome way of sharing your experience at sudofy! These session helps create technology awareness between the developers of sudofy. These session will be conducted every alternate week on Monday. A session can only be 30 to 45 mins long.

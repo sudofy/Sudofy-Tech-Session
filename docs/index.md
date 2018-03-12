@@ -12,7 +12,7 @@ ___
 | ---------------------------------------------------- | ---------------------------- | ---------- | :------------------: | :---------------:                      |
 | [Zubiar Irfan](https://github.com/zubairsudofy)      | RxJS with NG2                | 10-01-2018 | [Docs]()             | [Slide]()                              |
 | [Muhammad Daniyal](https://github.com/daniyalsudofy) | Testing with Frisby          | 27-12-2017 | [Docs]()             | [Slide]()                              |
-| [Amin Ahmed Khan](https://github.com/aminahmedkhan)  | STS Intro                    | 20-12-2017 | [Docs](./sts-intro)  | [Slide](https://goo.gl/VC5uf9)         |
+| [Amin Ahmed Khan](https://github.com/aminahmedkhan)  | STS Intro                    | 20-12-2017 | [Docs](./sts-intro)  | [Slide](http://bit.ly/2Gm15gB)         |
 
 ___
 

@@ -22,6 +22,7 @@ ___
 * Handles both synchronous and asynchronous errors with the same construct.
 * Conditionals - helps in making multiple requests.
 * Last but not least, a killer advantage when using async/await is that it’s much easier to debug
+* Async/Await was created to simplify the process of working with and writing chained promises.
 * And so on...
 
 ___

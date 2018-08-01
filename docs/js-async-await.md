@@ -8,6 +8,7 @@ ___
 ES 2017 introduced Asynchronous functions. Async functions are essentially a cleaner way to work with asynchronous code in JavaScript.
 
 Here are some important points to remember:
+
 * Async/await is a new way to write asynchronous code. Previous options for asynchronous code are callbacks and promises.
 * Async/await is actually built on top of promises. It cannot be used with plain callbacks or node callbacks.
 * Async/await is, like promises, non blocking.
@@ -17,12 +18,11 @@ ___
 
 ## WHY Aysnc Await ?
 
-* How to value customer satisfaction
-* How to increase efficiency at work
-* Deliver Quality code
-* Ways to improve UI/UX
-* Future Technology that can beneficial
-* Increase governance and security of apps 
+* Concise and clean.
+* Handles both synchronous and asynchronous errors with the same construct.
+* Conditionals - helps in making multiple requests.
+* Last but not least, a killer advantage when using async/await is that it’s much easier to debug
+* And so on...
 
 ___
 
@@ -38,31 +38,7 @@ The next question is how are we going to conduct these session at sudofy. As men
 
 
 #### STS Slides
-> Each STS Will include its own slides created on [Google Docs Slides](https://www.google.com/slides/about/)
+> [Google Docs Slides](https://www.google.com/slides/about/)
 
 #### STS Snacks are on the house
-> Each STS session will end with refreshments and snacks 
-
-___
-
-## WHAT STS ?
-
-What will be included in a STS? STS Will be a short byte sized session on any Technology that the developer want to share with his follow developers.
-___
-
-## FAQS
-
-!!! question "Where to host my Slides"
-    Kindly use [Google Docs Slides](https://www.google.com/slides/about/)
-
-!!! question "How to write the Docs"
-    Kindly use [MkdDos](http://www.mkdocs.org/)
-
-!!! info "When To Submit a PR"
-    A PR for STS Should be submitted 3 days before the STS
-
-!!! fail "In case of not conducting (as a speaker) the STS"
-    For any case if you are not able to conduct the STS kindly inform 4 days before the STS
-
-!!! success "Do I have to attend a STS"
-    Every Developer at sudofy must attend every STS
+> Donuts !

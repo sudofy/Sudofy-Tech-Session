@@ -1,9 +1,10 @@
-# Async Await
-This STS is based on the importance of Async Await and how to use it effectively in your code. This session will also cover little bit about the concept of Generators in javaScript.
+# Event loops and the asynchronous programming in Javascript
+This STS is based on the importance of Asynchronous programming in Javascript and how Javascript actually works, how it executes callbacks and handles asynchronous code. It will also cover how to use Callbacks, Promises and Async Await effectively in your code. This session will also cover little bit about the concept of Generators in javaScript.
 
 ## Links
-[Slide](http://bit.ly/2Gm15gB)
+[Slide](https://docs.google.com/presentation/u/1/d/1f9vbKtoQbX3xAdj_W2q5vnwnhKCQ2maCzuO51HZ_eOA/edit?usp=drive_web&ouid=105990856389242189579)
 ___
+
 ## Introduction
 ES 2017 introduced Asynchronous functions. Async functions are essentially a cleaner way to work with asynchronous code in JavaScript.
 

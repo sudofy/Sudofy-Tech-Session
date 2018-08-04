@@ -11,7 +11,7 @@ ___
 | Author                                               | Technology                   | Date       | Docs                 | Slide                                  |
 | ---------------------------------------------------- | ---------------------------- | ---------- | :------------------: | :---------------:                      |
 | [Amin Ahmed Khan](https://github.com/aminahmedkhan)  | STS Intro                    | 20-12-2017 | [Docs](./sts-intro)  | [Slide](http://bit.ly/2Gm15gB)         |
-| [Alqama Bin Sadiq](https://github.com/alqamabinsadiq)      | Async Await                | 04-08-2018 | [Docs]()             | [Slide]()                              |
+| [Alqama Bin Sadiq](https://github.com/alqamabinsadiq)      | Async Await                | 04-08-2018 | [Docs]()             | [Slide](https://bit.ly/2MjR3OW)                              |
 
 ___
 

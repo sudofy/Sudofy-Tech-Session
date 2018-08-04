@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Introduction\n\n\nA place for our \nSudofy\n's Developers to share their knowledge. \n\n\nWe Conduct Session every 2 to 3 weeks on latest Technology trends. Outsiders are currently not allowed but can grant access prior to an STS\n\n\n\n\nTimeline\n\n\n\n\n\n\n\n\nAuthor\n\n\nTechnology\n\n\nDate\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\n\n\n\n\nZubiar Irfan\n\n\nRxJS with NG2\n\n\n10-01-2018\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nMuhammad Daniyal\n\n\nTesting with Frisby\n\n\n27-12-2017\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nAmin Ahmed Khan\n\n\nSTS Intro\n\n\n20-12-2017\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\n\n\n\n\nNotes\n\n\n\n\nConduct a session maybe?\n\n\nIf you want to conduct any session. Just Shout out in the #STS channel on sudofy's slack workspace", 
+            "text": "Introduction\n\n\nA place for our \nSudofy\n's Developers to share their knowledge. \n\n\nWe Conduct Session every 2 to 3 weeks on latest Technology trends. Outsiders are currently not allowed but can grant access prior to an STS\n\n\n\n\nTimeline\n\n\n\n\n\n\n\n\nAuthor\n\n\nTechnology\n\n\nDate\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\n\n\n\n\nAmin Ahmed Khan\n\n\nSTS Intro\n\n\n20-12-2017\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nAlqama Bin Sadiq\n\n\nAsync Await\n\n\n04-08-2018\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\n\n\n\n\nNotes\n\n\n\n\nConduct a session maybe?\n\n\nIf you want to conduct any session. Just Shout out in the #STS channel on sudofy's slack workspace", 
             "title": "Home"
         }, 
         {
@@ -12,7 +12,7 @@
         }, 
         {
             "location": "/#timeline", 
-            "text": "Author  Technology  Date  Docs  Slide      Zubiar Irfan  RxJS with NG2  10-01-2018  Docs  Slide    Muhammad Daniyal  Testing with Frisby  27-12-2017  Docs  Slide    Amin Ahmed Khan  STS Intro  20-12-2017  Docs  Slide", 
+            "text": "Author  Technology  Date  Docs  Slide      Amin Ahmed Khan  STS Intro  20-12-2017  Docs  Slide    Alqama Bin Sadiq  Async Await  04-08-2018  Docs  Slide", 
             "title": "Timeline"
         }, 
         {
@@ -99,6 +99,66 @@
             "location": "/sts-intro/#faqs", 
             "text": "Where to host my Slides  Kindly use  Google Docs Slides    How to write the Docs  Kindly use  MkdDos    When To Submit a PR  A PR for STS Should be submitted 3 days before the STS    In case of not conducting (as a speaker) the STS  For any case if you are not able to conduct the STS kindly inform 4 days before the STS    Do I have to attend a STS  Every Developer at sudofy must attend every STS", 
             "title": "FAQS"
+        }, 
+        {
+            "location": "/js-async-await/", 
+            "text": "Event loops and the asynchronous programming in Javascript\n\n\nThis STS is based on the importance of Asynchronous programming in Javascript and how Javascript actually works, how it executes callbacks and handles asynchronous code. It will also cover how to use Callbacks, Promises and Async Await effectively in your code. This session will also cover little bit about the concept of Generators in javaScript.\n\n\nLinks\n\n\nSlide\n\n\n\n\nIntroduction\n\n\nThe session is divided into three sections. The first section will cover how event loops and call stack work in JavaScript. The Second section will cover how to write non-blocking and asynchronous code in JavaScript and how to use Promises, call backs and Async-Await effectively and then the last section will cover the concept of Generators in Javascript.\n\n\n\n\nWHY Event Loops and Call Stack ?\n\n\nCall stacks and event loops are very important and it helps you understand how Javascript actually runs on browser and node. It also helps you in understanding how callbacks are actually handled in JavaScript.\n\n\n\n\nWHY Aysnc Await ?\n\n\nES 2017 introduced Asynchronous functions. Async functions are essentially a cleaner way to work with asynchronous code in JavaScript.\n\n\nHere are some important points to remember:\n\n\n\n\nAsync/await is a new way to write asynchronous code. Previous options for asynchronous code are callbacks and promises.\n\n\nAsync/await is actually built on top of promises. It cannot be used with plain callbacks or node callbacks.\n\n\nAsync/await is, like promises, non blocking.\n\n\nAsync/await makes asynchronous code look and behave a little more like synchronous code. This is where all its power lies.\n\n\n\n\n\n\nWHY Generators ?\n\n\nGenerators are functions that you can use to control the iterator. They can be suspended and later resumed at any time.\n\n\nSo if you wanna do something in your function which involves stopping it and perform other operations and then resume that function again, you should learn how to use Generators.\n\n\n\n\nHOW STS ?\n\n\nThe next question is how are we going to conduct these session at sudofy. As mentioned above we are going to do this every alternate week on Monday. Further lets discuss the flow of the session \n\n\nSTS Date\n\n\n\n\n04 - AUG - 2017\n\n\n\n\nSTS Duration\n\n\n\n\n30-45 Mins \n\n\n\n\nSTS Slides\n\n\n\n\nGoogle Docs Slides\n\n\n\n\nSTS Snacks are on the house\n\n\n\n\nDonuts !", 
+            "title": "1. JS Async Await"
+        }, 
+        {
+            "location": "/js-async-await/#event-loops-and-the-asynchronous-programming-in-javascript", 
+            "text": "This STS is based on the importance of Asynchronous programming in Javascript and how Javascript actually works, how it executes callbacks and handles asynchronous code. It will also cover how to use Callbacks, Promises and Async Await effectively in your code. This session will also cover little bit about the concept of Generators in javaScript.", 
+            "title": "Event loops and the asynchronous programming in Javascript"
+        }, 
+        {
+            "location": "/js-async-await/#links", 
+            "text": "Slide", 
+            "title": "Links"
+        }, 
+        {
+            "location": "/js-async-await/#introduction", 
+            "text": "The session is divided into three sections. The first section will cover how event loops and call stack work in JavaScript. The Second section will cover how to write non-blocking and asynchronous code in JavaScript and how to use Promises, call backs and Async-Await effectively and then the last section will cover the concept of Generators in Javascript.", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/js-async-await/#why-event-loops-and-call-stack", 
+            "text": "Call stacks and event loops are very important and it helps you understand how Javascript actually runs on browser and node. It also helps you in understanding how callbacks are actually handled in JavaScript.", 
+            "title": "WHY Event Loops and Call Stack ?"
+        }, 
+        {
+            "location": "/js-async-await/#why-aysnc-await", 
+            "text": "ES 2017 introduced Asynchronous functions. Async functions are essentially a cleaner way to work with asynchronous code in JavaScript.  Here are some important points to remember:   Async/await is a new way to write asynchronous code. Previous options for asynchronous code are callbacks and promises.  Async/await is actually built on top of promises. It cannot be used with plain callbacks or node callbacks.  Async/await is, like promises, non blocking.  Async/await makes asynchronous code look and behave a little more like synchronous code. This is where all its power lies.", 
+            "title": "WHY Aysnc Await ?"
+        }, 
+        {
+            "location": "/js-async-await/#why-generators", 
+            "text": "Generators are functions that you can use to control the iterator. They can be suspended and later resumed at any time.  So if you wanna do something in your function which involves stopping it and perform other operations and then resume that function again, you should learn how to use Generators.", 
+            "title": "WHY Generators ?"
+        }, 
+        {
+            "location": "/js-async-await/#how-sts", 
+            "text": "The next question is how are we going to conduct these session at sudofy. As mentioned above we are going to do this every alternate week on Monday. Further lets discuss the flow of the session", 
+            "title": "HOW STS ?"
+        }, 
+        {
+            "location": "/js-async-await/#sts-date", 
+            "text": "04 - AUG - 2017", 
+            "title": "STS Date"
+        }, 
+        {
+            "location": "/js-async-await/#sts-duration", 
+            "text": "30-45 Mins", 
+            "title": "STS Duration"
+        }, 
+        {
+            "location": "/js-async-await/#sts-slides", 
+            "text": "Google Docs Slides", 
+            "title": "STS Slides"
+        }, 
+        {
+            "location": "/js-async-await/#sts-snacks-are-on-the-house", 
+            "text": "Donuts !", 
+            "title": "STS Snacks are on the house"
         }
     ]
 }

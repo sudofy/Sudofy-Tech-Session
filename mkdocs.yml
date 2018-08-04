@@ -2,6 +2,7 @@ site_name: Sudofy Tech Session (STS)
 pages:
     - Home: index.md
     - 0. Introduction: sts-intro.md
+    - 1. JS Async Await: js-async-await.md
 theme:
   name: 'material'
 markdown_extensions:

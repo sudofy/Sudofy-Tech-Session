@@ -3,6 +3,7 @@ pages:
     - Home: index.md
     - 0. Introduction: sts-intro.md
     - 1. JS Async Await: js-async-await.md
+    - 2. Intro to Service Workers (1 of 2): intro-service-worker.md
 theme:
   name: 'material'
 markdown_extensions:

@@ -48,10 +48,29 @@ Service worker handle requests to the server. It has a few steps, and to show th
 [workerLifeCycle]: images/worker-lifecycle.png "Service worker Lifecycle"
 ![alt text][workerLifeCycle]
 
+### Parsed Event
+When we first attempt to register a Service Worker, the user agent parses the script and obtains the entry point. If parsing is successful (and some other requirements, e.g. HTTPS, are met), we will have access to the Service Worker registration object. This contains information about the state of the Service Worker as well as it’s scope.
+```javascript
+if ('serviceWorker' in navigator) {
+	navigator.serviceWorker.register('./sw.js')
+	.then(function(registration) {
+		console.log("Service Worker Registered", registration);
+	})
+	.catch(function(err) {
+		console.log("Service Worker Failed to Register", err);
+	})
+}
+```
 ### Install Event
-The “install” event is the first event a service worker gets, and it only happens once.
-A promise passed to ```event.waitUntil()``` signals the duration and success or failure of your install.
-A service worker won't receive events like ```fetch``` and ```push``` until it successfully finishes installing and becomes "active".
+Once the Service Worker script has been parsed, the user agent attempts to install it and it moves to the installing state. In the Service Worker `registration` object, we can check for this state in the `installing` child object.
+```javascript
+navigator.serviceWorker.register('./sw.js').then(function(registration) {
+  if (registration.installing) {
+      // Service Worker is Installing
+  }
+});
+```
+During the installing state, the install event in the Service Worker script is carried out. The “install” event is the first event a service worker gets, and it only happens once. A promise passed to ```event.waitUntil()``` signals the duration and success or failure of your install. A service worker won't receive events like ```fetch``` and ```push``` until it successfully finishes installing and becomes "active".
 
 By default, a page's fetches won't go through a service worker unless the page request itself went through a service worker. So you'll need to refresh the page to see the effects of the service worker. An example image shown by [Jake Archibald](https://developers.google.com/web/resources/contributors/jakearchibald) in his [blog](https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle):
 [installEvent]: images/service-worker-install.gif "Service worker install"
@@ -65,8 +84,20 @@ self.addEventListener('install', function(event) {
   );
 });
 ```
+### Installed / Waiting
+If the installation is successful, the Service Worker moves to the installed (also called waiting) state. In this state it is a valid, but not yet active, worker. It is not yet in control of the document, but rather is waiting to take control from the current worker.
+
+In the Service Worker `registration` object, we can check for this state in the `waiting` child object.
+```javascript
+navigator.serviceWorker.register('./sw.js').then(function(registration) {
+  if (registration.waiting) {
+      // Service Worker is Waiting
+  }
+});
+```
+This can be a good time to notify the app user that they can update to a new version, or automatically update for them.
 ### Activate Event
-After the installation of service worker, if there any existing service worker controlling the client, then this worker goes to a “waiting” state. 
+After the installation of service worker, if there any existing service worker controlling the client, then this worker goes to a `waiting` state. 
 The activate event fires once the old service worker is gone, and your new service worker is able to control clients. This is the ideal time to do stuff that you couldn't do while the old worker was still in use, such as migrating databases and clearing caches.
 The waiting phase means you're only running one version of your site at once, but if you don't need that feature, you can make your new service worker activate sooner by calling “self.skipWaiting()”. An example image shown by [Jake Archibald](https://developers.google.com/web/resources/contributors/jakearchibald) in his [blog](https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle):
 [activateEvent]: images/service-worker-activate.gif "Service worker activate"
@@ -75,13 +106,40 @@ The waiting phase means you're only running one version of your site at once, bu
 
 To listen the activate event of a service worker, we need to add the following code in our sw.js file:
 ```javascript
-self.addEventListener('install', function(event) {
+self.addEventListener('activate', function(event) {
   event.waitUntil(
     // Delete cache
   );
 });
 ```
 
+### Activated
+If activation is successful, the Service Worker moves to the active state. In this state, it is an active worker in full control of the document. In the Service Worker registration object, we can check for this state in the active child object.
+```javascript
+navigator.serviceWorker.register('./sw.js').then(function(registration) {
+  if (registration.active) {
+      // Service Worker is Active
+  }
+});
+```
+When a Service Worker is active, it can now handle the functional events - fetch, and message.
+```javascript
+self.addEventListener('fetch', function(event) {
+  // Do stuff with fetch events
+});
+
+self.addEventListener('message', function(event) {
+  // Do stuff with postMessages received from document
+});
+```
+### Redundant 
+A Service Worker can become redundant for one of the following reasons -
+
+- If the installing event failed
+
+- If the activating event failed
+
+- If a new Service Worker replaces it as the active service worker
 ## CacheStorage
 The Cache API is a system for storing and retrieving network requests and corresponding responses. The Cache API was created to enable Service Workers to cache network requests so that they can provide appropriate responses even while offline. However, the API can also be used as a general storage mechanism.
 ### What can be stored? 

@@ -1,7 +1,7 @@
 # STS
 [_Sudofy Tech Session_](https://sudofy.github.io/Sudofy-Tech-Session/)
 
-A place for our [Sudofy](http://sudofy.com)'s Developers to share their knowledge. 
+A place for [Sudofy](http://sudofy.com)'s Developers to share their knowledge. 
 ___
 
 
@@ -9,7 +9,8 @@ ___
 _(John Maxwell)_
 
 
-STS is an on going program that is going to help us involve in healthy discussion on development and daily process. Each Session will comply to these common goals
+STS is an on going program that is going to help us involve in healthy tech discussion on development and process automation.
+Each Session will comply to these common goals
 
 * How to value customer satisfaction
 * How to increase efficiency at work

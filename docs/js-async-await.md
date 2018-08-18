@@ -32,10 +32,6 @@ So if you wanna do something in your function which involves stopping it and per
 
 ___
 
-## HOW STS ?
-
-The next question is how are we going to conduct these session at sudofy. As mentioned above we are going to do this every alternate week on Monday. Further lets discuss the flow of the session 
-
 #### STS Date
 > 04 - AUG - 2017
 
@@ -44,7 +40,7 @@ The next question is how are we going to conduct these session at sudofy. As men
 
 
 #### STS Slides
-> [Google Docs Slides](https://www.google.com/slides/about/)
+> [Google Docs Slides](https://bit.ly/2MjR3OW)
 
 #### STS Snacks are on the house
 > Donuts !

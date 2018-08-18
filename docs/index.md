@@ -11,7 +11,8 @@ ___
 | Author                                               | Technology                   | Date       | Docs                 | Slide                                  |
 | ---------------------------------------------------- | ---------------------------- | ---------- | :------------------: | :---------------:                      |
 | [Amin Ahmed Khan](https://github.com/aminahmedkhan)  | STS Intro                    | 20-12-2017 | [Docs](./sts-intro)  | [Slide](http://bit.ly/2Gm15gB)         |
-| [Alqama Bin Sadiq](https://github.com/alqamabinsadiq)      | Async Await                | 04-08-2018 | [Docs]()             | [Slide](https://bit.ly/2MjR3OW)                              |
+| [Alqama Bin Sadiq](https://github.com/alqamabinsadiq)      | Async Await                | 04-08-2018 | [Docs](./js-async-await)             | [Slide](https://bit.ly/2MjR3OW)                              |
+| [Faraz Sarwar](https://github.com/farazsarwar113)  | Service Workers                    | 18-08-2018 | [Docs](./intro-service-worker)  | [Slide](http://bit.ly/2vOLeDb)         |
 
 ___
 

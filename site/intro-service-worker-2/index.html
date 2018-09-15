@@ -1,0 +1,1134 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.1, mkdocs-material-3.0.3">
+    
+    
+      
+        <title>3. Intro to Service Workers (2 of 2) - Sudofy Tech Session (STS)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.451f80e5.css">
+      
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="../#introduction-to-service-worker" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="Sudofy Tech Session (STS)" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                Sudofy Tech Session (STS)
+              </span>
+              <span class="md-header-nav__topic">
+                3. Intro to Service Workers (2 of 2)
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="Sudofy Tech Session (STS)" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Sudofy Tech Session (STS)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sts-intro/" title="0. Introduction" class="md-nav__link">
+      0. Introduction
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../js-async-await/" title="1. JS Async Await" class="md-nav__link">
+      1. JS Async Await
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../intro-service-worker/" title="2. Intro to Service Workers (1 of 2)" class="md-nav__link">
+      2. Intro to Service Workers (1 of 2)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        3. Intro to Service Workers (2 of 2)
+      </label>
+    
+    <a href="./" title="3. Intro to Service Workers (2 of 2)" class="md-nav__link md-nav__link--active">
+      3. Intro to Service Workers (2 of 2)
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-content" title="Table of Content" class="md-nav__link">
+    Table of Content
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overview" title="Overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app-introduction" title="App Introduction" class="md-nav__link">
+    App Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installingrunning-the-app" title="Installing/Running the App" class="md-nav__link">
+    Installing/Running the App
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#registering-our-first-service-worker" title="Registering our first Service Worker" class="md-nav__link">
+    Registering our first Service Worker
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exploring-the-dev-tools" title="Exploring the Dev Tools" class="md-nav__link">
+    Exploring the Dev Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hijacking-request" title="Hijacking Request" class="md-nav__link">
+    Hijacking Request
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#custom-response" title="Custom Response" class="md-nav__link">
+    Custom Response
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#respond-with-gif" title="Respond with gif" class="md-nav__link">
+    Respond with gif
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#handle-404-and-failed-state" title="Handle 404 and failed state" class="md-nav__link">
+    Handle 404 and failed state
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caching-and-serving-assets" title="Caching and Serving Assets" class="md-nav__link">
+    Caching and Serving Assets
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unobtrusive-app-updates" title="Unobtrusive app updates" class="md-nav__link">
+    Unobtrusive app updates
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trigger-latest-version" title="Trigger latest version" class="md-nav__link">
+    Trigger latest version
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#update-data-using-the-indexeddb" title="Update Data using the IndexedDB" class="md-nav__link">
+    Update Data using the IndexedDB
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-to-indexeddb" title="Introduction to IndexedDB" class="md-nav__link">
+    Introduction to IndexedDB
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#object-store" title="Object store" class="md-nav__link">
+    Object store
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#index" title="Index" class="md-nav__link">
+    Index
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transaction" title="Transaction" class="md-nav__link">
+    Transaction
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cursor" title="Cursor" class="md-nav__link">
+    Cursor
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-a-db" title="Create a db" class="md-nav__link">
+    Create a db
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-a-object-store" title="Create a Object store" class="md-nav__link">
+    Create a Object store
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defining-indexes" title="Defining indexes" class="md-nav__link">
+    Defining indexes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-content" title="Table of Content" class="md-nav__link">
+    Table of Content
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overview" title="Overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app-introduction" title="App Introduction" class="md-nav__link">
+    App Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installingrunning-the-app" title="Installing/Running the App" class="md-nav__link">
+    Installing/Running the App
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#registering-our-first-service-worker" title="Registering our first Service Worker" class="md-nav__link">
+    Registering our first Service Worker
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exploring-the-dev-tools" title="Exploring the Dev Tools" class="md-nav__link">
+    Exploring the Dev Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hijacking-request" title="Hijacking Request" class="md-nav__link">
+    Hijacking Request
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#custom-response" title="Custom Response" class="md-nav__link">
+    Custom Response
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#respond-with-gif" title="Respond with gif" class="md-nav__link">
+    Respond with gif
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#handle-404-and-failed-state" title="Handle 404 and failed state" class="md-nav__link">
+    Handle 404 and failed state
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caching-and-serving-assets" title="Caching and Serving Assets" class="md-nav__link">
+    Caching and Serving Assets
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unobtrusive-app-updates" title="Unobtrusive app updates" class="md-nav__link">
+    Unobtrusive app updates
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trigger-latest-version" title="Trigger latest version" class="md-nav__link">
+    Trigger latest version
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#update-data-using-the-indexeddb" title="Update Data using the IndexedDB" class="md-nav__link">
+    Update Data using the IndexedDB
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-to-indexeddb" title="Introduction to IndexedDB" class="md-nav__link">
+    Introduction to IndexedDB
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#object-store" title="Object store" class="md-nav__link">
+    Object store
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#index" title="Index" class="md-nav__link">
+    Index
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transaction" title="Transaction" class="md-nav__link">
+    Transaction
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cursor" title="Cursor" class="md-nav__link">
+    Cursor
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-a-db" title="Create a db" class="md-nav__link">
+    Create a db
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-a-object-store" title="Create a Object store" class="md-nav__link">
+    Create a Object store
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defining-indexes" title="Defining indexes" class="md-nav__link">
+    Defining indexes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="introduction-to-service-worker">Introduction to Service Worker<a class="headerlink" href="#introduction-to-service-worker" title="Permanent link">&para;</a></h1>
+<h2 id="table-of-content">Table of Content<a class="headerlink" href="#table-of-content" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Topics</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Overview</td>
+</tr>
+<tr>
+<td>App Introduction</td>
+</tr>
+<tr>
+<td>Installing/Running the App</td>
+</tr>
+<tr>
+<td>Registering our first Service Worker</td>
+</tr>
+<tr>
+<td>Exploring the Dev Tools</td>
+</tr>
+<tr>
+<td>Hijacking Request</td>
+</tr>
+<tr>
+<td>Caching and Serving Assets</td>
+</tr>
+<tr>
+<td>Unobtrosive App Updates</td>
+</tr>
+<tr>
+<td>Trigger latest version</td>
+</tr>
+<tr>
+<td>Update Data using the IndexedDB</td>
+</tr>
+</tbody>
+</table>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<p>Service worker is a JavaScript file that, run seperately in its own thread. Intercepts network request and store or retrive data from cache and provide push message to web client even when offline. It doesn't have DOM support and only run on HTTPS.</p>
+<p>Service worker doesn't have access to DOM, so what can we do with JavaScript? Lets discus this.</p>
+<p>Service worker is like a middle man (or middleware) between the webpage and the internet, it handle the network request. When a webpage request the server for HTML, CSS files or any API request it pass through the service worker, it is up to us how we code the service worker to deal with these request like we can send that request to server or we can look for the request in cache if exist then show from cache. It is up to us what approach is better for us to provide a good user experience.</p>
+<h2 id="app-introduction">App Introduction<a class="headerlink" href="#app-introduction" title="Permanent link">&para;</a></h2>
+<p>We have an app called <code>Wittr</code>, it is a real time social networking web app where user share their posts and give comments/feedback on them. This site is fully developed but not a total breakdown on low connectivity and offline mode. So we going to implement the service worker to tackle the blank screen on low connectivity and offline mode.</p>
+<h2 id="installingrunning-the-app">Installing/Running the App<a class="headerlink" href="#installingrunning-the-app" title="Permanent link">&para;</a></h2>
+<p>To install the app on you local machine, you first need to install <a href="https://git-scm.com/">Git</a> if you have it that's great. If you dont know about <code>Git</code> that's not an issue we are just using the basic of <code>Git</code>. Those who dont know Git, it is a version controlling system.
+To download or clone the project to your local machine, run command on your terminal or command-line.</p>
+<p><code>git clone https://github.com/farazsarwar113/wittr</code></p>
+<p>After cloning the project run command <code>npm install</code> to install all the dependencies required by the project.
+To run the app run <code>gulp serve</code>. It will run the app on <code>http://localhost:8888</code> and server on <code>http://localhost:8889</code>.</p>
+<h2 id="registering-our-first-service-worker">Registering our first Service Worker<a class="headerlink" href="#registering-our-first-service-worker" title="Permanent link">&para;</a></h2>
+<p>We need to work on only two files throughout the app <code>public/js/sw/index.js</code> and <code>public/js/main/IndexController.js</code>. This project is configured in a way that when we run command <code>gulp serve</code> it compiled all the css files in css folder and javascript files in js folder and service worker file in the root of the project with the <code>sw.js</code>.</p>
+<p>To register a service, first we need switch branch.</p>
+<p><code>git reset --hard</code> if you have any local changes run this command</p>
+<p><code>git checkout task-register-sw</code></p>
+<p>We will work on <code>public/js/sw/index.js</code> inside <code>_registerServiceWorker</code> function. First we need to check if the service worker is supported by the broswer or not, to do so we need to check for service worker object in <code>navigator</code>. <code>Navigator</code> object contains the information about the user agent and browser.</p>
+<pre><code class="javascript">if (!navigator.serviceWorker) return;
+navigator.serviceWorker.register('/sw.js').then(function(reg) {
+  console.log('Registeration successfull');
+}, function(err) {
+  console.log('Error in registeration');
+});
+</code></pre>
+
+<h2 id="exploring-the-dev-tools">Exploring the Dev Tools<a class="headerlink" href="#exploring-the-dev-tools" title="Permanent link">&para;</a></h2>
+<h2 id="hijacking-request">Hijacking Request<a class="headerlink" href="#hijacking-request" title="Permanent link">&para;</a></h2>
+<h3 id="custom-response">Custom Response<a class="headerlink" href="#custom-response" title="Permanent link">&para;</a></h3>
+<p>We can give a custom response to browser request using service worker, to handle the network request we will add a <code>Event Listner</code> on <code>public/js/sw/index.js</code>.</p>
+<pre><code class="javascript">self.addEventListner('fetch', function(event) {
+  event.respondWith(
+    new Response('Hello World')
+  );
+})
+</code></pre>
+
+<p>This will be the output we get for any request browser do.</p>
+<pre><code class="javascript">self.addEventListner('fetch', function(event) {
+  event.respondWith(
+    new Response('Hello World &lt;b&gt; Faraz &lt;/b&gt; ')
+  );
+})
+</code></pre>
+
+<p>What if i add the html tag inside my <code>Hello World</code> string. let see.
+It will render as a string because in the response header the <code>Content-Type</code> is set to be <code>plain/text</code> by default, so we set it to <code>text/html</code>.</p>
+<pre><code class="javascript">self.addEventListner('fetch', function(event) {
+  event.respondWith(
+    new Response('Hello World &lt;b&gt; Faraz &lt;/b&gt; ', { headers: { 'Content-Type': 'text/html' }})
+  );
+})
+</code></pre>
+
+<h3 id="respond-with-gif">Respond with gif<a class="headerlink" href="#respond-with-gif" title="Permanent link">&para;</a></h3>
+<p>To get to the position of code done above run:</p>
+<p><code>git reset --hard</code></p>
+<p><code>git checkout task-customer-response</code></p>
+<p>To respond with gif for the requested url:</p>
+<pre><code class="javascript">self.addEventListner('fetch', function(event) {
+  event.respondWith(
+    new Response(
+      fetch('/imgs/devil.gif')
+    )
+  );
+})
+</code></pre>
+
+<p>The above code respond every request with gif but that's not the better way, now we respond only the request of img with gif response. To do so <code>log</code> event and check for the url and react according to that, let me show how to do that:</p>
+<p><code>git reset --hard</code></p>
+<p><code>git checkout gif-response</code></p>
+<pre><code class="javascript">self.addEventListner('fetch', function(event) {
+  console.log(event.request.url);
+  if (event.request.url.endsWith('.jpg')) {
+    event.respondWith(
+      new Response(
+        fetch('/imgs/devil.gif')
+      )
+    );
+  }
+})
+</code></pre>
+
+<h3 id="handle-404-and-failed-state">Handle 404 and failed state<a class="headerlink" href="#handle-404-and-failed-state" title="Permanent link">&para;</a></h3>
+<p>To handle 404 and failed state we look at then response status:</p>
+<pre><code class="javascript">self.addEventListner('fetch', function(event) {
+  event.respondWith(
+    new Response(
+      fetch(event.request.url).then(function(response) {
+        if (response.status === 404) {
+          return new Response('NOT FOUND');
+        }
+      }).catch(function(err) {
+        return new Response('ERROR'); 
+      })
+    );
+  );
+})
+</code></pre>
+
+<p>Now we will show the <code>devil.gif</code> to 404 status: To do this first get on the branch
+<code>git reset --hard</code></p>
+<p><code>git checkout error-handling</code></p>
+<pre><code class="javascript">self.addEventListner('fetch', function(event) {
+  event.respondWith(
+    new Response(
+      fetch(event.request.url).then(function(response) {
+        if (response.status === 404) {
+          return fetch('/imgs/devil.gif')
+        }
+      }).catch(function(err) {
+        return new Response('ERROR'); 
+      })
+    );
+  );
+})
+</code></pre>
+
+<h2 id="caching-and-serving-assets">Caching and Serving Assets<a class="headerlink" href="#caching-and-serving-assets" title="Permanent link">&para;</a></h2>
+<p>To cache the static files we have to create cache and add the files on install event of service worker.</p>
+<p><code>git reset --hard</code>
+<code>git checkout task-install</code></p>
+<pre><code class="javascript">self.addEventListner('install', function(event) {
+  event.waitUntil(
+    caches.open('wittr-v1').then(function(cache) {
+      cache.addAll([
+        '/',
+        '/style.css',
+        '/main.js'
+      ])
+    })
+  )
+})
+</code></pre>
+
+<p>Now we cached the data in the CacheStorage, but we request the site we will still be kept waiting. Now we have to check if there is any data in cache we will show it from there otherwise show it from network.</p>
+<p><code>git reset --hard</code>
+<code>git checkout task-cache-response</code></p>
+<pre><code class="javascript">self.addEventListner('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request.url).then(function(response) {
+      if (response) return response;
+      return fetch(event.request)
+    })
+  )
+})
+</code></pre>
+
+<p>Till now we acheive to show something rather than a blank page or a dinosur but we have still to do alot, we are not getting the updated app or nor doesnt know about the update is here. So now what problems we have to acheive right now:</p>
+<ul>
+<li>Unobtrusive app updates</li>
+<li>Get the user on to the latest version</li>
+<li>Continously update the cache of posts</li>
+<li>Cache photos</li>
+<li>Cache avatar</li>
+</ul>
+<h2 id="unobtrusive-app-updates">Unobtrusive app updates<a class="headerlink" href="#unobtrusive-app-updates" title="Permanent link">&para;</a></h2>
+<p>If we update our css and force reload is checked we can see the changes in browser but if we unchecked the force update and the change the css the broswer doent detch the changes and show the old one because we didnt update the service worker and another service worker is active.</p>
+<p><code>git reset --hard</code>
+<code>git checkout task-handling-updates</code></p>
+<p>To deal with this we will delete the old cache on the activate event. 
+The easy step is:</p>
+<pre><code class="javascript">self.addEventListner('activate', function(event) {
+  event.waitUntil(
+    caches.delete('wittr-static-v1')
+  )
+})
+</code></pre>
+
+<p>The scalable way:</p>
+<pre><code class="javascript">var staticCacheName = 'wittr-static-v2';
+
+self.addEventListner('activate', function(event) {
+  event.waitUntil(
+    Promise.all(
+      caches.keys().then(function(cacheNames){
+        cacheNames.filter(function(cacheName){
+          return cacheName.startWith('wittr-') &amp;&amp; cacheName != staticCacheName;
+        }).map(function(cacheName) {
+          return caches.delete(cacheName)
+        })
+      })
+    )
+  )
+})
+</code></pre>
+
+<h2 id="trigger-latest-version">Trigger latest version<a class="headerlink" href="#trigger-latest-version" title="Permanent link">&para;</a></h2>
+<p>Now we will look at how we will notify user that there is an update ready to install. First we look at the properties and method given by service worker.</p>
+<p><code>git reset --hard</code>
+<code>git checkout sw-register-methods</code></p>
+<p><code>git checkout task-update-notify</code></p>
+<pre><code class="javascript">
+IndexController.prototype._registerServiceWorker = function() {
+  if (!navigator.serviceWorker) return;
+
+  var indexController = this;
+
+  navigator.serviceWorker.register('/sw.js').then(function(reg) {
+    // TODO: if there's no controller, this page wasn't loaded
+    // via a service worker, so they're looking at the latest version.
+    // In that case, exit early
+    if (!navigator.serviceWorker.controller) return;
+
+    // TODO: if there's an updated worker already waiting, call
+    // indexController._updateReady()
+    if(reg.waiting) {
+      indexController._updateReady()
+      return;
+    }
+    // TODO: if there's an updated worker installing, track its
+    // progress. If it becomes &quot;installed&quot;, call
+    // indexController._updateReady()
+    if (reg.installing) {
+      indexController._trackInstalling(reg.installing);
+      return;
+    }
+
+    // TODO: otherwise, listen for new installing workers arriving.
+    // If one arrives, track its progress.
+    // If it becomes &quot;installed&quot;, call
+    // indexController._updateReady()
+    reg.addEventListner('updatefound', function() {
+      indexController._trackInstalling(reg.installing);
+    })
+  });
+};
+
+IndexController.prototype._trackInstalling = function(worker) {
+  var indexController = this;
+  worker.addEventListner('statechange', function() {
+    if (worker.state === 'installed') {
+      indexController._updateReady()
+    }
+  });
+}
+
+</code></pre>
+
+<p>By the above code we can now sent notification to user about the update but how we will trigger the update. let see: First we see some of the methods and properties of service worker.</p>
+<p><code>self.skipWaiting()</code> is a function to manually tell service worker to active the waiting service worker.
+form the registration object we can emit data to service worker which can be recieve in <code>message</code> event</p>
+<p><code>reg.installing.postMessage({ bar: foo })</code>;</p>
+<pre><code class="javascript">self.addEventListner('message', function(event) {
+  console.log(event.data);
+});
+</code></pre>
+
+<p>There is an another event that attached on navigator controller to check if the controller is changed</p>
+<pre><code class="javascript">navigator.serviceWorker.addEventListner('controllerchange', function() {
+  // change happens reload the page
+})
+</code></pre>
+
+<p>Now we are going to trigger the update with the use of above information</p>
+<p><code>git reset --hard</code>
+<code>git checkout task-update-reload</code></p>
+<pre><code class="javascript">IndexController.prototype._updateReady = function(worker) {
+  var toast = this._toastsView.show(&quot;New version available&quot;, {
+    buttons: ['refresh', 'dismiss']
+  });
+
+  toast.answer.then(function(answer) {
+    if (answer != 'refresh') return;
+    // TODO: tell the service worker to skipWaiting
+    worker.postMessage({ action: 'skipWaiting' });
+  });
+};
+
+// in sw/index.js
+
+self.addEventListner('message', function(event) {
+  if (event.data.action === 'skipWaiting') {
+    self.skipWaiting();
+  }
+});
+
+// in indexController.js inside register function
+
+navigator.serviceWorker.addEventListner('controllerchange', function() {
+  window.location.reload();
+})
+</code></pre>
+
+<h2 id="update-data-using-the-indexeddb">Update Data using the IndexedDB<a class="headerlink" href="#update-data-using-the-indexeddb" title="Permanent link">&para;</a></h2>
+<h3 id="introduction-to-indexeddb">Introduction to IndexedDB<a class="headerlink" href="#introduction-to-indexeddb" title="Permanent link">&para;</a></h3>
+<p>In general, there are two different types of databases: relational and document (also known as NoSQL or object). Relational databases like SQL Server, MySQL, and Oracle store sets of data in tables. Document databases like MongoDB, CouchDB, and Redis store sets of data as individual objects. IndexedDB is a document database that exists in a sandboxed context. It contains the object stores, you can create multiple databases with whatever names you choose, but generally there is one database per app.</p>
+<h4 id="object-store">Object store<a class="headerlink" href="#object-store" title="Permanent link">&para;</a></h4>
+<p>An object store is an individual bucket to store data. You can think of object stores as being similar to tables in traditional relational databases.</p>
+<h4 id="index">Index<a class="headerlink" href="#index" title="Permanent link">&para;</a></h4>
+<p>An Index is a kind of object store for organizing data in another object store (called the reference object store) by an individual property of the data. The index is used to retrieve records in the object store by this property. For example, if you're storing people, you may want to fetch them later by their name, age, or favorite animal.</p>
+<h4 id="transaction">Transaction<a class="headerlink" href="#transaction" title="Permanent link">&para;</a></h4>
+<p>A transaction is wrapper around an operation, or group of operations, that ensures database integrity. If one of the actions within a transaction fail, none of them are applied and the database returns to the state it was in before the transaction began. All read or write operations in IndexedDB must be part of a transaction. This allows for atomic read-modify-write operations without worrying about other threads acting on the database at the same time.</p>
+<h4 id="cursor">Cursor<a class="headerlink" href="#cursor" title="Permanent link">&para;</a></h4>
+<p>A mechanism for iterating over multiple records in database.</p>
+<h3 id="create-a-db">Create a db<a class="headerlink" href="#create-a-db" title="Permanent link">&para;</a></h3>
+<pre><code class="javascript">//check for support
+if (!('indexedDB' in window)) {
+  console.log('This browser doesn\'t support IndexedDB');
+  return;
+}
+
+var dbPromise = idb.open('test-db1', 1);
+</code></pre>
+
+<h3 id="create-a-object-store">Create a Object store<a class="headerlink" href="#create-a-object-store" title="Permanent link">&para;</a></h3>
+<pre><code class="javascript">//check for support
+if (!('indexedDB' in window)) {
+  console.log('This browser doesn\'t support IndexedDB');
+  return;
+}
+
+var dbPromise = idb.open('test-db2', 1, function(upgradeDb) {
+  console.log('making a new object store');
+  if (!upgradeDb.objectStoreNames.contains('firstOS')) {
+    upgradeDb.createObjectStore('firstOS');
+  }
+});
+</code></pre>
+
+<p><code>upgradeDb.createObjectStore('people', {keyPath: 'email'});</code> KeyPath is used to define the primary key</p>
+<h3 id="defining-indexes">Defining indexes<a class="headerlink" href="#defining-indexes" title="Permanent link">&para;</a></h3>
+<p><code>objectStore.createIndex('indexName', 'property', options);</code></p>
+<pre><code class="javascript">//check for support
+if (!('indexedDB' in window)) {
+  console.log('This browser doesn\'t support IndexedDB');
+  return;
+}
+
+var dbPromise = idb.open('test-db4', 1, function(upgradeDb) {
+  if (!upgradeDb.objectStoreNames.contains('people')) {
+    var peopleOS = upgradeDb.createObjectStore('people', {keyPath: 'email'});
+    peopleOS.createIndex('gender', 'gender', {unique: false});
+    peopleOS.createIndex('username', 'username', {unique: true});
+  }
+});
+</code></pre>
+
+<p><code>git checkout task-idb-store</code></p>
+<pre><code class="javascript">function openDatabase() {
+  // If the browser doesn't support service worker,
+  // we don't care about having a database
+  if (!navigator.serviceWorker) {
+    return Promise.resolve();
+  }
+
+  return idb.open('wittr', 1, function(upgradeDb) {
+    var store = upgradeDb.createObjectStore('wittrs', {
+      keyPath: 'id'
+    });
+    store.createIndex('by-date', 'time');
+  });
+}
+
+IndexController.prototype._onSocketMessage = function(data) {
+  var messages = JSON.parse(data);
+
+  this._dbPromise.then(function(db) {
+    if (!db) return;
+
+    var tx = db.transaction('wittrs', 'readwrite');
+    var store = tx.objectStore('wittrs');
+    messages.forEach(function(message) {
+      store.put(message);
+    });
+  });
+
+  this._postsView.addPosts(messages);
+};
+</code></pre>
+
+<p><code>git checkout task-show-stored</code></p>
+<pre><code class="javascript">IndexController.prototype._showCachedMessages = function() {
+  var indexController = this;
+
+  return this._dbPromise.then(function(db) {
+    // if we're already showing posts, eg shift-refresh
+    // or the very first load, there's no point fetching
+    // posts from IDB
+    if (!db || indexController._postsView.showingPosts()) return;
+
+    var index = db.transaction('wittrs')
+      .objectStore('wittrs').index('by-date');
+
+    return index.getAll().then(function(messages) {
+      indexController._postsView.addPosts(messages.reverse());
+    });
+  });
+};
+</code></pre>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../intro-service-worker/" title="2. Intro to Service Workers (1 of 2)" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                2. Intro to Service Workers (1 of 2)
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.583bbe55.js"></script>
+      
+      <script>app.initialize({version:"1.0.1",url:{base:".."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>

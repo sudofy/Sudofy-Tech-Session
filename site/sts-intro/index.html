@@ -19,10 +19,6 @@
       
         <meta name="lang:search.language" content="en">
       
-        <meta name="lang:search.pipeline.stopwords" content="True">
-      
-        <meta name="lang:search.pipeline.trimmer" content="True">
-      
         <meta name="lang:search.result.none" content="No matching documents">
       
         <meta name="lang:search.result.one" content="1 matching document">
@@ -32,7 +28,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.1, mkdocs-material-3.0.3">
+      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.2.2">
     
     
       
@@ -40,26 +36,24 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application.451f80e5.css">
-      
+      <link rel="stylesheet" href="../assets/stylesheets/application.7a4cdee3.css">
       
     
     
       <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
     
     
-      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
       
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
-    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
     
     
   </head>
   
-    <body dir="ltr">
+    <body>
   
     <svg class="md-svg">
       <defs>
@@ -67,14 +61,9 @@
         
       </defs>
     </svg>
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
-    
-      <a href="../#sts-intro" tabindex="1" class="md-skip">
-        Skip to content
-      </a>
-    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -87,7 +76,7 @@
         </a>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
-        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
       </div>
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
@@ -106,17 +95,15 @@
       <div class="md-flex__cell md-flex__cell--shrink">
         
           
-            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
             
 <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
-      <label class="md-icon md-search__icon" for="__search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
-        &#xE5CD;
-      </button>
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
@@ -151,12 +138,12 @@
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
-  <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href=".." title="Sudofy Tech Session (STS)" class="md-nav__button md-logo">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <span class="md-nav__button md-logo">
       
         <i class="md-icon"></i>
       
-    </a>
+    </span>
     Sudofy Tech Session (STS)
   </label>
   
@@ -183,12 +170,12 @@
 
   <li class="md-nav__item md-nav__item--active">
     
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
       
     
     
-      <label class="md-nav__link md-nav__link--active" for="__toc">
+      <label class="md-nav__link md-nav__link--active" for="toc">
         0. Introduction
       </label>
     
@@ -203,7 +190,7 @@
     
   
   
-    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
@@ -315,8 +302,6 @@
   </a>
   
 </li>
-      
-      
       
       
       
@@ -380,7 +365,7 @@
     
   
   
-    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
@@ -495,8 +480,6 @@
       
       
       
-      
-      
     </ul>
   
 </nav>
@@ -545,7 +528,7 @@
 </blockquote>
 <h4 id="sts-timeline">STS Timeline<a class="headerlink" href="#sts-timeline" title="Permanent link">&para;</a></h4>
 <blockquote>
-<p>The <a href="/#timeline">Timeline</a> for this session will updated frequently and all future and past STS will be listed over here</p>
+<p>The <a href="../#timeline">Timeline</a> for this session will updated frequently and all future and past STS will be listed over here</p>
 </blockquote>
 <h4 id="sts-contribution">STS contribution<a class="headerlink" href="#sts-contribution" title="Permanent link">&para;</a></h4>
 <blockquote>
@@ -602,8 +585,6 @@
               
               
                 
-
-
               
             </article>
           </div>
@@ -653,7 +634,7 @@
       <div class="md-footer-copyright">
         
         powered by
-        <a href="https://www.mkdocs.org">MkDocs</a>
+        <a href="http://www.mkdocs.org">MkDocs</a>
         and
         <a href="https://squidfunk.github.io/mkdocs-material/">
           Material for MkDocs</a>
@@ -667,9 +648,9 @@
       
     </div>
     
-      <script src="../assets/javascripts/application.583bbe55.js"></script>
+      <script src="../assets/javascripts/application.6cdc17f0.js"></script>
       
-      <script>app.initialize({version:"1.0.1",url:{base:".."}})</script>
+      <script>app.initialize({version:"0.17.2",url:{base:".."}})</script>
       
     
     

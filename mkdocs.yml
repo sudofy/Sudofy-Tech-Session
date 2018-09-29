@@ -5,6 +5,7 @@ pages:
     - 1. JS Async Await: js-async-await.md
     - 2. Intro to Service Workers (1 of 2): intro-service-worker.md
     - 3. Intro to Service Workers (2 of 2): intro-service-worker-2.md
+    - 4. Hello (AWS) World: aws-intro.md
 theme:
   name: 'material'
 markdown_extensions:

@@ -15,6 +15,7 @@ ___
 | [Faraz Sarwar](https://github.com/farazsarwar113)  | Service Workers                    | 18-08-2018 | [Docs](./intro-service-worker)  | [Slide](http://bit.ly/2vOLeDb)         |
 | [Faraz Sarwar](https://github.com/farazsarwar113)  | Service Workers 2                  | 15-09-2018 | [Docs](./intro-service-worker-2)  | [Slide](http://bit.ly/2vOLeDb)         |
 | [Amin Ahmed Khan](https://github.com/aminahmedkhan)  | Hello (AWS) World               | 29-09-2018 | [Docs](./aws-intro)  | [Slide](https://goo.gl/cbfa1U)         |
+| [Faris](https://github.com/aminahmedkhan), [Aahad](https://github.com/aminahmedkhan)  | JS-MDN-01              | 20-09-2018 | [Docs](./js-mdn-01)  | [Slide]()         |
 ___
 
 ## Notes

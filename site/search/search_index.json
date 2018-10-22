@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Introduction\n\n\nA place for our \nSudofy\n's Developers to share their knowledge. \n\n\nWe Conduct Session every 2 to 3 weeks on latest Technology trends. Outsiders are currently not allowed but can grant access prior to an STS\n\n\n\n\nTimeline\n\n\n\n\n\n\n\n\nAuthor\n\n\nTechnology\n\n\nDate\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\n\n\n\n\nAmin Ahmed Khan\n\n\nSTS Intro\n\n\n20-12-2017\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nAlqama Bin Sadiq\n\n\nAsync Await\n\n\n04-08-2018\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nFaraz Sarwar\n\n\nService Workers\n\n\n18-08-2018\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nFaraz Sarwar\n\n\nService Workers 2\n\n\n15-09-2018\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nAmin Ahmed Khan\n\n\nHello (AWS) World\n\n\n29-09-2018\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\n___\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotes\n\n\n\n\nYoda: Conduct a session want you?\n\n\nIf you want to conduct any session. Just Shout out in the #STS channel on sudofy's slack workspace", 
+            "text": "Introduction\n\n\nA place for our \nSudofy\n's Developers to share their knowledge. \n\n\nWe Conduct Session every 2 to 3 weeks on latest Technology trends. Outsiders are currently not allowed but can grant access prior to an STS\n\n\n\n\nTimeline\n\n\n\n\n\n\n\n\nAuthor\n\n\nTechnology\n\n\nDate\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\n\n\n\n\nAmin Ahmed Khan\n\n\nSTS Intro\n\n\n20-12-2017\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nAlqama Bin Sadiq\n\n\nAsync Await\n\n\n04-08-2018\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nFaraz Sarwar\n\n\nService Workers\n\n\n18-08-2018\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nFaraz Sarwar\n\n\nService Workers 2\n\n\n15-09-2018\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nAmin Ahmed Khan\n\n\nHello (AWS) World\n\n\n29-09-2018\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nFaris\n, \nAahad\n\n\nJS-MDN-01\n\n\n20-09-2018\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\n___\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotes\n\n\n\n\nYoda: Conduct a session want you?\n\n\nIf you want to conduct any session. Just Shout out in the #STS channel on sudofy's slack workspace", 
             "title": "Home"
         }, 
         {
@@ -12,7 +12,7 @@
         }, 
         {
             "location": "/#timeline", 
-            "text": "Author  Technology  Date  Docs  Slide      Amin Ahmed Khan  STS Intro  20-12-2017  Docs  Slide    Alqama Bin Sadiq  Async Await  04-08-2018  Docs  Slide    Faraz Sarwar  Service Workers  18-08-2018  Docs  Slide    Faraz Sarwar  Service Workers 2  15-09-2018  Docs  Slide    Amin Ahmed Khan  Hello (AWS) World  29-09-2018  Docs  Slide    ___", 
+            "text": "Author  Technology  Date  Docs  Slide      Amin Ahmed Khan  STS Intro  20-12-2017  Docs  Slide    Alqama Bin Sadiq  Async Await  04-08-2018  Docs  Slide    Faraz Sarwar  Service Workers  18-08-2018  Docs  Slide    Faraz Sarwar  Service Workers 2  15-09-2018  Docs  Slide    Amin Ahmed Khan  Hello (AWS) World  29-09-2018  Docs  Slide    Faris ,  Aahad  JS-MDN-01  20-09-2018  Docs  Slide    ___", 
             "title": "Timeline"
         }, 
         {
@@ -392,13 +392,228 @@
         }, 
         {
             "location": "/aws-intro/", 
-            "text": "AWS Intro", 
+            "text": "AWS Intro Session\n\n\nIn this session we are going to discuss about AWS and its basic services and use cases\n\n\n\n\nLinks\n\n\nSlide\n\n\nWhat is Cloud Computing ?\n\n\nCloud computing is shared pools of configurable computer system resources and higher-level services that can be rapidly provisioned with minimal management effort, often over the Internet. \nwiki\n\n\nSix benefits of moving to AWS cloud\n\n\nTrade capital expense for variable expense\n\n\nInstead of having to invest heavily in data centers and servers before you know how you\u2019re going to use them, you can pay only when you consume computing resources, and pay only for how much you consume.\n\n\nBenefit from massive economies of scale\n\n\nBy using cloud computing, you can achieve a lower variable cost than you can get on your own. Because usage from hundreds of thousands of customers is aggregated in the cloud, providers such as AWS can achieve higher economies of scale, which translates into lower pay as-you-go prices.\n\n\nStop guessing about capacity\n\n\nEliminate guessing on your infrastructure capacity needs. When you make a capacity decision prior to deploying an application, you often end up either sitting on expensive idle resources or dealing with limited capacity. With cloud computing, these problems go away. You can access as much or as little capacity as you need, and scale up and down as required with only a few minutes\u2019 notice.\n\n\nIncrease speed and agility\n\n\nIn a cloud computing environment, new IT resources are only a click away, which means that you reduce the time to make those resources available to your developers from weeks to just minutes. This results in a dramatic increase in agility for the organization, since the cost and time it takes to experiment and develop is significantly lower.\n\n\nStop spending money running and maintaining data centers\n\n\nFocus on projects that differentiate your business, not the infrastructure. Cloud computing lets you focus on your own customers, rather than on the heavy lifting of racking, stacking, and powering servers.\n\n\nGo global in minutes\n\n\nEasily deploy your application in multiple regions around the world with just a few clicks. This means you can provide lower latency and a better experience for your customers at minimal cost.\n\n\nScaling Infrastructure\n\n\nTraditional Infrastructure\n\n\n\nTraditional Infrastructure is not scale able at all, You can surely provision more and more servers to your data center but its really hard to estimate the server required for a healthy infrastructure. even if you are able to estimate your usage you would end up with a lot of un utilized resources in your data center\n\n\nAWS Infrastructure with auto scaling\n\n\n\nAWS Infrastructure helps you slace in and scale out your servers based on the triggers you specify. In this way you can always provision the right amount of servers to keep your application cool and your customers happy. But getting to this point requires a lot of effort in terms of decoupling your server code and running it in stateless fashion.\n\n\nCloud Computing Service Models\n\n\nIASS\n\n\n\"Infrastructure as a service\" (IaaS) refers to online services that provide high-level APIs used to dereference various low-level details of underlying network infrastructure like physical computing resources, location, data partitioning, scaling, security, backup etc. A hypervisor, such as Xen, Oracle VirtualBox, Oracle VM, KVM, VMware ESX/ESXi, or Hyper-V, LXD, runs the virtual machines as guests.\n\n\nPAAS\n\n\nPaaS vendors offer a development environment to application developers. The provider typically develops toolkit and standards for development and channels for distribution and payment. In the PaaS models, cloud providers deliver a computing platform, typically including operating system, programming-language execution environment, database, and web server. Application developers can develop and run their software solutions on a cloud platform without the cost and complexity of buying and managing the underlying hardware and software layers.\n\n\nSAAS\n\n\nIn the software as a service (SaaS) model, users gain access to application software and databases. Cloud providers manage the infrastructure and platforms that run the applications. SaaS is sometimes referred to as \"on-demand software\" and is usually priced on a pay-per-use basis or using a subscription fee.[69] In the SaaS model, cloud providers install and operate application software in the cloud and cloud users access the software from cloud clients. Cloud users do not manage the cloud infrastructure and platform where the application runs. This eliminates the need to install and run the application on the cloud user's own computers, which simplifies maintenance and support.\n\n\nMBAAS\n\n\nIn the mobile \"backend\" as a service (m) model, also known as backend as a service (BaaS), web app and mobile app developers are provided with a way to link their applications to cloud storage and cloud computing services with application programming interfaces (APIs) exposed to their applications and custom software development kits (SDKs). Services include user management, push notifications, integration with social networking services and more.\n\n\nFAAS\n\n\nServerless computing is a cloud computing code execution model in which the cloud provider fully manages starting and stopping virtual machines as necessary to serve requests, and requests are billed by an abstract measure of the resources required to satisfy the request, rather than per virtual machine, per hour. Despite the name, it does not actually involve running code without servers. Serverless computing is so named because the business or person that owns the system does not have to purchase, rent or provision servers or virtual machines for the back-end code to run on.\n\n\nCloud Computing Deployment Models\n\n\n\n\nPrivate cloud\n\n\nPrivate cloud is cloud infrastructure operated solely for a single organization, whether managed internally or by a third party, and hosted either internally or externally. Undertaking a private cloud project requires significant engagement to virtualize the business environment, and requires the organization to reevaluate decisions about existing resources. It can improve business, but every step in the project raises security issues that must be addressed to prevent serious vulnerabilities. Self-run data centers are generally capital intensive.\n\n\nPublic cloud\n\n\nA cloud is called a \"public cloud\" when the services are rendered over a network that is open for public use. Public cloud services may be free. Technically there may be little or no difference between public and private cloud architecture, however, security consideration may be substantially different for services (applications, storage, and other resources) that are made available by a service provider for a public audience and when communication is effected over a non-trusted network. Generally, public cloud service providers like Amazon Web Services (AWS), Oracle, Microsoft and Google own and operate the infrastructure at their data center and access is generally via the Internet.\n\n\nHybrid cloud\n\n\nHybrid cloud is a composition of two or more clouds (private, community or public) that remain distinct entities but are bound together, offering the benefits of multiple deployment models. Hybrid cloud can also mean the ability to connect collocation, managed and/or dedicated services with cloud resources. Gartner defines a hybrid cloud service as a cloud computing service that is composed of some combination of private, public and community cloud services, from different service providers. A hybrid cloud service crosses isolation and provider boundaries so that it can't be simply put in one category of private, public, or community cloud service. It allows one to extend either the capacity or the capability of a cloud service, by aggregation, integration or customization with another cloud service.\n\n\nWhy Choose AWS?\n\n\nAWS pace of innovation\n\n\n\n\nAWS Global Infrastructure\n\n\n\nThe AWS Cloud spans 55 Availability Zones within 18 geographic Regions and 1 Local Region around the world, with announced plans for 12 more Availability Zones and four more Regions in Bahrain, Hong Kong SAR, Sweden, and a second AWS GovCloud Region in the US.\n\n\nHigh Availability Through Multiple Availability Zones\n\n\nUnlike virtually every other technology infrastructure provider, each AWS Region has multiple Availability Zones and data centers. As we\u2019ve learned from running the leading cloud infrastructure technology platform since 2006, customers who care about the availability and performance of their applications want to deploy these applications across multiple Availability Zones in the same region for fault tolerance and low latency. Availability Zones are connected to each other with fast, private fiber-optic networking, enabling you to easily architect applications that automatically fail-over between Availability Zones without interruption.\n\n\nImproving Continuity With Replication Between Regions\n\n\nIn addition to replicating applications and data across multiple data centers in the same Region using Availability Zones, you can also choose to increase redundancy and fault tolerance further by replicating data between geographic Regions. You can do so using both private, high speed networking and public internet connections to provide an additional layer of business continuity, or to provide low latency access across the globe.\n\n\nMeeting Compliance and Data Residency Requirements\n\n\nYou retain complete control and ownership over the region in which your data is physically located, making it easy to meet regional compliance and data residency requirements.\n\n\nGeographic Expansion\n\n\nThe AWS Cloud has announced plans to expand with 12 new Availability Zones in four new geographic Regions: Bahrain, Hong Kong SAR, Sweden, and a second AWS GovCloud Region in the US.\n\n\nScripts for STS\n\n\nInstalling Nginx\n\n\nsudo amazon-linux-extras install -y nginx1.12\nsudo systemctl start nginx\nsudo systemctl restart nginx\nsudo nano /etc/nginx/nginx.conf\n\n\n\n\nNginx Config\n\n\nserver {\n  listen 80;\n  server_name tutorial;\n  location / {\n    proxy_set_header  X-Real-IP  $remote_addr;\n    proxy_set_header  Host       $http_host;\n    proxy_pass        http://127.0.0.1:3000;\n  }\n}\n\n\n\n\nInstalling Apache\n\n\nsudo yum -y install httpd\nsudo service httpd start\nsudo systemctl restart httpd\nsudo nano /etc/httpd/conf/httpd.conf\n\n\n\n\nApache Config\n\n\nVirtualHost *:80\n\nServerName errbit.ourcompany.com\nProxyPreserveHost On\nProxyPass / http://localhost:3000/\nProxyPassReverse / http://localhost:3000/\n\n/VirtualHost\n \n\n\n\n\nInstalling Node.js with NVM\n\n\ncurl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash\n. ~/.nvm/nvm.sh\nnvm install node\n\n\n\n\nIPTables Route\n\n\nsudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000\n\n\n\n\nInstalling git\n\n\nyum install git -y\ngit clone https://github.com/aminahmedkhan/aws-ec2-demo.git\n\n\n\n\nInstalling pm2\n\n\nnpm i -g pm2\npm2 start bin/www\npm2 startup\npm2 save\n\n\n\n\nKill process on port 80\n\n\nsudo kill `sudo lsof -t -i:80`\n\n\n\n\nCPU Stress\n\n\ncat /proc/cpuinfo\nyes \n /dev/null \n\n\n\n\n\nBootstrap script (ec2 user data script)\n\n\n#!/bin/bash\nyum install -y gcc-c++ make -y\ncurl -sL https://rpm.nodesource.com/setup_6.x | sudo -E bash -\nyum install nodejs -y\nyum install git -y\ngit clone https://github.com/aminahmedkhan/aws-ec2-demo.git\nnpm --prefix aws-ec2-demo i aws-ec2-demo\nsudo node aws-ec2-demo/bin/www", 
             "title": "4. Hello (AWS) World"
         }, 
         {
-            "location": "/aws-intro/#aws-intro", 
+            "location": "/aws-intro/#aws-intro-session", 
+            "text": "In this session we are going to discuss about AWS and its basic services and use cases", 
+            "title": "AWS Intro Session"
+        }, 
+        {
+            "location": "/aws-intro/#links", 
+            "text": "Slide", 
+            "title": "Links"
+        }, 
+        {
+            "location": "/aws-intro/#what-is-cloud-computing", 
+            "text": "Cloud computing is shared pools of configurable computer system resources and higher-level services that can be rapidly provisioned with minimal management effort, often over the Internet.  wiki", 
+            "title": "What is Cloud Computing ?"
+        }, 
+        {
+            "location": "/aws-intro/#six-benefits-of-moving-to-aws-cloud", 
             "text": "", 
-            "title": "AWS Intro"
+            "title": "Six benefits of moving to AWS cloud"
+        }, 
+        {
+            "location": "/aws-intro/#trade-capital-expense-for-variable-expense", 
+            "text": "Instead of having to invest heavily in data centers and servers before you know how you\u2019re going to use them, you can pay only when you consume computing resources, and pay only for how much you consume.", 
+            "title": "Trade capital expense for variable expense"
+        }, 
+        {
+            "location": "/aws-intro/#benefit-from-massive-economies-of-scale", 
+            "text": "By using cloud computing, you can achieve a lower variable cost than you can get on your own. Because usage from hundreds of thousands of customers is aggregated in the cloud, providers such as AWS can achieve higher economies of scale, which translates into lower pay as-you-go prices.", 
+            "title": "Benefit from massive economies of scale"
+        }, 
+        {
+            "location": "/aws-intro/#stop-guessing-about-capacity", 
+            "text": "Eliminate guessing on your infrastructure capacity needs. When you make a capacity decision prior to deploying an application, you often end up either sitting on expensive idle resources or dealing with limited capacity. With cloud computing, these problems go away. You can access as much or as little capacity as you need, and scale up and down as required with only a few minutes\u2019 notice.", 
+            "title": "Stop guessing about capacity"
+        }, 
+        {
+            "location": "/aws-intro/#increase-speed-and-agility", 
+            "text": "In a cloud computing environment, new IT resources are only a click away, which means that you reduce the time to make those resources available to your developers from weeks to just minutes. This results in a dramatic increase in agility for the organization, since the cost and time it takes to experiment and develop is significantly lower.", 
+            "title": "Increase speed and agility"
+        }, 
+        {
+            "location": "/aws-intro/#stop-spending-money-running-and-maintaining-data-centers", 
+            "text": "Focus on projects that differentiate your business, not the infrastructure. Cloud computing lets you focus on your own customers, rather than on the heavy lifting of racking, stacking, and powering servers.", 
+            "title": "Stop spending money running and maintaining data centers"
+        }, 
+        {
+            "location": "/aws-intro/#go-global-in-minutes", 
+            "text": "Easily deploy your application in multiple regions around the world with just a few clicks. This means you can provide lower latency and a better experience for your customers at minimal cost.", 
+            "title": "Go global in minutes"
+        }, 
+        {
+            "location": "/aws-intro/#scaling-infrastructure", 
+            "text": "", 
+            "title": "Scaling Infrastructure"
+        }, 
+        {
+            "location": "/aws-intro/#traditional-infrastructure", 
+            "text": "Traditional Infrastructure is not scale able at all, You can surely provision more and more servers to your data center but its really hard to estimate the server required for a healthy infrastructure. even if you are able to estimate your usage you would end up with a lot of un utilized resources in your data center", 
+            "title": "Traditional Infrastructure"
+        }, 
+        {
+            "location": "/aws-intro/#aws-infrastructure-with-auto-scaling", 
+            "text": "AWS Infrastructure helps you slace in and scale out your servers based on the triggers you specify. In this way you can always provision the right amount of servers to keep your application cool and your customers happy. But getting to this point requires a lot of effort in terms of decoupling your server code and running it in stateless fashion.", 
+            "title": "AWS Infrastructure with auto scaling"
+        }, 
+        {
+            "location": "/aws-intro/#cloud-computing-service-models", 
+            "text": "", 
+            "title": "Cloud Computing Service Models"
+        }, 
+        {
+            "location": "/aws-intro/#iass", 
+            "text": "\"Infrastructure as a service\" (IaaS) refers to online services that provide high-level APIs used to dereference various low-level details of underlying network infrastructure like physical computing resources, location, data partitioning, scaling, security, backup etc. A hypervisor, such as Xen, Oracle VirtualBox, Oracle VM, KVM, VMware ESX/ESXi, or Hyper-V, LXD, runs the virtual machines as guests.", 
+            "title": "IASS"
+        }, 
+        {
+            "location": "/aws-intro/#paas", 
+            "text": "PaaS vendors offer a development environment to application developers. The provider typically develops toolkit and standards for development and channels for distribution and payment. In the PaaS models, cloud providers deliver a computing platform, typically including operating system, programming-language execution environment, database, and web server. Application developers can develop and run their software solutions on a cloud platform without the cost and complexity of buying and managing the underlying hardware and software layers.", 
+            "title": "PAAS"
+        }, 
+        {
+            "location": "/aws-intro/#saas", 
+            "text": "In the software as a service (SaaS) model, users gain access to application software and databases. Cloud providers manage the infrastructure and platforms that run the applications. SaaS is sometimes referred to as \"on-demand software\" and is usually priced on a pay-per-use basis or using a subscription fee.[69] In the SaaS model, cloud providers install and operate application software in the cloud and cloud users access the software from cloud clients. Cloud users do not manage the cloud infrastructure and platform where the application runs. This eliminates the need to install and run the application on the cloud user's own computers, which simplifies maintenance and support.", 
+            "title": "SAAS"
+        }, 
+        {
+            "location": "/aws-intro/#mbaas", 
+            "text": "In the mobile \"backend\" as a service (m) model, also known as backend as a service (BaaS), web app and mobile app developers are provided with a way to link their applications to cloud storage and cloud computing services with application programming interfaces (APIs) exposed to their applications and custom software development kits (SDKs). Services include user management, push notifications, integration with social networking services and more.", 
+            "title": "MBAAS"
+        }, 
+        {
+            "location": "/aws-intro/#faas", 
+            "text": "Serverless computing is a cloud computing code execution model in which the cloud provider fully manages starting and stopping virtual machines as necessary to serve requests, and requests are billed by an abstract measure of the resources required to satisfy the request, rather than per virtual machine, per hour. Despite the name, it does not actually involve running code without servers. Serverless computing is so named because the business or person that owns the system does not have to purchase, rent or provision servers or virtual machines for the back-end code to run on.", 
+            "title": "FAAS"
+        }, 
+        {
+            "location": "/aws-intro/#cloud-computing-deployment-models", 
+            "text": "", 
+            "title": "Cloud Computing Deployment Models"
+        }, 
+        {
+            "location": "/aws-intro/#private-cloud", 
+            "text": "Private cloud is cloud infrastructure operated solely for a single organization, whether managed internally or by a third party, and hosted either internally or externally. Undertaking a private cloud project requires significant engagement to virtualize the business environment, and requires the organization to reevaluate decisions about existing resources. It can improve business, but every step in the project raises security issues that must be addressed to prevent serious vulnerabilities. Self-run data centers are generally capital intensive.", 
+            "title": "Private cloud"
+        }, 
+        {
+            "location": "/aws-intro/#public-cloud", 
+            "text": "A cloud is called a \"public cloud\" when the services are rendered over a network that is open for public use. Public cloud services may be free. Technically there may be little or no difference between public and private cloud architecture, however, security consideration may be substantially different for services (applications, storage, and other resources) that are made available by a service provider for a public audience and when communication is effected over a non-trusted network. Generally, public cloud service providers like Amazon Web Services (AWS), Oracle, Microsoft and Google own and operate the infrastructure at their data center and access is generally via the Internet.", 
+            "title": "Public cloud"
+        }, 
+        {
+            "location": "/aws-intro/#hybrid-cloud", 
+            "text": "Hybrid cloud is a composition of two or more clouds (private, community or public) that remain distinct entities but are bound together, offering the benefits of multiple deployment models. Hybrid cloud can also mean the ability to connect collocation, managed and/or dedicated services with cloud resources. Gartner defines a hybrid cloud service as a cloud computing service that is composed of some combination of private, public and community cloud services, from different service providers. A hybrid cloud service crosses isolation and provider boundaries so that it can't be simply put in one category of private, public, or community cloud service. It allows one to extend either the capacity or the capability of a cloud service, by aggregation, integration or customization with another cloud service.", 
+            "title": "Hybrid cloud"
+        }, 
+        {
+            "location": "/aws-intro/#why-choose-aws", 
+            "text": "", 
+            "title": "Why Choose AWS?"
+        }, 
+        {
+            "location": "/aws-intro/#aws-pace-of-innovation", 
+            "text": "", 
+            "title": "AWS pace of innovation"
+        }, 
+        {
+            "location": "/aws-intro/#aws-global-infrastructure", 
+            "text": "The AWS Cloud spans 55 Availability Zones within 18 geographic Regions and 1 Local Region around the world, with announced plans for 12 more Availability Zones and four more Regions in Bahrain, Hong Kong SAR, Sweden, and a second AWS GovCloud Region in the US.", 
+            "title": "AWS Global Infrastructure"
+        }, 
+        {
+            "location": "/aws-intro/#high-availability-through-multiple-availability-zones", 
+            "text": "Unlike virtually every other technology infrastructure provider, each AWS Region has multiple Availability Zones and data centers. As we\u2019ve learned from running the leading cloud infrastructure technology platform since 2006, customers who care about the availability and performance of their applications want to deploy these applications across multiple Availability Zones in the same region for fault tolerance and low latency. Availability Zones are connected to each other with fast, private fiber-optic networking, enabling you to easily architect applications that automatically fail-over between Availability Zones without interruption.", 
+            "title": "High Availability Through Multiple Availability Zones"
+        }, 
+        {
+            "location": "/aws-intro/#improving-continuity-with-replication-between-regions", 
+            "text": "In addition to replicating applications and data across multiple data centers in the same Region using Availability Zones, you can also choose to increase redundancy and fault tolerance further by replicating data between geographic Regions. You can do so using both private, high speed networking and public internet connections to provide an additional layer of business continuity, or to provide low latency access across the globe.", 
+            "title": "Improving Continuity With Replication Between Regions"
+        }, 
+        {
+            "location": "/aws-intro/#meeting-compliance-and-data-residency-requirements", 
+            "text": "You retain complete control and ownership over the region in which your data is physically located, making it easy to meet regional compliance and data residency requirements.", 
+            "title": "Meeting Compliance and Data Residency Requirements"
+        }, 
+        {
+            "location": "/aws-intro/#geographic-expansion", 
+            "text": "The AWS Cloud has announced plans to expand with 12 new Availability Zones in four new geographic Regions: Bahrain, Hong Kong SAR, Sweden, and a second AWS GovCloud Region in the US.", 
+            "title": "Geographic Expansion"
+        }, 
+        {
+            "location": "/aws-intro/#scripts-for-sts", 
+            "text": "", 
+            "title": "Scripts for STS"
+        }, 
+        {
+            "location": "/aws-intro/#installing-nginx", 
+            "text": "sudo amazon-linux-extras install -y nginx1.12\nsudo systemctl start nginx\nsudo systemctl restart nginx\nsudo nano /etc/nginx/nginx.conf", 
+            "title": "Installing Nginx"
+        }, 
+        {
+            "location": "/aws-intro/#nginx-config", 
+            "text": "server {\n  listen 80;\n  server_name tutorial;\n  location / {\n    proxy_set_header  X-Real-IP  $remote_addr;\n    proxy_set_header  Host       $http_host;\n    proxy_pass        http://127.0.0.1:3000;\n  }\n}", 
+            "title": "Nginx Config"
+        }, 
+        {
+            "location": "/aws-intro/#installing-apache", 
+            "text": "sudo yum -y install httpd\nsudo service httpd start\nsudo systemctl restart httpd\nsudo nano /etc/httpd/conf/httpd.conf", 
+            "title": "Installing Apache"
+        }, 
+        {
+            "location": "/aws-intro/#apache-config", 
+            "text": "VirtualHost *:80 \nServerName errbit.ourcompany.com\nProxyPreserveHost On\nProxyPass / http://localhost:3000/\nProxyPassReverse / http://localhost:3000/ /VirtualHost", 
+            "title": "Apache Config"
+        }, 
+        {
+            "location": "/aws-intro/#installing-nodejs-with-nvm", 
+            "text": "curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash\n. ~/.nvm/nvm.sh\nnvm install node", 
+            "title": "Installing Node.js with NVM"
+        }, 
+        {
+            "location": "/aws-intro/#iptables-route", 
+            "text": "sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000", 
+            "title": "IPTables Route"
+        }, 
+        {
+            "location": "/aws-intro/#installing-git", 
+            "text": "yum install git -y\ngit clone https://github.com/aminahmedkhan/aws-ec2-demo.git", 
+            "title": "Installing git"
+        }, 
+        {
+            "location": "/aws-intro/#installing-pm2", 
+            "text": "npm i -g pm2\npm2 start bin/www\npm2 startup\npm2 save", 
+            "title": "Installing pm2"
+        }, 
+        {
+            "location": "/aws-intro/#kill-process-on-port-80", 
+            "text": "sudo kill `sudo lsof -t -i:80`", 
+            "title": "Kill process on port 80"
+        }, 
+        {
+            "location": "/aws-intro/#cpu-stress", 
+            "text": "cat /proc/cpuinfo\nyes   /dev/null", 
+            "title": "CPU Stress"
+        }, 
+        {
+            "location": "/aws-intro/#bootstrap-script-ec2-user-data-script", 
+            "text": "#!/bin/bash\nyum install -y gcc-c++ make -y\ncurl -sL https://rpm.nodesource.com/setup_6.x | sudo -E bash -\nyum install nodejs -y\nyum install git -y\ngit clone https://github.com/aminahmedkhan/aws-ec2-demo.git\nnpm --prefix aws-ec2-demo i aws-ec2-demo\nsudo node aws-ec2-demo/bin/www", 
+            "title": "Bootstrap script (ec2 user data script)"
+        }, 
+        {
+            "location": "/js-mdn-01/", 
+            "text": "JS-MDN-01\n\n\nIntro", 
+            "title": "5. JS-MDN-01"
+        }, 
+        {
+            "location": "/js-mdn-01/#js-mdn-01", 
+            "text": "Intro", 
+            "title": "JS-MDN-01"
         }
     ]
 }

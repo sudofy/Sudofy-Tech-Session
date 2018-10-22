@@ -90,7 +90,7 @@ In addition to replicating applications and data across multiple data centers in
 #### Meeting Compliance and Data Residency Requirements
 You retain complete control and ownership over the region in which your data is physically located, making it easy to meet regional compliance and data residency requirements.
 
-####Geographic Expansion
+#### Geographic Expansion
 The AWS Cloud has announced plans to expand with 12 new Availability Zones in four new geographic Regions: Bahrain, Hong Kong SAR, Sweden, and a second AWS GovCloud Region in the US.
 
 ## Scripts for STS

@@ -1,0 +1,619 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Introduction\n\n\nA place for our \nSudofy\n's Developers to share their knowledge. \n\n\nWe Conduct Session every 2 to 3 weeks on latest Technology trends. Outsiders are currently not allowed but can grant access prior to an STS\n\n\n\n\nTimeline\n\n\n\n\n\n\n\n\nAuthor\n\n\nTechnology\n\n\nDate\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\n\n\n\n\nAmin Ahmed Khan\n\n\nSTS Intro\n\n\n20-12-2017\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nAlqama Bin Sadiq\n\n\nAsync Await\n\n\n04-08-2018\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nFaraz Sarwar\n\n\nService Workers\n\n\n18-08-2018\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nFaraz Sarwar\n\n\nService Workers 2\n\n\n15-09-2018\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nAmin Ahmed Khan\n\n\nHello (AWS) World\n\n\n29-09-2018\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\nFaris\n, \nAahad\n\n\nJS-MDN-01\n\n\n20-09-2018\n\n\nDocs\n\n\nSlide\n\n\n\n\n\n\n___\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotes\n\n\n\n\nYoda: Conduct a session want you?\n\n\nIf you want to conduct any session. Just Shout out in the #STS channel on sudofy's slack workspace", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#introduction", 
+            "text": "A place for our  Sudofy 's Developers to share their knowledge.   We Conduct Session every 2 to 3 weeks on latest Technology trends. Outsiders are currently not allowed but can grant access prior to an STS", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/#timeline", 
+            "text": "Author  Technology  Date  Docs  Slide      Amin Ahmed Khan  STS Intro  20-12-2017  Docs  Slide    Alqama Bin Sadiq  Async Await  04-08-2018  Docs  Slide    Faraz Sarwar  Service Workers  18-08-2018  Docs  Slide    Faraz Sarwar  Service Workers 2  15-09-2018  Docs  Slide    Amin Ahmed Khan  Hello (AWS) World  29-09-2018  Docs  Slide    Faris ,  Aahad  JS-MDN-01  20-09-2018  Docs  Slide    ___", 
+            "title": "Timeline"
+        }, 
+        {
+            "location": "/#notes", 
+            "text": "Yoda: Conduct a session want you?  If you want to conduct any session. Just Shout out in the #STS channel on sudofy's slack workspace", 
+            "title": "Notes"
+        }, 
+        {
+            "location": "/sts-intro/", 
+            "text": "STS Intro\n\n\nThis STS is based on, The importance of and general announcement of the Sudofy Tech Session! \n\n\nLinks\n\n\nSlide\n\n\n\n\nIntroduction\n\n\nSudofy Tech Session is an awesome way of sharing your experience at sudofy! These session helps create technology awareness between the developers of sudofy. These session will be conducted every alternate week on Monday. A session can only be 30 to 45 mins long.\n\n\n\n\nWHY STS ?\n\n\n\n\nThe greatest enemy of learning is knowing.\n\n\n\n\nJohn Maxwell\n\n\nSTS is going to help us involve in healthy discussion on development and daily process. Each Session will comply to these common goals\n\n\n\n\nHow to value customer satisfaction\n\n\nHow to increase efficiency at work\n\n\nDeliver Quality code\n\n\nWays to improve UI/UX\n\n\nFuture Technology that can beneficial\n\n\nIncrease governance and security of apps \n\n\n\n\n\n\nHOW STS ?\n\n\nThe next question is how are we going to conduct these session at sudofy. As mentioned above we are going to do this every alternate week on Monday. Further lets discuss the flow of the session \n\n\nSTS Days\n\n\n\n\nEvery Alternate Monday\n\n\n\n\nSTS Duration\n\n\n\n\n30-45 Mins \n\n\n\n\nSTS Timeline\n\n\n\n\nThe \nTimeline\n for this session will updated frequently and all future and past STS will be listed over here\n\n\n\n\nSTS contribution\n\n\n\n\nBefore giving any STS you have to submit a PR with your docs and slides. The PR must be submitted 3 days before the STS\n\n\n\n\nSTS Docs\n\n\n\n\nEach STS will include its own Doc page written in \nMkdDos\n \n\n\n\n\nSTS Slides\n\n\n\n\nEach STS Will include its own slides created on \nGoogle Docs Slides\n\n\n\n\nSTS Snacks are on the house\n\n\n\n\nEach STS session will end with refreshments and snacks \n\n\n\n\n\n\nWHAT STS ?\n\n\nWhat will be included in a STS? STS Will be a short byte sized session on any Technology that the developer want to share with his follow developers.\n\n\nSTS Topics\n\n\n\n\nNew Technology\n\n\nQA/Testing\n\n\nDeployment Techniques\n\n\nFramework upgrade\n\n\nDev Tools\n\n\n\n\n\n\nFAQS\n\n\n\n\nWhere to host my Slides\n\n\nKindly use \nGoogle Docs Slides\n\n\n\n\n\n\nHow to write the Docs\n\n\nKindly use \nMkdDos\n\n\n\n\n\n\nWhen To Submit a PR\n\n\nA PR for STS Should be submitted 3 days before the STS\n\n\n\n\n\n\nIn case of not conducting (as a speaker) the STS\n\n\nFor any case if you are not able to conduct the STS kindly inform 4 days before the STS\n\n\n\n\n\n\nDo I have to attend a STS\n\n\nEvery Developer at sudofy must attend every STS", 
+            "title": "0. Introduction"
+        }, 
+        {
+            "location": "/sts-intro/#sts-intro", 
+            "text": "This STS is based on, The importance of and general announcement of the Sudofy Tech Session!", 
+            "title": "STS Intro"
+        }, 
+        {
+            "location": "/sts-intro/#links", 
+            "text": "Slide", 
+            "title": "Links"
+        }, 
+        {
+            "location": "/sts-intro/#introduction", 
+            "text": "Sudofy Tech Session is an awesome way of sharing your experience at sudofy! These session helps create technology awareness between the developers of sudofy. These session will be conducted every alternate week on Monday. A session can only be 30 to 45 mins long.", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/sts-intro/#why-sts", 
+            "text": "The greatest enemy of learning is knowing.   John Maxwell  STS is going to help us involve in healthy discussion on development and daily process. Each Session will comply to these common goals   How to value customer satisfaction  How to increase efficiency at work  Deliver Quality code  Ways to improve UI/UX  Future Technology that can beneficial  Increase governance and security of apps", 
+            "title": "WHY STS ?"
+        }, 
+        {
+            "location": "/sts-intro/#how-sts", 
+            "text": "The next question is how are we going to conduct these session at sudofy. As mentioned above we are going to do this every alternate week on Monday. Further lets discuss the flow of the session", 
+            "title": "HOW STS ?"
+        }, 
+        {
+            "location": "/sts-intro/#sts-days", 
+            "text": "Every Alternate Monday", 
+            "title": "STS Days"
+        }, 
+        {
+            "location": "/sts-intro/#sts-duration", 
+            "text": "30-45 Mins", 
+            "title": "STS Duration"
+        }, 
+        {
+            "location": "/sts-intro/#sts-timeline", 
+            "text": "The  Timeline  for this session will updated frequently and all future and past STS will be listed over here", 
+            "title": "STS Timeline"
+        }, 
+        {
+            "location": "/sts-intro/#sts-contribution", 
+            "text": "Before giving any STS you have to submit a PR with your docs and slides. The PR must be submitted 3 days before the STS", 
+            "title": "STS contribution"
+        }, 
+        {
+            "location": "/sts-intro/#sts-docs", 
+            "text": "Each STS will include its own Doc page written in  MkdDos", 
+            "title": "STS Docs"
+        }, 
+        {
+            "location": "/sts-intro/#sts-slides", 
+            "text": "Each STS Will include its own slides created on  Google Docs Slides", 
+            "title": "STS Slides"
+        }, 
+        {
+            "location": "/sts-intro/#sts-snacks-are-on-the-house", 
+            "text": "Each STS session will end with refreshments and snacks", 
+            "title": "STS Snacks are on the house"
+        }, 
+        {
+            "location": "/sts-intro/#what-sts", 
+            "text": "What will be included in a STS? STS Will be a short byte sized session on any Technology that the developer want to share with his follow developers.", 
+            "title": "WHAT STS ?"
+        }, 
+        {
+            "location": "/sts-intro/#sts-topics", 
+            "text": "New Technology  QA/Testing  Deployment Techniques  Framework upgrade  Dev Tools", 
+            "title": "STS Topics"
+        }, 
+        {
+            "location": "/sts-intro/#faqs", 
+            "text": "Where to host my Slides  Kindly use  Google Docs Slides    How to write the Docs  Kindly use  MkdDos    When To Submit a PR  A PR for STS Should be submitted 3 days before the STS    In case of not conducting (as a speaker) the STS  For any case if you are not able to conduct the STS kindly inform 4 days before the STS    Do I have to attend a STS  Every Developer at sudofy must attend every STS", 
+            "title": "FAQS"
+        }, 
+        {
+            "location": "/js-async-await/", 
+            "text": "Event loops and the asynchronous programming in Javascript\n\n\nThis STS is based on the importance of Asynchronous programming in Javascript and how Javascript actually works, how it executes callbacks and handles asynchronous code. It will also cover how to use Callbacks, Promises and Async Await effectively in your code. This session will also cover little bit about the concept of Generators in javaScript.\n\n\nLinks\n\n\nSlide\n\n\n\n\nIntroduction\n\n\nThe session is divided into three sections. The first section will cover how event loops and call stack work in JavaScript. The Second section will cover how to write non-blocking and asynchronous code in JavaScript and how to use Promises, call backs and Async-Await effectively and then the last section will cover the concept of Generators in Javascript.\n\n\n\n\nWHY Event Loops and Call Stack ?\n\n\nCall stacks and event loops are very important and it helps you understand how Javascript actually runs on browser and node. It also helps you in understanding how callbacks are actually handled in JavaScript.\n\n\n\n\nWHY Aysnc Await ?\n\n\nES 2017 introduced Asynchronous functions. Async functions are essentially a cleaner way to work with asynchronous code in JavaScript.\n\n\nHere are some important points to remember:\n\n\n\n\nAsync/await is a new way to write asynchronous code. Previous options for asynchronous code are callbacks and promises.\n\n\nAsync/await is actually built on top of promises. It cannot be used with plain callbacks or node callbacks.\n\n\nAsync/await is, like promises, non blocking.\n\n\nAsync/await makes asynchronous code look and behave a little more like synchronous code. This is where all its power lies.\n\n\n\n\n\n\nWHY Generators ?\n\n\nGenerators are functions that you can use to control the iterator. They can be suspended and later resumed at any time.\n\n\nSo if you wanna do something in your function which involves stopping it and perform other operations and then resume that function again, you should learn how to use Generators.\n\n\n\n\nSTS Date\n\n\n\n\n04 - AUG - 2017\n\n\n\n\nSTS Duration\n\n\n\n\n30-45 Mins \n\n\n\n\nSTS Slides\n\n\n\n\nGoogle Docs Slides\n\n\n\n\nSTS Snacks are on the house\n\n\n\n\nDonuts !", 
+            "title": "1. JS Async Await"
+        }, 
+        {
+            "location": "/js-async-await/#event-loops-and-the-asynchronous-programming-in-javascript", 
+            "text": "This STS is based on the importance of Asynchronous programming in Javascript and how Javascript actually works, how it executes callbacks and handles asynchronous code. It will also cover how to use Callbacks, Promises and Async Await effectively in your code. This session will also cover little bit about the concept of Generators in javaScript.", 
+            "title": "Event loops and the asynchronous programming in Javascript"
+        }, 
+        {
+            "location": "/js-async-await/#links", 
+            "text": "Slide", 
+            "title": "Links"
+        }, 
+        {
+            "location": "/js-async-await/#introduction", 
+            "text": "The session is divided into three sections. The first section will cover how event loops and call stack work in JavaScript. The Second section will cover how to write non-blocking and asynchronous code in JavaScript and how to use Promises, call backs and Async-Await effectively and then the last section will cover the concept of Generators in Javascript.", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/js-async-await/#why-event-loops-and-call-stack", 
+            "text": "Call stacks and event loops are very important and it helps you understand how Javascript actually runs on browser and node. It also helps you in understanding how callbacks are actually handled in JavaScript.", 
+            "title": "WHY Event Loops and Call Stack ?"
+        }, 
+        {
+            "location": "/js-async-await/#why-aysnc-await", 
+            "text": "ES 2017 introduced Asynchronous functions. Async functions are essentially a cleaner way to work with asynchronous code in JavaScript.  Here are some important points to remember:   Async/await is a new way to write asynchronous code. Previous options for asynchronous code are callbacks and promises.  Async/await is actually built on top of promises. It cannot be used with plain callbacks or node callbacks.  Async/await is, like promises, non blocking.  Async/await makes asynchronous code look and behave a little more like synchronous code. This is where all its power lies.", 
+            "title": "WHY Aysnc Await ?"
+        }, 
+        {
+            "location": "/js-async-await/#why-generators", 
+            "text": "Generators are functions that you can use to control the iterator. They can be suspended and later resumed at any time.  So if you wanna do something in your function which involves stopping it and perform other operations and then resume that function again, you should learn how to use Generators.", 
+            "title": "WHY Generators ?"
+        }, 
+        {
+            "location": "/js-async-await/#sts-date", 
+            "text": "04 - AUG - 2017", 
+            "title": "STS Date"
+        }, 
+        {
+            "location": "/js-async-await/#sts-duration", 
+            "text": "30-45 Mins", 
+            "title": "STS Duration"
+        }, 
+        {
+            "location": "/js-async-await/#sts-slides", 
+            "text": "Google Docs Slides", 
+            "title": "STS Slides"
+        }, 
+        {
+            "location": "/js-async-await/#sts-snacks-are-on-the-house", 
+            "text": "Donuts !", 
+            "title": "STS Snacks are on the house"
+        }, 
+        {
+            "location": "/intro-service-worker/", 
+            "text": "Introduction to Service Worker\n\n\nTable of Content\n\n\n\n\n\n\n\n\nTopics\n\n\n\n\n\n\n\n\n\n\nReal world problems\n\n\n\n\n\n\nIntroduction to Service Worker\n\n\n\n\n\n\nBenefits of Offline First\n\n\n\n\n\n\nRegistering a Service Worker\n\n\n\n\n\n\nLifecycle of Service Worker\n\n\n\n\n\n\nReal world example\n\n\n\n\n\n\n\n\nIntroduction to Service Worker\n\n\nService worker is a JavaScript file that, run seperately in its own thread. Intercepts network request and store or retrive data from cache and provide push message to web client even when offline. It doesn't have DOM support and only run on HTTPS.\n\n\nService worker doesn't have access to DOM, so what can we do with JavaScript? Lets discus this.\n\n\nService worker is like a middle man (or middleware) between the webpage and the internet, it handle the network request. When a webpage request the server for HTML, CSS files or any API request it pass through the service worker, it is up to us how we code the service worker to deal with these request like we can send that request to server or we can look for the request in cache if exist then show from cache. It is up to us what approach is better for us to provide a good user experience.\n\n\nBenefits of Offline First\n\n\nBefore service worker, \nAppCache\n was used by the developer to cache data. In \nAppCache\n first network request was made by the site to server and then cache the request when it is completed and whenever the request was failed it was retrive from \nAppCache\n. The drawback of this is, user kept waiting till the network request made or failed which is a bad exprience for the user, so that why \nAppCache\n has been depriciated and \nService Worker\n was introduced on \n08 May, 2014\n.\n\n\nBelow is the image show the working of \nAppCache\n: Referenced from \nUdacity Course\n\n\n\n\nAs \nService Worker\n was introduced, a new approach come into play to develop a web app \nOffline First\n i.e a request to a server is pass through service worker, it will look for data in cache and show the content of the web page that already cache meanwhile gets the respone from the server and show the rest of the content by this approach user wouldn't wait for page to completely load and shouldn't see the white screen all the time. Below the image describe the flow of service worker. Referenced from \nUdacity Course\n\n\n\n\nRegistering a Service Worker\n\n\nTo register a service worker, first we need to check if the service worker is supported by the broswer or not, to do so we need to check for service worker object in \nnavigator\n. \nNavigator\n object contains the information about the user agent and browser.\n\n\nif (navigator.serviceWorker) {\n  navigator.serviceWorker.register('/sw.js').then(function(reg) {\n    console.log('Yay!!');\n  }, function(err) {\n    console.log('Boo!!');\n  });\n}\n\n\n\n\nwhere \nsw.js\n is the service worker file located at the root level of project (in my case) it could be of any name and located anywhere inside the project but it is good to have it on root level.\n\n\nLifecycle of Service Worker\n\n\nService worker handle requests to the server. It has a few steps, and to show that I\u2019ll show your a nice picture from \nMDN\n:\n\n\n\nParsed Event\n\n\nWhen we first attempt to register a Service Worker, the user agent parses the script and obtains the entry point. If parsing is successful (and some other requirements, e.g. HTTPS, are met), we will have access to the Service Worker registration object. This contains information about the state of the Service Worker as well as it\u2019s scope.\n\n\nif ('serviceWorker' in navigator) {\n    navigator.serviceWorker.register('./sw.js')\n    .then(function(registration) {\n        console.log(\nService Worker Registered\n, registration);\n    })\n    .catch(function(err) {\n        console.log(\nService Worker Failed to Register\n, err);\n    })\n}\n\n\n\n\nInstall Event\n\n\nOnce the Service Worker script has been parsed, the user agent attempts to install it and it moves to the installing state. In the Service Worker \nregistration\n object, we can check for this state in the \ninstalling\n child object.\n\n\nnavigator.serviceWorker.register('./sw.js').then(function(registration) {\n  if (registration.installing) {\n      // Service Worker is Installing\n  }\n});\n\n\n\n\nDuring the installing state, the install event in the Service Worker script is carried out. The \u201cinstall\u201d event is the first event a service worker gets, and it only happens once. A promise passed to \nevent.waitUntil()\n signals the duration and success or failure of your install. A service worker won't receive events like \nfetch\n and \npush\n until it successfully finishes installing and becomes \"active\".\n\n\nBy default, a page's fetches won't go through a service worker unless the page request itself went through a service worker. So you'll need to refresh the page to see the effects of the service worker. An example image shown by \nJake Archibald\n in his \nblog\n:\n\n\n\nTo listen the install event of a service worker, we need to add the following code in our sw.js file:\n\n\nself.addEventListener('install', function(event) {\n  event.waitUntil(\n    // Open cache storage and do something\n  );\n});\n\n\n\n\nInstalled / Waiting\n\n\nIf the installation is successful, the Service Worker moves to the installed (also called waiting) state. In this state it is a valid, but not yet active, worker. It is not yet in control of the document, but rather is waiting to take control from the current worker.\n\n\nIn the Service Worker \nregistration\n object, we can check for this state in the \nwaiting\n child object.\n\n\nnavigator.serviceWorker.register('./sw.js').then(function(registration) {\n  if (registration.waiting) {\n      // Service Worker is Waiting\n  }\n});\n\n\n\n\nThis can be a good time to notify the app user that they can update to a new version, or automatically update for them.\n\n\nActivate Event\n\n\nAfter the installation of service worker, if there any existing service worker controlling the client, then this worker goes to a \nwaiting\n state. \nThe activate event fires once the old service worker is gone, and your new service worker is able to control clients. This is the ideal time to do stuff that you couldn't do while the old worker was still in use, such as migrating databases and clearing caches.\nThe waiting phase means you're only running one version of your site at once, but if you don't need that feature, you can make your new service worker activate sooner by calling \u201cself.skipWaiting()\u201d. An example image shown by \nJake Archibald\n in his \nblog\n:\n\n\n\nTo listen the activate event of a service worker, we need to add the following code in our sw.js file:\n\n\nself.addEventListener('activate', function(event) {\n  event.waitUntil(\n    // Delete cache\n  );\n});\n\n\n\n\nActivated\n\n\nIf activation is successful, the Service Worker moves to the active state. In this state, it is an active worker in full control of the document. In the Service Worker registration object, we can check for this state in the active child object.\n\n\nnavigator.serviceWorker.register('./sw.js').then(function(registration) {\n  if (registration.active) {\n      // Service Worker is Active\n  }\n});\n\n\n\n\nWhen a Service Worker is active, it can now handle the functional events - fetch, and message.\n\n\nself.addEventListener('fetch', function(event) {\n  // Do stuff with fetch events\n});\n\nself.addEventListener('message', function(event) {\n  // Do stuff with postMessages received from document\n});\n\n\n\n\nRedundant\n\n\nA Service Worker can become redundant for one of the following reasons -\n\n\n\n\n\n\nIf the installing event failed\n\n\n\n\n\n\nIf the activating event failed\n\n\n\n\n\n\nIf a new Service Worker replaces it as the active service worker\n\n\n\n\n\n\nCacheStorage\n\n\nThe Cache API is a system for storing and retrieving network requests and corresponding responses. The Cache API was created to enable Service Workers to cache network requests so that they can provide appropriate responses even while offline. However, the API can also be used as a general storage mechanism.\n\n\nWhat can be stored?\n\n\nThe caches only store pairs of \u201cRequest\u201d and \u201cResponse\u201d objects, representing HTTP requests and responses. However, the requests and responses can contain any kind of data that can be transferred over HTTP.\nThe API is exposed via the global \u201ccaches\u201d property, so you can test for the presence of the API with a simple feature detection:\n\n\nif('caches' in window) {\n  // HAS SUPPORT!!\n}\n\n\n\n\nThe API can be accessed from a window, iframe, worker, or service worker\n\n\nMethods of CacheStorage\n\n\n\n\n\n\n\n\nMethods\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nopen(cacheName)\n\n\nReturns a Promise that resolves to the Cache object matching the cacheName (a new cache is created if it doesn\u2019t already exist).\n\n\n\n\n\n\nmatch()\n\n\nChecks if a given Request is a key in any of the Cache objects that the CacheStorage tracks, and returns a Promise that resolves to that match.\n\n\n\n\n\n\nhas(cacheName)\n\n\nReturns a Promise that resolves to \u201cTRUE\u201d if a Cache object matching the cacheName exits.\n\n\n\n\n\n\nkeys()\n\n\nReturns a Promise that will resolve an array containing strings corresponding to all of the named Cache objects tracked by the CacheStorage. Use this method to iterate over a list of all the Cache object.\n\n\n\n\n\n\ndelete(cacheName)\n\n\nFinds the Cache object matching the cacheName if found, delete the Cache object and returns a Promise that resolves to \u201cTRUE\u201d. If no Cache object is found, it returns \u201cFALSE\u201d.\n\n\n\n\n\n\n\n\nCreating or opening a cache\n\n\n// \u201ccaches\u201d is a global read-only variable, which is the instance of CacheStorage.\ncaches.open('my-cache').then((cache) =\n { \n  // do something with cache\u2026\n});\n\n\n\n\n\n\nNote: Give your cache names a unique prefix so that it don\u2019t override the other domain cache\nFor ex: \u2018mysite-static-v1\u2019\n\n\n\n\nAdding to cache\n\n\ncaches.open('test-cache').then(function(cache) {\n  cache.addAll(['/', '/images/logo.png'])\n    .then(function() {\n    // Cached!\n    });\n});\ncaches.open('test-cache').then(function(cache) {\n  cache.add('/images/logo.png')\n    .then(function() {\n    // Cached!\n    });\n});\n\n\n\n\n\n\nThe addAll method accepts an array of URLs that should be cached, to add single URL, use the add method\n\n\n\n\nput()\n\n\nput() is similar to add() but in, put() we can add response object.\n\n\nfetch('/page/1').then(function(response) {\n  return caches.open('test-cache')\n    .then(function(cache) {\n       return cache.put('/page/1', response);\n    });\n});\n\n\n\n\nRetrieving Cache\n\n\ncaches.open('test-cache').then(function(cache) {\n  cache.keys().then(function(cachedRequests) {\n    console.log(cachedRequests); // [Request, Request]\n  });\n});\n\ncaches.open('test-cache').then(function(cache) {\n  cache.match('/page/1')\n    .then(function(matchedResponse) {\n       console.log(matchedResponse);\n    });\n});\n/*\n Request {\n   bodyUsed: false\n   credentials: \nomit\n\n   headers: Headers\n   integrity: \n\n   method: \nGET\n\n   mode: \nno-cors\n\n   redirect: \nfollow\n\n   referrer: \n\n   url: \nhttps://staging.pitchworthy.co/images/logo.png\n\n}*/\n/*Response {\n   body: (...),\n   bodyUsed: false,\n   headers: Headers,\n   ok: true,\n   status: 200,\n   statusText: \nOK\n,\n   type: \nbasic\n,\n   url: \nhttps://staging.pitchworthy.co/users/me\n\n }\n */\n\n\n\n\n\ncaches.keys\n\n\nTo get the names of existing caches, use \u201ccaches.keys\u201d\n\n\ncaches.keys().then(function(cacheKeys) {\n  console.log(cacheKeys); // ex: [\ntest-cache\n]\n});\n\n\n\n\nDeleting a Cache\n\n\ncaches.delete('test-cache').then(function() {\n  console.log('Cache successfully deleted!');\n});\n\n\n\n\nDelete an old cache and add new one\n\n\nYou often need to delete an old cache and add new one.\n\n\n// Assuming `CACHE_NAME` is the newest name. Time to clean up the old!\nvar CACHE_NAME = 'version-8';\ncaches.keys().then(function(cacheNames) {\n  return Promise.all(\n    cacheNames.map(function(cacheName) {\n      if(cacheName != CACHE_NAME) {\n        return caches.delete(cacheName);\n      }\n    })\n  );\n});", 
+            "title": "2. Intro to Service Workers (1 of 2)"
+        }, 
+        {
+            "location": "/intro-service-worker/#introduction-to-service-worker", 
+            "text": "", 
+            "title": "Introduction to Service Worker"
+        }, 
+        {
+            "location": "/intro-service-worker/#table-of-content", 
+            "text": "Topics      Real world problems    Introduction to Service Worker    Benefits of Offline First    Registering a Service Worker    Lifecycle of Service Worker    Real world example", 
+            "title": "Table of Content"
+        }, 
+        {
+            "location": "/intro-service-worker/#introduction-to-service-worker_1", 
+            "text": "Service worker is a JavaScript file that, run seperately in its own thread. Intercepts network request and store or retrive data from cache and provide push message to web client even when offline. It doesn't have DOM support and only run on HTTPS.  Service worker doesn't have access to DOM, so what can we do with JavaScript? Lets discus this.  Service worker is like a middle man (or middleware) between the webpage and the internet, it handle the network request. When a webpage request the server for HTML, CSS files or any API request it pass through the service worker, it is up to us how we code the service worker to deal with these request like we can send that request to server or we can look for the request in cache if exist then show from cache. It is up to us what approach is better for us to provide a good user experience.", 
+            "title": "Introduction to Service Worker"
+        }, 
+        {
+            "location": "/intro-service-worker/#benefits-of-offline-first", 
+            "text": "Before service worker,  AppCache  was used by the developer to cache data. In  AppCache  first network request was made by the site to server and then cache the request when it is completed and whenever the request was failed it was retrive from  AppCache . The drawback of this is, user kept waiting till the network request made or failed which is a bad exprience for the user, so that why  AppCache  has been depriciated and  Service Worker  was introduced on  08 May, 2014 .  Below is the image show the working of  AppCache : Referenced from  Udacity Course   As  Service Worker  was introduced, a new approach come into play to develop a web app  Offline First  i.e a request to a server is pass through service worker, it will look for data in cache and show the content of the web page that already cache meanwhile gets the respone from the server and show the rest of the content by this approach user wouldn't wait for page to completely load and shouldn't see the white screen all the time. Below the image describe the flow of service worker. Referenced from  Udacity Course", 
+            "title": "Benefits of Offline First"
+        }, 
+        {
+            "location": "/intro-service-worker/#registering-a-service-worker", 
+            "text": "To register a service worker, first we need to check if the service worker is supported by the broswer or not, to do so we need to check for service worker object in  navigator .  Navigator  object contains the information about the user agent and browser.  if (navigator.serviceWorker) {\n  navigator.serviceWorker.register('/sw.js').then(function(reg) {\n    console.log('Yay!!');\n  }, function(err) {\n    console.log('Boo!!');\n  });\n}  where  sw.js  is the service worker file located at the root level of project (in my case) it could be of any name and located anywhere inside the project but it is good to have it on root level.", 
+            "title": "Registering a Service Worker"
+        }, 
+        {
+            "location": "/intro-service-worker/#lifecycle-of-service-worker", 
+            "text": "Service worker handle requests to the server. It has a few steps, and to show that I\u2019ll show your a nice picture from  MDN :", 
+            "title": "Lifecycle of Service Worker"
+        }, 
+        {
+            "location": "/intro-service-worker/#parsed-event", 
+            "text": "When we first attempt to register a Service Worker, the user agent parses the script and obtains the entry point. If parsing is successful (and some other requirements, e.g. HTTPS, are met), we will have access to the Service Worker registration object. This contains information about the state of the Service Worker as well as it\u2019s scope.  if ('serviceWorker' in navigator) {\n    navigator.serviceWorker.register('./sw.js')\n    .then(function(registration) {\n        console.log( Service Worker Registered , registration);\n    })\n    .catch(function(err) {\n        console.log( Service Worker Failed to Register , err);\n    })\n}", 
+            "title": "Parsed Event"
+        }, 
+        {
+            "location": "/intro-service-worker/#install-event", 
+            "text": "Once the Service Worker script has been parsed, the user agent attempts to install it and it moves to the installing state. In the Service Worker  registration  object, we can check for this state in the  installing  child object.  navigator.serviceWorker.register('./sw.js').then(function(registration) {\n  if (registration.installing) {\n      // Service Worker is Installing\n  }\n});  During the installing state, the install event in the Service Worker script is carried out. The \u201cinstall\u201d event is the first event a service worker gets, and it only happens once. A promise passed to  event.waitUntil()  signals the duration and success or failure of your install. A service worker won't receive events like  fetch  and  push  until it successfully finishes installing and becomes \"active\".  By default, a page's fetches won't go through a service worker unless the page request itself went through a service worker. So you'll need to refresh the page to see the effects of the service worker. An example image shown by  Jake Archibald  in his  blog :  To listen the install event of a service worker, we need to add the following code in our sw.js file:  self.addEventListener('install', function(event) {\n  event.waitUntil(\n    // Open cache storage and do something\n  );\n});", 
+            "title": "Install Event"
+        }, 
+        {
+            "location": "/intro-service-worker/#installed-waiting", 
+            "text": "If the installation is successful, the Service Worker moves to the installed (also called waiting) state. In this state it is a valid, but not yet active, worker. It is not yet in control of the document, but rather is waiting to take control from the current worker.  In the Service Worker  registration  object, we can check for this state in the  waiting  child object.  navigator.serviceWorker.register('./sw.js').then(function(registration) {\n  if (registration.waiting) {\n      // Service Worker is Waiting\n  }\n});  This can be a good time to notify the app user that they can update to a new version, or automatically update for them.", 
+            "title": "Installed / Waiting"
+        }, 
+        {
+            "location": "/intro-service-worker/#activate-event", 
+            "text": "After the installation of service worker, if there any existing service worker controlling the client, then this worker goes to a  waiting  state. \nThe activate event fires once the old service worker is gone, and your new service worker is able to control clients. This is the ideal time to do stuff that you couldn't do while the old worker was still in use, such as migrating databases and clearing caches.\nThe waiting phase means you're only running one version of your site at once, but if you don't need that feature, you can make your new service worker activate sooner by calling \u201cself.skipWaiting()\u201d. An example image shown by  Jake Archibald  in his  blog :  To listen the activate event of a service worker, we need to add the following code in our sw.js file:  self.addEventListener('activate', function(event) {\n  event.waitUntil(\n    // Delete cache\n  );\n});", 
+            "title": "Activate Event"
+        }, 
+        {
+            "location": "/intro-service-worker/#activated", 
+            "text": "If activation is successful, the Service Worker moves to the active state. In this state, it is an active worker in full control of the document. In the Service Worker registration object, we can check for this state in the active child object.  navigator.serviceWorker.register('./sw.js').then(function(registration) {\n  if (registration.active) {\n      // Service Worker is Active\n  }\n});  When a Service Worker is active, it can now handle the functional events - fetch, and message.  self.addEventListener('fetch', function(event) {\n  // Do stuff with fetch events\n});\n\nself.addEventListener('message', function(event) {\n  // Do stuff with postMessages received from document\n});", 
+            "title": "Activated"
+        }, 
+        {
+            "location": "/intro-service-worker/#redundant", 
+            "text": "A Service Worker can become redundant for one of the following reasons -    If the installing event failed    If the activating event failed    If a new Service Worker replaces it as the active service worker", 
+            "title": "Redundant"
+        }, 
+        {
+            "location": "/intro-service-worker/#cachestorage", 
+            "text": "The Cache API is a system for storing and retrieving network requests and corresponding responses. The Cache API was created to enable Service Workers to cache network requests so that they can provide appropriate responses even while offline. However, the API can also be used as a general storage mechanism.", 
+            "title": "CacheStorage"
+        }, 
+        {
+            "location": "/intro-service-worker/#what-can-be-stored", 
+            "text": "The caches only store pairs of \u201cRequest\u201d and \u201cResponse\u201d objects, representing HTTP requests and responses. However, the requests and responses can contain any kind of data that can be transferred over HTTP.\nThe API is exposed via the global \u201ccaches\u201d property, so you can test for the presence of the API with a simple feature detection:  if('caches' in window) {\n  // HAS SUPPORT!!\n}  The API can be accessed from a window, iframe, worker, or service worker", 
+            "title": "What can be stored?"
+        }, 
+        {
+            "location": "/intro-service-worker/#methods-of-cachestorage", 
+            "text": "Methods  Description      open(cacheName)  Returns a Promise that resolves to the Cache object matching the cacheName (a new cache is created if it doesn\u2019t already exist).    match()  Checks if a given Request is a key in any of the Cache objects that the CacheStorage tracks, and returns a Promise that resolves to that match.    has(cacheName)  Returns a Promise that resolves to \u201cTRUE\u201d if a Cache object matching the cacheName exits.    keys()  Returns a Promise that will resolve an array containing strings corresponding to all of the named Cache objects tracked by the CacheStorage. Use this method to iterate over a list of all the Cache object.    delete(cacheName)  Finds the Cache object matching the cacheName if found, delete the Cache object and returns a Promise that resolves to \u201cTRUE\u201d. If no Cache object is found, it returns \u201cFALSE\u201d.", 
+            "title": "Methods of CacheStorage"
+        }, 
+        {
+            "location": "/intro-service-worker/#creating-or-opening-a-cache", 
+            "text": "// \u201ccaches\u201d is a global read-only variable, which is the instance of CacheStorage.\ncaches.open('my-cache').then((cache) =  { \n  // do something with cache\u2026\n});   Note: Give your cache names a unique prefix so that it don\u2019t override the other domain cache\nFor ex: \u2018mysite-static-v1\u2019", 
+            "title": "Creating or opening a cache"
+        }, 
+        {
+            "location": "/intro-service-worker/#adding-to-cache", 
+            "text": "caches.open('test-cache').then(function(cache) {\n  cache.addAll(['/', '/images/logo.png'])\n    .then(function() {\n    // Cached!\n    });\n});\ncaches.open('test-cache').then(function(cache) {\n  cache.add('/images/logo.png')\n    .then(function() {\n    // Cached!\n    });\n});   The addAll method accepts an array of URLs that should be cached, to add single URL, use the add method", 
+            "title": "Adding to cache"
+        }, 
+        {
+            "location": "/intro-service-worker/#put", 
+            "text": "put() is similar to add() but in, put() we can add response object.  fetch('/page/1').then(function(response) {\n  return caches.open('test-cache')\n    .then(function(cache) {\n       return cache.put('/page/1', response);\n    });\n});", 
+            "title": "put()"
+        }, 
+        {
+            "location": "/intro-service-worker/#retrieving-cache", 
+            "text": "caches.open('test-cache').then(function(cache) {\n  cache.keys().then(function(cachedRequests) {\n    console.log(cachedRequests); // [Request, Request]\n  });\n});\n\ncaches.open('test-cache').then(function(cache) {\n  cache.match('/page/1')\n    .then(function(matchedResponse) {\n       console.log(matchedResponse);\n    });\n});\n/*\n Request {\n   bodyUsed: false\n   credentials:  omit \n   headers: Headers\n   integrity:  \n   method:  GET \n   mode:  no-cors \n   redirect:  follow \n   referrer:  \n   url:  https://staging.pitchworthy.co/images/logo.png \n}*/\n/*Response {\n   body: (...),\n   bodyUsed: false,\n   headers: Headers,\n   ok: true,\n   status: 200,\n   statusText:  OK ,\n   type:  basic ,\n   url:  https://staging.pitchworthy.co/users/me \n }\n */", 
+            "title": "Retrieving Cache"
+        }, 
+        {
+            "location": "/intro-service-worker/#cacheskeys", 
+            "text": "To get the names of existing caches, use \u201ccaches.keys\u201d  caches.keys().then(function(cacheKeys) {\n  console.log(cacheKeys); // ex: [ test-cache ]\n});", 
+            "title": "caches.keys"
+        }, 
+        {
+            "location": "/intro-service-worker/#deleting-a-cache", 
+            "text": "caches.delete('test-cache').then(function() {\n  console.log('Cache successfully deleted!');\n});", 
+            "title": "Deleting a Cache"
+        }, 
+        {
+            "location": "/intro-service-worker/#delete-an-old-cache-and-add-new-one", 
+            "text": "You often need to delete an old cache and add new one.  // Assuming `CACHE_NAME` is the newest name. Time to clean up the old!\nvar CACHE_NAME = 'version-8';\ncaches.keys().then(function(cacheNames) {\n  return Promise.all(\n    cacheNames.map(function(cacheName) {\n      if(cacheName != CACHE_NAME) {\n        return caches.delete(cacheName);\n      }\n    })\n  );\n});", 
+            "title": "Delete an old cache and add new one"
+        }, 
+        {
+            "location": "/intro-service-worker-2/", 
+            "text": "Introduction to Service Worker\n\n\nTable of Content\n\n\n\n\n\n\n\n\nTopics\n\n\n\n\n\n\n\n\n\n\nOverview\n\n\n\n\n\n\nApp Introduction\n\n\n\n\n\n\nInstalling/Running the App\n\n\n\n\n\n\nRegistering our first Service Worker\n\n\n\n\n\n\nExploring the Dev Tools\n\n\n\n\n\n\nHijacking Request\n\n\n\n\n\n\nCaching and Serving Assets\n\n\n\n\n\n\nUnobtrosive App Updates\n\n\n\n\n\n\nTrigger latest version\n\n\n\n\n\n\nUpdate Data using the IndexedDB\n\n\n\n\n\n\n\n\nOverview\n\n\nService worker is a JavaScript file that, run seperately in its own thread. Intercepts network request and store or retrive data from cache and provide push message to web client even when offline. It doesn't have DOM support and only run on HTTPS.\n\n\nService worker doesn't have access to DOM, so what can we do with JavaScript? Lets discus this.\n\n\nService worker is like a middle man (or middleware) between the webpage and the internet, it handle the network request. When a webpage request the server for HTML, CSS files or any API request it pass through the service worker, it is up to us how we code the service worker to deal with these request like we can send that request to server or we can look for the request in cache if exist then show from cache. It is up to us what approach is better for us to provide a good user experience.\n\n\nApp Introduction\n\n\nWe have an app called \nWittr\n, it is a real time social networking web app where user share their posts and give comments/feedback on them. This site is fully developed but not a total breakdown on low connectivity and offline mode. So we going to implement the service worker to tackle the blank screen on low connectivity and offline mode.\n\n\nInstalling/Running the App\n\n\nTo install the app on you local machine, you first need to install \nGit\n if you have it that's great. If you dont know about \nGit\n that's not an issue we are just using the basic of \nGit\n. Those who dont know Git, it is a version controlling system.\nTo download or clone the project to your local machine, run command on your terminal or command-line.\n\n\ngit clone https://github.com/farazsarwar113/wittr\n\n\nAfter cloning the project run command \nnpm install\n to install all the dependencies required by the project.\nTo run the app run \ngulp serve\n. It will run the app on \nhttp://localhost:8888\n and server on \nhttp://localhost:8889\n.\n\n\nRegistering our first Service Worker\n\n\nWe need to work on only two files throughout the app \npublic/js/sw/index.js\n and \npublic/js/main/IndexController.js\n. This project is configured in a way that when we run command \ngulp serve\n it compiled all the css files in css folder and javascript files in js folder and service worker file in the root of the project with the \nsw.js\n.\n\n\nTo register a service, first we need switch branch.\n\n\ngit reset --hard\n if you have any local changes run this command\n\n\ngit checkout task-register-sw\n\n\nWe will work on \npublic/js/sw/index.js\n inside \n_registerServiceWorker\n function. First we need to check if the service worker is supported by the broswer or not, to do so we need to check for service worker object in \nnavigator\n. \nNavigator\n object contains the information about the user agent and browser.\n\n\nif (!navigator.serviceWorker) return;\nnavigator.serviceWorker.register('/sw.js').then(function(reg) {\n  console.log('Registeration successfull');\n}, function(err) {\n  console.log('Error in registeration');\n});\n\n\n\n\nExploring the Dev Tools\n\n\nHijacking Request\n\n\nCustom Response\n\n\nWe can give a custom response to browser request using service worker, to handle the network request we will add a \nEvent Listner\n on \npublic/js/sw/index.js\n.\n\n\nself.addEventListner('fetch', function(event) {\n  event.respondWith(\n    new Response('Hello World')\n  );\n})\n\n\n\n\nThis will be the output we get for any request browser do.\n\n\nself.addEventListner('fetch', function(event) {\n  event.respondWith(\n    new Response('Hello World \nb\n Faraz \n/b\n ')\n  );\n})\n\n\n\n\nWhat if i add the html tag inside my \nHello World\n string. let see.\nIt will render as a string because in the response header the \nContent-Type\n is set to be \nplain/text\n by default, so we set it to \ntext/html\n.\n\n\nself.addEventListner('fetch', function(event) {\n  event.respondWith(\n    new Response('Hello World \nb\n Faraz \n/b\n ', { headers: { 'Content-Type': 'text/html' }})\n  );\n})\n\n\n\n\nRespond with gif\n\n\nTo get to the position of code done above run:\n\n\ngit reset --hard\n\n\ngit checkout task-customer-response\n\n\nTo respond with gif for the requested url:\n\n\nself.addEventListner('fetch', function(event) {\n  event.respondWith(\n    new Response(\n      fetch('/imgs/devil.gif')\n    )\n  );\n})\n\n\n\n\nThe above code respond every request with gif but that's not the better way, now we respond only the request of img with gif response. To do so \nlog\n event and check for the url and react according to that, let me show how to do that:\n\n\ngit reset --hard\n\n\ngit checkout gif-response\n\n\nself.addEventListner('fetch', function(event) {\n  console.log(event.request.url);\n  if (event.request.url.endsWith('.jpg')) {\n    event.respondWith(\n      new Response(\n        fetch('/imgs/devil.gif')\n      )\n    );\n  }\n})\n\n\n\n\nHandle 404 and failed state\n\n\nTo handle 404 and failed state we look at then response status:\n\n\nself.addEventListner('fetch', function(event) {\n  event.respondWith(\n    new Response(\n      fetch(event.request.url).then(function(response) {\n        if (response.status === 404) {\n          return new Response('NOT FOUND');\n        }\n      }).catch(function(err) {\n        return new Response('ERROR'); \n      })\n    );\n  );\n})\n\n\n\n\nNow we will show the \ndevil.gif\n to 404 status: To do this first get on the branch\n\ngit reset --hard\n\n\ngit checkout error-handling\n\n\nself.addEventListner('fetch', function(event) {\n  event.respondWith(\n    new Response(\n      fetch(event.request.url).then(function(response) {\n        if (response.status === 404) {\n          return fetch('/imgs/devil.gif')\n        }\n      }).catch(function(err) {\n        return new Response('ERROR'); \n      })\n    );\n  );\n})\n\n\n\n\nCaching and Serving Assets\n\n\nTo cache the static files we have to create cache and add the files on install event of service worker.\n\n\ngit reset --hard\n\n\ngit checkout task-install\n\n\nself.addEventListner('install', function(event) {\n  event.waitUntil(\n    caches.open('wittr-v1').then(function(cache) {\n      cache.addAll([\n        '/',\n        '/style.css',\n        '/main.js'\n      ])\n    })\n  )\n})\n\n\n\n\nNow we cached the data in the CacheStorage, but we request the site we will still be kept waiting. Now we have to check if there is any data in cache we will show it from there otherwise show it from network.\n\n\ngit reset --hard\n\n\ngit checkout task-cache-response\n\n\nself.addEventListner('fetch', function(event) {\n  event.respondWith(\n    caches.match(event.request.url).then(function(response) {\n      if (response) return response;\n      return fetch(event.request)\n    })\n  )\n})\n\n\n\n\nTill now we acheive to show something rather than a blank page or a dinosur but we have still to do alot, we are not getting the updated app or nor doesnt know about the update is here. So now what problems we have to acheive right now:\n\n\n\n\nUnobtrusive app updates\n\n\nGet the user on to the latest version\n\n\nContinously update the cache of posts\n\n\nCache photos\n\n\nCache avatar\n\n\n\n\nUnobtrusive app updates\n\n\nIf we update our css and force reload is checked we can see the changes in browser but if we unchecked the force update and the change the css the broswer doent detch the changes and show the old one because we didnt update the service worker and another service worker is active.\n\n\ngit reset --hard\n\n\ngit checkout task-handling-updates\n\n\nTo deal with this we will delete the old cache on the activate event. \nThe easy step is:\n\n\nself.addEventListner('activate', function(event) {\n  event.waitUntil(\n    caches.delete('wittr-static-v1')\n  )\n})\n\n\n\n\nThe scalable way:\n\n\nvar staticCacheName = 'wittr-static-v2';\n\nself.addEventListner('activate', function(event) {\n  event.waitUntil(\n    Promise.all(\n      caches.keys().then(function(cacheNames){\n        cacheNames.filter(function(cacheName){\n          return cacheName.startWith('wittr-') \n cacheName != staticCacheName;\n        }).map(function(cacheName) {\n          return caches.delete(cacheName)\n        })\n      })\n    )\n  )\n})\n\n\n\n\nTrigger latest version\n\n\nNow we will look at how we will notify user that there is an update ready to install. First we look at the properties and method given by service worker.\n\n\ngit reset --hard\n\n\ngit checkout sw-register-methods\n\n\ngit checkout task-update-notify\n\n\n\nIndexController.prototype._registerServiceWorker = function() {\n  if (!navigator.serviceWorker) return;\n\n  var indexController = this;\n\n  navigator.serviceWorker.register('/sw.js').then(function(reg) {\n    // TODO: if there's no controller, this page wasn't loaded\n    // via a service worker, so they're looking at the latest version.\n    // In that case, exit early\n    if (!navigator.serviceWorker.controller) return;\n\n    // TODO: if there's an updated worker already waiting, call\n    // indexController._updateReady()\n    if(reg.waiting) {\n      indexController._updateReady()\n      return;\n    }\n    // TODO: if there's an updated worker installing, track its\n    // progress. If it becomes \ninstalled\n, call\n    // indexController._updateReady()\n    if (reg.installing) {\n      indexController._trackInstalling(reg.installing);\n      return;\n    }\n\n    // TODO: otherwise, listen for new installing workers arriving.\n    // If one arrives, track its progress.\n    // If it becomes \ninstalled\n, call\n    // indexController._updateReady()\n    reg.addEventListner('updatefound', function() {\n      indexController._trackInstalling(reg.installing);\n    })\n  });\n};\n\nIndexController.prototype._trackInstalling = function(worker) {\n  var indexController = this;\n  worker.addEventListner('statechange', function() {\n    if (worker.state === 'installed') {\n      indexController._updateReady()\n    }\n  });\n}\n\n\n\n\n\nBy the above code we can now sent notification to user about the update but how we will trigger the update. let see: First we see some of the methods and properties of service worker.\n\n\nself.skipWaiting()\n is a function to manually tell service worker to active the waiting service worker.\nform the registration object we can emit data to service worker which can be recieve in \nmessage\n event\n\n\nreg.installing.postMessage({ bar: foo })\n;\n\n\nself.addEventListner('message', function(event) {\n  console.log(event.data);\n});\n\n\n\n\nThere is an another event that attached on navigator controller to check if the controller is changed\n\n\nnavigator.serviceWorker.addEventListner('controllerchange', function() {\n  // change happens reload the page\n})\n\n\n\n\nNow we are going to trigger the update with the use of above information\n\n\ngit reset --hard\n\n\ngit checkout task-update-reload\n\n\nIndexController.prototype._updateReady = function(worker) {\n  var toast = this._toastsView.show(\nNew version available\n, {\n    buttons: ['refresh', 'dismiss']\n  });\n\n  toast.answer.then(function(answer) {\n    if (answer != 'refresh') return;\n    // TODO: tell the service worker to skipWaiting\n    worker.postMessage({ action: 'skipWaiting' });\n  });\n};\n\n// in sw/index.js\n\nself.addEventListner('message', function(event) {\n  if (event.data.action === 'skipWaiting') {\n    self.skipWaiting();\n  }\n});\n\n// in indexController.js inside register function\n\nnavigator.serviceWorker.addEventListner('controllerchange', function() {\n  window.location.reload();\n})\n\n\n\n\nUpdate Data using the IndexedDB\n\n\nIntroduction to IndexedDB\n\n\nIn general, there are two different types of databases: relational and document (also known as NoSQL or object). Relational databases like SQL Server, MySQL, and Oracle store sets of data in tables. Document databases like MongoDB, CouchDB, and Redis store sets of data as individual objects. IndexedDB is a document database that exists in a sandboxed context. It contains the object stores, you can create multiple databases with whatever names you choose, but generally there is one database per app.\n\n\nObject store\n\n\nAn object store is an individual bucket to store data. You can think of object stores as being similar to tables in traditional relational databases.\n\n\nIndex\n\n\nAn Index is a kind of object store for organizing data in another object store (called the reference object store) by an individual property of the data. The index is used to retrieve records in the object store by this property. For example, if you're storing people, you may want to fetch them later by their name, age, or favorite animal.\n\n\nTransaction\n\n\nA transaction is wrapper around an operation, or group of operations, that ensures database integrity. If one of the actions within a transaction fail, none of them are applied and the database returns to the state it was in before the transaction began. All read or write operations in IndexedDB must be part of a transaction. This allows for atomic read-modify-write operations without worrying about other threads acting on the database at the same time.\n\n\nCursor\n\n\nA mechanism for iterating over multiple records in database.\n\n\nCreate a db\n\n\n//check for support\nif (!('indexedDB' in window)) {\n  console.log('This browser doesn\\'t support IndexedDB');\n  return;\n}\n\nvar dbPromise = idb.open('test-db1', 1);\n\n\n\n\nCreate a Object store\n\n\n//check for support\nif (!('indexedDB' in window)) {\n  console.log('This browser doesn\\'t support IndexedDB');\n  return;\n}\n\nvar dbPromise = idb.open('test-db2', 1, function(upgradeDb) {\n  console.log('making a new object store');\n  if (!upgradeDb.objectStoreNames.contains('firstOS')) {\n    upgradeDb.createObjectStore('firstOS');\n  }\n});\n\n\n\n\nupgradeDb.createObjectStore('people', {keyPath: 'email'});\n KeyPath is used to define the primary key\n\n\nDefining indexes\n\n\nobjectStore.createIndex('indexName', 'property', options);\n\n\n//check for support\nif (!('indexedDB' in window)) {\n  console.log('This browser doesn\\'t support IndexedDB');\n  return;\n}\n\nvar dbPromise = idb.open('test-db4', 1, function(upgradeDb) {\n  if (!upgradeDb.objectStoreNames.contains('people')) {\n    var peopleOS = upgradeDb.createObjectStore('people', {keyPath: 'email'});\n    peopleOS.createIndex('gender', 'gender', {unique: false});\n    peopleOS.createIndex('username', 'username', {unique: true});\n  }\n});\n\n\n\n\ngit checkout task-idb-store\n\n\nfunction openDatabase() {\n  // If the browser doesn't support service worker,\n  // we don't care about having a database\n  if (!navigator.serviceWorker) {\n    return Promise.resolve();\n  }\n\n  return idb.open('wittr', 1, function(upgradeDb) {\n    var store = upgradeDb.createObjectStore('wittrs', {\n      keyPath: 'id'\n    });\n    store.createIndex('by-date', 'time');\n  });\n}\n\nIndexController.prototype._onSocketMessage = function(data) {\n  var messages = JSON.parse(data);\n\n  this._dbPromise.then(function(db) {\n    if (!db) return;\n\n    var tx = db.transaction('wittrs', 'readwrite');\n    var store = tx.objectStore('wittrs');\n    messages.forEach(function(message) {\n      store.put(message);\n    });\n  });\n\n  this._postsView.addPosts(messages);\n};\n\n\n\n\ngit checkout task-show-stored\n\n\nIndexController.prototype._showCachedMessages = function() {\n  var indexController = this;\n\n  return this._dbPromise.then(function(db) {\n    // if we're already showing posts, eg shift-refresh\n    // or the very first load, there's no point fetching\n    // posts from IDB\n    if (!db || indexController._postsView.showingPosts()) return;\n\n    var index = db.transaction('wittrs')\n      .objectStore('wittrs').index('by-date');\n\n    return index.getAll().then(function(messages) {\n      indexController._postsView.addPosts(messages.reverse());\n    });\n  });\n};", 
+            "title": "3. Intro to Service Workers (2 of 2)"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#introduction-to-service-worker", 
+            "text": "", 
+            "title": "Introduction to Service Worker"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#table-of-content", 
+            "text": "Topics      Overview    App Introduction    Installing/Running the App    Registering our first Service Worker    Exploring the Dev Tools    Hijacking Request    Caching and Serving Assets    Unobtrosive App Updates    Trigger latest version    Update Data using the IndexedDB", 
+            "title": "Table of Content"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#overview", 
+            "text": "Service worker is a JavaScript file that, run seperately in its own thread. Intercepts network request and store or retrive data from cache and provide push message to web client even when offline. It doesn't have DOM support and only run on HTTPS.  Service worker doesn't have access to DOM, so what can we do with JavaScript? Lets discus this.  Service worker is like a middle man (or middleware) between the webpage and the internet, it handle the network request. When a webpage request the server for HTML, CSS files or any API request it pass through the service worker, it is up to us how we code the service worker to deal with these request like we can send that request to server or we can look for the request in cache if exist then show from cache. It is up to us what approach is better for us to provide a good user experience.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#app-introduction", 
+            "text": "We have an app called  Wittr , it is a real time social networking web app where user share their posts and give comments/feedback on them. This site is fully developed but not a total breakdown on low connectivity and offline mode. So we going to implement the service worker to tackle the blank screen on low connectivity and offline mode.", 
+            "title": "App Introduction"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#installingrunning-the-app", 
+            "text": "To install the app on you local machine, you first need to install  Git  if you have it that's great. If you dont know about  Git  that's not an issue we are just using the basic of  Git . Those who dont know Git, it is a version controlling system.\nTo download or clone the project to your local machine, run command on your terminal or command-line.  git clone https://github.com/farazsarwar113/wittr  After cloning the project run command  npm install  to install all the dependencies required by the project.\nTo run the app run  gulp serve . It will run the app on  http://localhost:8888  and server on  http://localhost:8889 .", 
+            "title": "Installing/Running the App"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#registering-our-first-service-worker", 
+            "text": "We need to work on only two files throughout the app  public/js/sw/index.js  and  public/js/main/IndexController.js . This project is configured in a way that when we run command  gulp serve  it compiled all the css files in css folder and javascript files in js folder and service worker file in the root of the project with the  sw.js .  To register a service, first we need switch branch.  git reset --hard  if you have any local changes run this command  git checkout task-register-sw  We will work on  public/js/sw/index.js  inside  _registerServiceWorker  function. First we need to check if the service worker is supported by the broswer or not, to do so we need to check for service worker object in  navigator .  Navigator  object contains the information about the user agent and browser.  if (!navigator.serviceWorker) return;\nnavigator.serviceWorker.register('/sw.js').then(function(reg) {\n  console.log('Registeration successfull');\n}, function(err) {\n  console.log('Error in registeration');\n});", 
+            "title": "Registering our first Service Worker"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#exploring-the-dev-tools", 
+            "text": "", 
+            "title": "Exploring the Dev Tools"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#hijacking-request", 
+            "text": "", 
+            "title": "Hijacking Request"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#custom-response", 
+            "text": "We can give a custom response to browser request using service worker, to handle the network request we will add a  Event Listner  on  public/js/sw/index.js .  self.addEventListner('fetch', function(event) {\n  event.respondWith(\n    new Response('Hello World')\n  );\n})  This will be the output we get for any request browser do.  self.addEventListner('fetch', function(event) {\n  event.respondWith(\n    new Response('Hello World  b  Faraz  /b  ')\n  );\n})  What if i add the html tag inside my  Hello World  string. let see.\nIt will render as a string because in the response header the  Content-Type  is set to be  plain/text  by default, so we set it to  text/html .  self.addEventListner('fetch', function(event) {\n  event.respondWith(\n    new Response('Hello World  b  Faraz  /b  ', { headers: { 'Content-Type': 'text/html' }})\n  );\n})", 
+            "title": "Custom Response"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#respond-with-gif", 
+            "text": "To get to the position of code done above run:  git reset --hard  git checkout task-customer-response  To respond with gif for the requested url:  self.addEventListner('fetch', function(event) {\n  event.respondWith(\n    new Response(\n      fetch('/imgs/devil.gif')\n    )\n  );\n})  The above code respond every request with gif but that's not the better way, now we respond only the request of img with gif response. To do so  log  event and check for the url and react according to that, let me show how to do that:  git reset --hard  git checkout gif-response  self.addEventListner('fetch', function(event) {\n  console.log(event.request.url);\n  if (event.request.url.endsWith('.jpg')) {\n    event.respondWith(\n      new Response(\n        fetch('/imgs/devil.gif')\n      )\n    );\n  }\n})", 
+            "title": "Respond with gif"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#handle-404-and-failed-state", 
+            "text": "To handle 404 and failed state we look at then response status:  self.addEventListner('fetch', function(event) {\n  event.respondWith(\n    new Response(\n      fetch(event.request.url).then(function(response) {\n        if (response.status === 404) {\n          return new Response('NOT FOUND');\n        }\n      }).catch(function(err) {\n        return new Response('ERROR'); \n      })\n    );\n  );\n})  Now we will show the  devil.gif  to 404 status: To do this first get on the branch git reset --hard  git checkout error-handling  self.addEventListner('fetch', function(event) {\n  event.respondWith(\n    new Response(\n      fetch(event.request.url).then(function(response) {\n        if (response.status === 404) {\n          return fetch('/imgs/devil.gif')\n        }\n      }).catch(function(err) {\n        return new Response('ERROR'); \n      })\n    );\n  );\n})", 
+            "title": "Handle 404 and failed state"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#caching-and-serving-assets", 
+            "text": "To cache the static files we have to create cache and add the files on install event of service worker.  git reset --hard  git checkout task-install  self.addEventListner('install', function(event) {\n  event.waitUntil(\n    caches.open('wittr-v1').then(function(cache) {\n      cache.addAll([\n        '/',\n        '/style.css',\n        '/main.js'\n      ])\n    })\n  )\n})  Now we cached the data in the CacheStorage, but we request the site we will still be kept waiting. Now we have to check if there is any data in cache we will show it from there otherwise show it from network.  git reset --hard  git checkout task-cache-response  self.addEventListner('fetch', function(event) {\n  event.respondWith(\n    caches.match(event.request.url).then(function(response) {\n      if (response) return response;\n      return fetch(event.request)\n    })\n  )\n})  Till now we acheive to show something rather than a blank page or a dinosur but we have still to do alot, we are not getting the updated app or nor doesnt know about the update is here. So now what problems we have to acheive right now:   Unobtrusive app updates  Get the user on to the latest version  Continously update the cache of posts  Cache photos  Cache avatar", 
+            "title": "Caching and Serving Assets"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#unobtrusive-app-updates", 
+            "text": "If we update our css and force reload is checked we can see the changes in browser but if we unchecked the force update and the change the css the broswer doent detch the changes and show the old one because we didnt update the service worker and another service worker is active.  git reset --hard  git checkout task-handling-updates  To deal with this we will delete the old cache on the activate event. \nThe easy step is:  self.addEventListner('activate', function(event) {\n  event.waitUntil(\n    caches.delete('wittr-static-v1')\n  )\n})  The scalable way:  var staticCacheName = 'wittr-static-v2';\n\nself.addEventListner('activate', function(event) {\n  event.waitUntil(\n    Promise.all(\n      caches.keys().then(function(cacheNames){\n        cacheNames.filter(function(cacheName){\n          return cacheName.startWith('wittr-')   cacheName != staticCacheName;\n        }).map(function(cacheName) {\n          return caches.delete(cacheName)\n        })\n      })\n    )\n  )\n})", 
+            "title": "Unobtrusive app updates"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#trigger-latest-version", 
+            "text": "Now we will look at how we will notify user that there is an update ready to install. First we look at the properties and method given by service worker.  git reset --hard  git checkout sw-register-methods  git checkout task-update-notify  \nIndexController.prototype._registerServiceWorker = function() {\n  if (!navigator.serviceWorker) return;\n\n  var indexController = this;\n\n  navigator.serviceWorker.register('/sw.js').then(function(reg) {\n    // TODO: if there's no controller, this page wasn't loaded\n    // via a service worker, so they're looking at the latest version.\n    // In that case, exit early\n    if (!navigator.serviceWorker.controller) return;\n\n    // TODO: if there's an updated worker already waiting, call\n    // indexController._updateReady()\n    if(reg.waiting) {\n      indexController._updateReady()\n      return;\n    }\n    // TODO: if there's an updated worker installing, track its\n    // progress. If it becomes  installed , call\n    // indexController._updateReady()\n    if (reg.installing) {\n      indexController._trackInstalling(reg.installing);\n      return;\n    }\n\n    // TODO: otherwise, listen for new installing workers arriving.\n    // If one arrives, track its progress.\n    // If it becomes  installed , call\n    // indexController._updateReady()\n    reg.addEventListner('updatefound', function() {\n      indexController._trackInstalling(reg.installing);\n    })\n  });\n};\n\nIndexController.prototype._trackInstalling = function(worker) {\n  var indexController = this;\n  worker.addEventListner('statechange', function() {\n    if (worker.state === 'installed') {\n      indexController._updateReady()\n    }\n  });\n}  By the above code we can now sent notification to user about the update but how we will trigger the update. let see: First we see some of the methods and properties of service worker.  self.skipWaiting()  is a function to manually tell service worker to active the waiting service worker.\nform the registration object we can emit data to service worker which can be recieve in  message  event  reg.installing.postMessage({ bar: foo }) ;  self.addEventListner('message', function(event) {\n  console.log(event.data);\n});  There is an another event that attached on navigator controller to check if the controller is changed  navigator.serviceWorker.addEventListner('controllerchange', function() {\n  // change happens reload the page\n})  Now we are going to trigger the update with the use of above information  git reset --hard  git checkout task-update-reload  IndexController.prototype._updateReady = function(worker) {\n  var toast = this._toastsView.show( New version available , {\n    buttons: ['refresh', 'dismiss']\n  });\n\n  toast.answer.then(function(answer) {\n    if (answer != 'refresh') return;\n    // TODO: tell the service worker to skipWaiting\n    worker.postMessage({ action: 'skipWaiting' });\n  });\n};\n\n// in sw/index.js\n\nself.addEventListner('message', function(event) {\n  if (event.data.action === 'skipWaiting') {\n    self.skipWaiting();\n  }\n});\n\n// in indexController.js inside register function\n\nnavigator.serviceWorker.addEventListner('controllerchange', function() {\n  window.location.reload();\n})", 
+            "title": "Trigger latest version"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#update-data-using-the-indexeddb", 
+            "text": "", 
+            "title": "Update Data using the IndexedDB"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#introduction-to-indexeddb", 
+            "text": "In general, there are two different types of databases: relational and document (also known as NoSQL or object). Relational databases like SQL Server, MySQL, and Oracle store sets of data in tables. Document databases like MongoDB, CouchDB, and Redis store sets of data as individual objects. IndexedDB is a document database that exists in a sandboxed context. It contains the object stores, you can create multiple databases with whatever names you choose, but generally there is one database per app.", 
+            "title": "Introduction to IndexedDB"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#object-store", 
+            "text": "An object store is an individual bucket to store data. You can think of object stores as being similar to tables in traditional relational databases.", 
+            "title": "Object store"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#index", 
+            "text": "An Index is a kind of object store for organizing data in another object store (called the reference object store) by an individual property of the data. The index is used to retrieve records in the object store by this property. For example, if you're storing people, you may want to fetch them later by their name, age, or favorite animal.", 
+            "title": "Index"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#transaction", 
+            "text": "A transaction is wrapper around an operation, or group of operations, that ensures database integrity. If one of the actions within a transaction fail, none of them are applied and the database returns to the state it was in before the transaction began. All read or write operations in IndexedDB must be part of a transaction. This allows for atomic read-modify-write operations without worrying about other threads acting on the database at the same time.", 
+            "title": "Transaction"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#cursor", 
+            "text": "A mechanism for iterating over multiple records in database.", 
+            "title": "Cursor"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#create-a-db", 
+            "text": "//check for support\nif (!('indexedDB' in window)) {\n  console.log('This browser doesn\\'t support IndexedDB');\n  return;\n}\n\nvar dbPromise = idb.open('test-db1', 1);", 
+            "title": "Create a db"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#create-a-object-store", 
+            "text": "//check for support\nif (!('indexedDB' in window)) {\n  console.log('This browser doesn\\'t support IndexedDB');\n  return;\n}\n\nvar dbPromise = idb.open('test-db2', 1, function(upgradeDb) {\n  console.log('making a new object store');\n  if (!upgradeDb.objectStoreNames.contains('firstOS')) {\n    upgradeDb.createObjectStore('firstOS');\n  }\n});  upgradeDb.createObjectStore('people', {keyPath: 'email'});  KeyPath is used to define the primary key", 
+            "title": "Create a Object store"
+        }, 
+        {
+            "location": "/intro-service-worker-2/#defining-indexes", 
+            "text": "objectStore.createIndex('indexName', 'property', options);  //check for support\nif (!('indexedDB' in window)) {\n  console.log('This browser doesn\\'t support IndexedDB');\n  return;\n}\n\nvar dbPromise = idb.open('test-db4', 1, function(upgradeDb) {\n  if (!upgradeDb.objectStoreNames.contains('people')) {\n    var peopleOS = upgradeDb.createObjectStore('people', {keyPath: 'email'});\n    peopleOS.createIndex('gender', 'gender', {unique: false});\n    peopleOS.createIndex('username', 'username', {unique: true});\n  }\n});  git checkout task-idb-store  function openDatabase() {\n  // If the browser doesn't support service worker,\n  // we don't care about having a database\n  if (!navigator.serviceWorker) {\n    return Promise.resolve();\n  }\n\n  return idb.open('wittr', 1, function(upgradeDb) {\n    var store = upgradeDb.createObjectStore('wittrs', {\n      keyPath: 'id'\n    });\n    store.createIndex('by-date', 'time');\n  });\n}\n\nIndexController.prototype._onSocketMessage = function(data) {\n  var messages = JSON.parse(data);\n\n  this._dbPromise.then(function(db) {\n    if (!db) return;\n\n    var tx = db.transaction('wittrs', 'readwrite');\n    var store = tx.objectStore('wittrs');\n    messages.forEach(function(message) {\n      store.put(message);\n    });\n  });\n\n  this._postsView.addPosts(messages);\n};  git checkout task-show-stored  IndexController.prototype._showCachedMessages = function() {\n  var indexController = this;\n\n  return this._dbPromise.then(function(db) {\n    // if we're already showing posts, eg shift-refresh\n    // or the very first load, there's no point fetching\n    // posts from IDB\n    if (!db || indexController._postsView.showingPosts()) return;\n\n    var index = db.transaction('wittrs')\n      .objectStore('wittrs').index('by-date');\n\n    return index.getAll().then(function(messages) {\n      indexController._postsView.addPosts(messages.reverse());\n    });\n  });\n};", 
+            "title": "Defining indexes"
+        }, 
+        {
+            "location": "/aws-intro/", 
+            "text": "AWS Intro Session\n\n\nIn this session we are going to discuss about AWS and its basic services and use cases\n\n\n\n\nLinks\n\n\nSlide\n\n\nWhat is Cloud Computing ?\n\n\nCloud computing is shared pools of configurable computer system resources and higher-level services that can be rapidly provisioned with minimal management effort, often over the Internet. \nwiki\n\n\nSix benefits of moving to AWS cloud\n\n\nTrade capital expense for variable expense\n\n\nInstead of having to invest heavily in data centers and servers before you know how you\u2019re going to use them, you can pay only when you consume computing resources, and pay only for how much you consume.\n\n\nBenefit from massive economies of scale\n\n\nBy using cloud computing, you can achieve a lower variable cost than you can get on your own. Because usage from hundreds of thousands of customers is aggregated in the cloud, providers such as AWS can achieve higher economies of scale, which translates into lower pay as-you-go prices.\n\n\nStop guessing about capacity\n\n\nEliminate guessing on your infrastructure capacity needs. When you make a capacity decision prior to deploying an application, you often end up either sitting on expensive idle resources or dealing with limited capacity. With cloud computing, these problems go away. You can access as much or as little capacity as you need, and scale up and down as required with only a few minutes\u2019 notice.\n\n\nIncrease speed and agility\n\n\nIn a cloud computing environment, new IT resources are only a click away, which means that you reduce the time to make those resources available to your developers from weeks to just minutes. This results in a dramatic increase in agility for the organization, since the cost and time it takes to experiment and develop is significantly lower.\n\n\nStop spending money running and maintaining data centers\n\n\nFocus on projects that differentiate your business, not the infrastructure. Cloud computing lets you focus on your own customers, rather than on the heavy lifting of racking, stacking, and powering servers.\n\n\nGo global in minutes\n\n\nEasily deploy your application in multiple regions around the world with just a few clicks. This means you can provide lower latency and a better experience for your customers at minimal cost.\n\n\nScaling Infrastructure\n\n\nTraditional Infrastructure\n\n\n\nTraditional Infrastructure is not scale able at all, You can surely provision more and more servers to your data center but its really hard to estimate the server required for a healthy infrastructure. even if you are able to estimate your usage you would end up with a lot of un utilized resources in your data center\n\n\nAWS Infrastructure with auto scaling\n\n\n\nAWS Infrastructure helps you slace in and scale out your servers based on the triggers you specify. In this way you can always provision the right amount of servers to keep your application cool and your customers happy. But getting to this point requires a lot of effort in terms of decoupling your server code and running it in stateless fashion.\n\n\nCloud Computing Service Models\n\n\nIASS\n\n\n\"Infrastructure as a service\" (IaaS) refers to online services that provide high-level APIs used to dereference various low-level details of underlying network infrastructure like physical computing resources, location, data partitioning, scaling, security, backup etc. A hypervisor, such as Xen, Oracle VirtualBox, Oracle VM, KVM, VMware ESX/ESXi, or Hyper-V, LXD, runs the virtual machines as guests.\n\n\nPAAS\n\n\nPaaS vendors offer a development environment to application developers. The provider typically develops toolkit and standards for development and channels for distribution and payment. In the PaaS models, cloud providers deliver a computing platform, typically including operating system, programming-language execution environment, database, and web server. Application developers can develop and run their software solutions on a cloud platform without the cost and complexity of buying and managing the underlying hardware and software layers.\n\n\nSAAS\n\n\nIn the software as a service (SaaS) model, users gain access to application software and databases. Cloud providers manage the infrastructure and platforms that run the applications. SaaS is sometimes referred to as \"on-demand software\" and is usually priced on a pay-per-use basis or using a subscription fee.[69] In the SaaS model, cloud providers install and operate application software in the cloud and cloud users access the software from cloud clients. Cloud users do not manage the cloud infrastructure and platform where the application runs. This eliminates the need to install and run the application on the cloud user's own computers, which simplifies maintenance and support.\n\n\nMBAAS\n\n\nIn the mobile \"backend\" as a service (m) model, also known as backend as a service (BaaS), web app and mobile app developers are provided with a way to link their applications to cloud storage and cloud computing services with application programming interfaces (APIs) exposed to their applications and custom software development kits (SDKs). Services include user management, push notifications, integration with social networking services and more.\n\n\nFAAS\n\n\nServerless computing is a cloud computing code execution model in which the cloud provider fully manages starting and stopping virtual machines as necessary to serve requests, and requests are billed by an abstract measure of the resources required to satisfy the request, rather than per virtual machine, per hour. Despite the name, it does not actually involve running code without servers. Serverless computing is so named because the business or person that owns the system does not have to purchase, rent or provision servers or virtual machines for the back-end code to run on.\n\n\nCloud Computing Deployment Models\n\n\n\n\nPrivate cloud\n\n\nPrivate cloud is cloud infrastructure operated solely for a single organization, whether managed internally or by a third party, and hosted either internally or externally. Undertaking a private cloud project requires significant engagement to virtualize the business environment, and requires the organization to reevaluate decisions about existing resources. It can improve business, but every step in the project raises security issues that must be addressed to prevent serious vulnerabilities. Self-run data centers are generally capital intensive.\n\n\nPublic cloud\n\n\nA cloud is called a \"public cloud\" when the services are rendered over a network that is open for public use. Public cloud services may be free. Technically there may be little or no difference between public and private cloud architecture, however, security consideration may be substantially different for services (applications, storage, and other resources) that are made available by a service provider for a public audience and when communication is effected over a non-trusted network. Generally, public cloud service providers like Amazon Web Services (AWS), Oracle, Microsoft and Google own and operate the infrastructure at their data center and access is generally via the Internet.\n\n\nHybrid cloud\n\n\nHybrid cloud is a composition of two or more clouds (private, community or public) that remain distinct entities but are bound together, offering the benefits of multiple deployment models. Hybrid cloud can also mean the ability to connect collocation, managed and/or dedicated services with cloud resources. Gartner defines a hybrid cloud service as a cloud computing service that is composed of some combination of private, public and community cloud services, from different service providers. A hybrid cloud service crosses isolation and provider boundaries so that it can't be simply put in one category of private, public, or community cloud service. It allows one to extend either the capacity or the capability of a cloud service, by aggregation, integration or customization with another cloud service.\n\n\nWhy Choose AWS?\n\n\nAWS pace of innovation\n\n\n\n\nAWS Global Infrastructure\n\n\n\nThe AWS Cloud spans 55 Availability Zones within 18 geographic Regions and 1 Local Region around the world, with announced plans for 12 more Availability Zones and four more Regions in Bahrain, Hong Kong SAR, Sweden, and a second AWS GovCloud Region in the US.\n\n\nHigh Availability Through Multiple Availability Zones\n\n\nUnlike virtually every other technology infrastructure provider, each AWS Region has multiple Availability Zones and data centers. As we\u2019ve learned from running the leading cloud infrastructure technology platform since 2006, customers who care about the availability and performance of their applications want to deploy these applications across multiple Availability Zones in the same region for fault tolerance and low latency. Availability Zones are connected to each other with fast, private fiber-optic networking, enabling you to easily architect applications that automatically fail-over between Availability Zones without interruption.\n\n\nImproving Continuity With Replication Between Regions\n\n\nIn addition to replicating applications and data across multiple data centers in the same Region using Availability Zones, you can also choose to increase redundancy and fault tolerance further by replicating data between geographic Regions. You can do so using both private, high speed networking and public internet connections to provide an additional layer of business continuity, or to provide low latency access across the globe.\n\n\nMeeting Compliance and Data Residency Requirements\n\n\nYou retain complete control and ownership over the region in which your data is physically located, making it easy to meet regional compliance and data residency requirements.\n\n\nGeographic Expansion\n\n\nThe AWS Cloud has announced plans to expand with 12 new Availability Zones in four new geographic Regions: Bahrain, Hong Kong SAR, Sweden, and a second AWS GovCloud Region in the US.\n\n\nScripts for STS\n\n\nInstalling Nginx\n\n\nsudo amazon-linux-extras install -y nginx1.12\nsudo systemctl start nginx\nsudo systemctl restart nginx\nsudo nano /etc/nginx/nginx.conf\n\n\n\n\nNginx Config\n\n\nserver {\n  listen 80;\n  server_name tutorial;\n  location / {\n    proxy_set_header  X-Real-IP  $remote_addr;\n    proxy_set_header  Host       $http_host;\n    proxy_pass        http://127.0.0.1:3000;\n  }\n}\n\n\n\n\nInstalling Apache\n\n\nsudo yum -y install httpd\nsudo service httpd start\nsudo systemctl restart httpd\nsudo nano /etc/httpd/conf/httpd.conf\n\n\n\n\nApache Config\n\n\nVirtualHost *:80\n\nServerName errbit.ourcompany.com\nProxyPreserveHost On\nProxyPass / http://localhost:3000/\nProxyPassReverse / http://localhost:3000/\n\n/VirtualHost\n \n\n\n\n\nInstalling Node.js with NVM\n\n\ncurl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash\n. ~/.nvm/nvm.sh\nnvm install node\n\n\n\n\nIPTables Route\n\n\nsudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000\n\n\n\n\nInstalling git\n\n\nyum install git -y\ngit clone https://github.com/aminahmedkhan/aws-ec2-demo.git\n\n\n\n\nInstalling pm2\n\n\nnpm i -g pm2\npm2 start bin/www\npm2 startup\npm2 save\n\n\n\n\nKill process on port 80\n\n\nsudo kill `sudo lsof -t -i:80`\n\n\n\n\nCPU Stress\n\n\ncat /proc/cpuinfo\nyes \n /dev/null \n\n\n\n\n\nBootstrap script (ec2 user data script)\n\n\n#!/bin/bash\nyum install -y gcc-c++ make -y\ncurl -sL https://rpm.nodesource.com/setup_6.x | sudo -E bash -\nyum install nodejs -y\nyum install git -y\ngit clone https://github.com/aminahmedkhan/aws-ec2-demo.git\nnpm --prefix aws-ec2-demo i aws-ec2-demo\nsudo node aws-ec2-demo/bin/www", 
+            "title": "4. Hello (AWS) World"
+        }, 
+        {
+            "location": "/aws-intro/#aws-intro-session", 
+            "text": "In this session we are going to discuss about AWS and its basic services and use cases", 
+            "title": "AWS Intro Session"
+        }, 
+        {
+            "location": "/aws-intro/#links", 
+            "text": "Slide", 
+            "title": "Links"
+        }, 
+        {
+            "location": "/aws-intro/#what-is-cloud-computing", 
+            "text": "Cloud computing is shared pools of configurable computer system resources and higher-level services that can be rapidly provisioned with minimal management effort, often over the Internet.  wiki", 
+            "title": "What is Cloud Computing ?"
+        }, 
+        {
+            "location": "/aws-intro/#six-benefits-of-moving-to-aws-cloud", 
+            "text": "", 
+            "title": "Six benefits of moving to AWS cloud"
+        }, 
+        {
+            "location": "/aws-intro/#trade-capital-expense-for-variable-expense", 
+            "text": "Instead of having to invest heavily in data centers and servers before you know how you\u2019re going to use them, you can pay only when you consume computing resources, and pay only for how much you consume.", 
+            "title": "Trade capital expense for variable expense"
+        }, 
+        {
+            "location": "/aws-intro/#benefit-from-massive-economies-of-scale", 
+            "text": "By using cloud computing, you can achieve a lower variable cost than you can get on your own. Because usage from hundreds of thousands of customers is aggregated in the cloud, providers such as AWS can achieve higher economies of scale, which translates into lower pay as-you-go prices.", 
+            "title": "Benefit from massive economies of scale"
+        }, 
+        {
+            "location": "/aws-intro/#stop-guessing-about-capacity", 
+            "text": "Eliminate guessing on your infrastructure capacity needs. When you make a capacity decision prior to deploying an application, you often end up either sitting on expensive idle resources or dealing with limited capacity. With cloud computing, these problems go away. You can access as much or as little capacity as you need, and scale up and down as required with only a few minutes\u2019 notice.", 
+            "title": "Stop guessing about capacity"
+        }, 
+        {
+            "location": "/aws-intro/#increase-speed-and-agility", 
+            "text": "In a cloud computing environment, new IT resources are only a click away, which means that you reduce the time to make those resources available to your developers from weeks to just minutes. This results in a dramatic increase in agility for the organization, since the cost and time it takes to experiment and develop is significantly lower.", 
+            "title": "Increase speed and agility"
+        }, 
+        {
+            "location": "/aws-intro/#stop-spending-money-running-and-maintaining-data-centers", 
+            "text": "Focus on projects that differentiate your business, not the infrastructure. Cloud computing lets you focus on your own customers, rather than on the heavy lifting of racking, stacking, and powering servers.", 
+            "title": "Stop spending money running and maintaining data centers"
+        }, 
+        {
+            "location": "/aws-intro/#go-global-in-minutes", 
+            "text": "Easily deploy your application in multiple regions around the world with just a few clicks. This means you can provide lower latency and a better experience for your customers at minimal cost.", 
+            "title": "Go global in minutes"
+        }, 
+        {
+            "location": "/aws-intro/#scaling-infrastructure", 
+            "text": "", 
+            "title": "Scaling Infrastructure"
+        }, 
+        {
+            "location": "/aws-intro/#traditional-infrastructure", 
+            "text": "Traditional Infrastructure is not scale able at all, You can surely provision more and more servers to your data center but its really hard to estimate the server required for a healthy infrastructure. even if you are able to estimate your usage you would end up with a lot of un utilized resources in your data center", 
+            "title": "Traditional Infrastructure"
+        }, 
+        {
+            "location": "/aws-intro/#aws-infrastructure-with-auto-scaling", 
+            "text": "AWS Infrastructure helps you slace in and scale out your servers based on the triggers you specify. In this way you can always provision the right amount of servers to keep your application cool and your customers happy. But getting to this point requires a lot of effort in terms of decoupling your server code and running it in stateless fashion.", 
+            "title": "AWS Infrastructure with auto scaling"
+        }, 
+        {
+            "location": "/aws-intro/#cloud-computing-service-models", 
+            "text": "", 
+            "title": "Cloud Computing Service Models"
+        }, 
+        {
+            "location": "/aws-intro/#iass", 
+            "text": "\"Infrastructure as a service\" (IaaS) refers to online services that provide high-level APIs used to dereference various low-level details of underlying network infrastructure like physical computing resources, location, data partitioning, scaling, security, backup etc. A hypervisor, such as Xen, Oracle VirtualBox, Oracle VM, KVM, VMware ESX/ESXi, or Hyper-V, LXD, runs the virtual machines as guests.", 
+            "title": "IASS"
+        }, 
+        {
+            "location": "/aws-intro/#paas", 
+            "text": "PaaS vendors offer a development environment to application developers. The provider typically develops toolkit and standards for development and channels for distribution and payment. In the PaaS models, cloud providers deliver a computing platform, typically including operating system, programming-language execution environment, database, and web server. Application developers can develop and run their software solutions on a cloud platform without the cost and complexity of buying and managing the underlying hardware and software layers.", 
+            "title": "PAAS"
+        }, 
+        {
+            "location": "/aws-intro/#saas", 
+            "text": "In the software as a service (SaaS) model, users gain access to application software and databases. Cloud providers manage the infrastructure and platforms that run the applications. SaaS is sometimes referred to as \"on-demand software\" and is usually priced on a pay-per-use basis or using a subscription fee.[69] In the SaaS model, cloud providers install and operate application software in the cloud and cloud users access the software from cloud clients. Cloud users do not manage the cloud infrastructure and platform where the application runs. This eliminates the need to install and run the application on the cloud user's own computers, which simplifies maintenance and support.", 
+            "title": "SAAS"
+        }, 
+        {
+            "location": "/aws-intro/#mbaas", 
+            "text": "In the mobile \"backend\" as a service (m) model, also known as backend as a service (BaaS), web app and mobile app developers are provided with a way to link their applications to cloud storage and cloud computing services with application programming interfaces (APIs) exposed to their applications and custom software development kits (SDKs). Services include user management, push notifications, integration with social networking services and more.", 
+            "title": "MBAAS"
+        }, 
+        {
+            "location": "/aws-intro/#faas", 
+            "text": "Serverless computing is a cloud computing code execution model in which the cloud provider fully manages starting and stopping virtual machines as necessary to serve requests, and requests are billed by an abstract measure of the resources required to satisfy the request, rather than per virtual machine, per hour. Despite the name, it does not actually involve running code without servers. Serverless computing is so named because the business or person that owns the system does not have to purchase, rent or provision servers or virtual machines for the back-end code to run on.", 
+            "title": "FAAS"
+        }, 
+        {
+            "location": "/aws-intro/#cloud-computing-deployment-models", 
+            "text": "", 
+            "title": "Cloud Computing Deployment Models"
+        }, 
+        {
+            "location": "/aws-intro/#private-cloud", 
+            "text": "Private cloud is cloud infrastructure operated solely for a single organization, whether managed internally or by a third party, and hosted either internally or externally. Undertaking a private cloud project requires significant engagement to virtualize the business environment, and requires the organization to reevaluate decisions about existing resources. It can improve business, but every step in the project raises security issues that must be addressed to prevent serious vulnerabilities. Self-run data centers are generally capital intensive.", 
+            "title": "Private cloud"
+        }, 
+        {
+            "location": "/aws-intro/#public-cloud", 
+            "text": "A cloud is called a \"public cloud\" when the services are rendered over a network that is open for public use. Public cloud services may be free. Technically there may be little or no difference between public and private cloud architecture, however, security consideration may be substantially different for services (applications, storage, and other resources) that are made available by a service provider for a public audience and when communication is effected over a non-trusted network. Generally, public cloud service providers like Amazon Web Services (AWS), Oracle, Microsoft and Google own and operate the infrastructure at their data center and access is generally via the Internet.", 
+            "title": "Public cloud"
+        }, 
+        {
+            "location": "/aws-intro/#hybrid-cloud", 
+            "text": "Hybrid cloud is a composition of two or more clouds (private, community or public) that remain distinct entities but are bound together, offering the benefits of multiple deployment models. Hybrid cloud can also mean the ability to connect collocation, managed and/or dedicated services with cloud resources. Gartner defines a hybrid cloud service as a cloud computing service that is composed of some combination of private, public and community cloud services, from different service providers. A hybrid cloud service crosses isolation and provider boundaries so that it can't be simply put in one category of private, public, or community cloud service. It allows one to extend either the capacity or the capability of a cloud service, by aggregation, integration or customization with another cloud service.", 
+            "title": "Hybrid cloud"
+        }, 
+        {
+            "location": "/aws-intro/#why-choose-aws", 
+            "text": "", 
+            "title": "Why Choose AWS?"
+        }, 
+        {
+            "location": "/aws-intro/#aws-pace-of-innovation", 
+            "text": "", 
+            "title": "AWS pace of innovation"
+        }, 
+        {
+            "location": "/aws-intro/#aws-global-infrastructure", 
+            "text": "The AWS Cloud spans 55 Availability Zones within 18 geographic Regions and 1 Local Region around the world, with announced plans for 12 more Availability Zones and four more Regions in Bahrain, Hong Kong SAR, Sweden, and a second AWS GovCloud Region in the US.", 
+            "title": "AWS Global Infrastructure"
+        }, 
+        {
+            "location": "/aws-intro/#high-availability-through-multiple-availability-zones", 
+            "text": "Unlike virtually every other technology infrastructure provider, each AWS Region has multiple Availability Zones and data centers. As we\u2019ve learned from running the leading cloud infrastructure technology platform since 2006, customers who care about the availability and performance of their applications want to deploy these applications across multiple Availability Zones in the same region for fault tolerance and low latency. Availability Zones are connected to each other with fast, private fiber-optic networking, enabling you to easily architect applications that automatically fail-over between Availability Zones without interruption.", 
+            "title": "High Availability Through Multiple Availability Zones"
+        }, 
+        {
+            "location": "/aws-intro/#improving-continuity-with-replication-between-regions", 
+            "text": "In addition to replicating applications and data across multiple data centers in the same Region using Availability Zones, you can also choose to increase redundancy and fault tolerance further by replicating data between geographic Regions. You can do so using both private, high speed networking and public internet connections to provide an additional layer of business continuity, or to provide low latency access across the globe.", 
+            "title": "Improving Continuity With Replication Between Regions"
+        }, 
+        {
+            "location": "/aws-intro/#meeting-compliance-and-data-residency-requirements", 
+            "text": "You retain complete control and ownership over the region in which your data is physically located, making it easy to meet regional compliance and data residency requirements.", 
+            "title": "Meeting Compliance and Data Residency Requirements"
+        }, 
+        {
+            "location": "/aws-intro/#geographic-expansion", 
+            "text": "The AWS Cloud has announced plans to expand with 12 new Availability Zones in four new geographic Regions: Bahrain, Hong Kong SAR, Sweden, and a second AWS GovCloud Region in the US.", 
+            "title": "Geographic Expansion"
+        }, 
+        {
+            "location": "/aws-intro/#scripts-for-sts", 
+            "text": "", 
+            "title": "Scripts for STS"
+        }, 
+        {
+            "location": "/aws-intro/#installing-nginx", 
+            "text": "sudo amazon-linux-extras install -y nginx1.12\nsudo systemctl start nginx\nsudo systemctl restart nginx\nsudo nano /etc/nginx/nginx.conf", 
+            "title": "Installing Nginx"
+        }, 
+        {
+            "location": "/aws-intro/#nginx-config", 
+            "text": "server {\n  listen 80;\n  server_name tutorial;\n  location / {\n    proxy_set_header  X-Real-IP  $remote_addr;\n    proxy_set_header  Host       $http_host;\n    proxy_pass        http://127.0.0.1:3000;\n  }\n}", 
+            "title": "Nginx Config"
+        }, 
+        {
+            "location": "/aws-intro/#installing-apache", 
+            "text": "sudo yum -y install httpd\nsudo service httpd start\nsudo systemctl restart httpd\nsudo nano /etc/httpd/conf/httpd.conf", 
+            "title": "Installing Apache"
+        }, 
+        {
+            "location": "/aws-intro/#apache-config", 
+            "text": "VirtualHost *:80 \nServerName errbit.ourcompany.com\nProxyPreserveHost On\nProxyPass / http://localhost:3000/\nProxyPassReverse / http://localhost:3000/ /VirtualHost", 
+            "title": "Apache Config"
+        }, 
+        {
+            "location": "/aws-intro/#installing-nodejs-with-nvm", 
+            "text": "curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash\n. ~/.nvm/nvm.sh\nnvm install node", 
+            "title": "Installing Node.js with NVM"
+        }, 
+        {
+            "location": "/aws-intro/#iptables-route", 
+            "text": "sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000", 
+            "title": "IPTables Route"
+        }, 
+        {
+            "location": "/aws-intro/#installing-git", 
+            "text": "yum install git -y\ngit clone https://github.com/aminahmedkhan/aws-ec2-demo.git", 
+            "title": "Installing git"
+        }, 
+        {
+            "location": "/aws-intro/#installing-pm2", 
+            "text": "npm i -g pm2\npm2 start bin/www\npm2 startup\npm2 save", 
+            "title": "Installing pm2"
+        }, 
+        {
+            "location": "/aws-intro/#kill-process-on-port-80", 
+            "text": "sudo kill `sudo lsof -t -i:80`", 
+            "title": "Kill process on port 80"
+        }, 
+        {
+            "location": "/aws-intro/#cpu-stress", 
+            "text": "cat /proc/cpuinfo\nyes   /dev/null", 
+            "title": "CPU Stress"
+        }, 
+        {
+            "location": "/aws-intro/#bootstrap-script-ec2-user-data-script", 
+            "text": "#!/bin/bash\nyum install -y gcc-c++ make -y\ncurl -sL https://rpm.nodesource.com/setup_6.x | sudo -E bash -\nyum install nodejs -y\nyum install git -y\ngit clone https://github.com/aminahmedkhan/aws-ec2-demo.git\nnpm --prefix aws-ec2-demo i aws-ec2-demo\nsudo node aws-ec2-demo/bin/www", 
+            "title": "Bootstrap script (ec2 user data script)"
+        }, 
+        {
+            "location": "/js-mdn-01/", 
+            "text": "JS-MDN-01\n\n\nIntro", 
+            "title": "5. JS-MDN-01"
+        }, 
+        {
+            "location": "/js-mdn-01/#js-mdn-01", 
+            "text": "Intro", 
+            "title": "JS-MDN-01"
+        }
+    ]
+}

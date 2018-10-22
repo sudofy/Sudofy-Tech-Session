@@ -1,0 +1,1173 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.2.2">
+    
+    
+      
+        <title>4. Hello (AWS) World - Sudofy Tech Session (STS)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.7a4cdee3.css">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  </head>
+  
+    <body>
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="Sudofy Tech Session (STS)" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                Sudofy Tech Session (STS)
+              </span>
+              <span class="md-header-nav__topic">
+                4. Hello (AWS) World
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <span class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </span>
+    Sudofy Tech Session (STS)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sts-intro/" title="0. Introduction" class="md-nav__link">
+      0. Introduction
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../js-async-await/" title="1. JS Async Await" class="md-nav__link">
+      1. JS Async Await
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../intro-service-worker/" title="2. Intro to Service Workers (1 of 2)" class="md-nav__link">
+      2. Intro to Service Workers (1 of 2)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../intro-service-worker-2/" title="3. Intro to Service Workers (2 of 2)" class="md-nav__link">
+      3. Intro to Service Workers (2 of 2)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        4. Hello (AWS) World
+      </label>
+    
+    <a href="./" title="4. Hello (AWS) World" class="md-nav__link md-nav__link--active">
+      4. Hello (AWS) World
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#links" title="Links" class="md-nav__link">
+    Links
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-cloud-computing" title="What is Cloud Computing ?" class="md-nav__link">
+    What is Cloud Computing ?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#six-benefits-of-moving-to-aws-cloud" title="Six benefits of moving to AWS cloud" class="md-nav__link">
+    Six benefits of moving to AWS cloud
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trade-capital-expense-for-variable-expense" title="Trade capital expense for variable expense" class="md-nav__link">
+    Trade capital expense for variable expense
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefit-from-massive-economies-of-scale" title="Benefit from massive economies of scale" class="md-nav__link">
+    Benefit from massive economies of scale
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stop-guessing-about-capacity" title="Stop guessing about capacity" class="md-nav__link">
+    Stop guessing about capacity
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#increase-speed-and-agility" title="Increase speed and agility" class="md-nav__link">
+    Increase speed and agility
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stop-spending-money-running-and-maintaining-data-centers" title="Stop spending money running and maintaining data centers" class="md-nav__link">
+    Stop spending money running and maintaining data centers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#go-global-in-minutes" title="Go global in minutes" class="md-nav__link">
+    Go global in minutes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scaling-infrastructure" title="Scaling Infrastructure" class="md-nav__link">
+    Scaling Infrastructure
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#traditional-infrastructure" title="Traditional Infrastructure" class="md-nav__link">
+    Traditional Infrastructure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-infrastructure-with-auto-scaling" title="AWS Infrastructure with auto scaling" class="md-nav__link">
+    AWS Infrastructure with auto scaling
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-computing-service-models" title="Cloud Computing Service Models" class="md-nav__link">
+    Cloud Computing Service Models
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#iass" title="IASS" class="md-nav__link">
+    IASS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paas" title="PAAS" class="md-nav__link">
+    PAAS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#saas" title="SAAS" class="md-nav__link">
+    SAAS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mbaas" title="MBAAS" class="md-nav__link">
+    MBAAS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#faas" title="FAAS" class="md-nav__link">
+    FAAS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-computing-deployment-models" title="Cloud Computing Deployment Models" class="md-nav__link">
+    Cloud Computing Deployment Models
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#private-cloud" title="Private cloud" class="md-nav__link">
+    Private cloud
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-cloud" title="Public cloud" class="md-nav__link">
+    Public cloud
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hybrid-cloud" title="Hybrid cloud" class="md-nav__link">
+    Hybrid cloud
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-choose-aws" title="Why Choose AWS?" class="md-nav__link">
+    Why Choose AWS?
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aws-pace-of-innovation" title="AWS pace of innovation" class="md-nav__link">
+    AWS pace of innovation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-global-infrastructure" title="AWS Global Infrastructure" class="md-nav__link">
+    AWS Global Infrastructure
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#high-availability-through-multiple-availability-zones" title="High Availability Through Multiple Availability Zones" class="md-nav__link">
+    High Availability Through Multiple Availability Zones
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#improving-continuity-with-replication-between-regions" title="Improving Continuity With Replication Between Regions" class="md-nav__link">
+    Improving Continuity With Replication Between Regions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meeting-compliance-and-data-residency-requirements" title="Meeting Compliance and Data Residency Requirements" class="md-nav__link">
+    Meeting Compliance and Data Residency Requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geographic-expansion" title="Geographic Expansion" class="md-nav__link">
+    Geographic Expansion
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scripts-for-sts" title="Scripts for STS" class="md-nav__link">
+    Scripts for STS
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installing-nginx" title="Installing Nginx" class="md-nav__link">
+    Installing Nginx
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nginx-config" title="Nginx Config" class="md-nav__link">
+    Nginx Config
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-apache" title="Installing Apache" class="md-nav__link">
+    Installing Apache
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apache-config" title="Apache Config" class="md-nav__link">
+    Apache Config
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-nodejs-with-nvm" title="Installing Node.js with NVM" class="md-nav__link">
+    Installing Node.js with NVM
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iptables-route" title="IPTables Route" class="md-nav__link">
+    IPTables Route
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-git" title="Installing git" class="md-nav__link">
+    Installing git
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-pm2" title="Installing pm2" class="md-nav__link">
+    Installing pm2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kill-process-on-port-80" title="Kill process on port 80" class="md-nav__link">
+    Kill process on port 80
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cpu-stress" title="CPU Stress" class="md-nav__link">
+    CPU Stress
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bootstrap-script-ec2-user-data-script" title="Bootstrap script (ec2 user data script)" class="md-nav__link">
+    Bootstrap script (ec2 user data script)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../js-mdn-01/" title="5. JS-MDN-01" class="md-nav__link">
+      5. JS-MDN-01
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#links" title="Links" class="md-nav__link">
+    Links
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-cloud-computing" title="What is Cloud Computing ?" class="md-nav__link">
+    What is Cloud Computing ?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#six-benefits-of-moving-to-aws-cloud" title="Six benefits of moving to AWS cloud" class="md-nav__link">
+    Six benefits of moving to AWS cloud
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trade-capital-expense-for-variable-expense" title="Trade capital expense for variable expense" class="md-nav__link">
+    Trade capital expense for variable expense
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefit-from-massive-economies-of-scale" title="Benefit from massive economies of scale" class="md-nav__link">
+    Benefit from massive economies of scale
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stop-guessing-about-capacity" title="Stop guessing about capacity" class="md-nav__link">
+    Stop guessing about capacity
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#increase-speed-and-agility" title="Increase speed and agility" class="md-nav__link">
+    Increase speed and agility
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stop-spending-money-running-and-maintaining-data-centers" title="Stop spending money running and maintaining data centers" class="md-nav__link">
+    Stop spending money running and maintaining data centers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#go-global-in-minutes" title="Go global in minutes" class="md-nav__link">
+    Go global in minutes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scaling-infrastructure" title="Scaling Infrastructure" class="md-nav__link">
+    Scaling Infrastructure
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#traditional-infrastructure" title="Traditional Infrastructure" class="md-nav__link">
+    Traditional Infrastructure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-infrastructure-with-auto-scaling" title="AWS Infrastructure with auto scaling" class="md-nav__link">
+    AWS Infrastructure with auto scaling
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-computing-service-models" title="Cloud Computing Service Models" class="md-nav__link">
+    Cloud Computing Service Models
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#iass" title="IASS" class="md-nav__link">
+    IASS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paas" title="PAAS" class="md-nav__link">
+    PAAS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#saas" title="SAAS" class="md-nav__link">
+    SAAS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mbaas" title="MBAAS" class="md-nav__link">
+    MBAAS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#faas" title="FAAS" class="md-nav__link">
+    FAAS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-computing-deployment-models" title="Cloud Computing Deployment Models" class="md-nav__link">
+    Cloud Computing Deployment Models
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#private-cloud" title="Private cloud" class="md-nav__link">
+    Private cloud
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-cloud" title="Public cloud" class="md-nav__link">
+    Public cloud
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hybrid-cloud" title="Hybrid cloud" class="md-nav__link">
+    Hybrid cloud
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-choose-aws" title="Why Choose AWS?" class="md-nav__link">
+    Why Choose AWS?
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aws-pace-of-innovation" title="AWS pace of innovation" class="md-nav__link">
+    AWS pace of innovation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-global-infrastructure" title="AWS Global Infrastructure" class="md-nav__link">
+    AWS Global Infrastructure
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#high-availability-through-multiple-availability-zones" title="High Availability Through Multiple Availability Zones" class="md-nav__link">
+    High Availability Through Multiple Availability Zones
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#improving-continuity-with-replication-between-regions" title="Improving Continuity With Replication Between Regions" class="md-nav__link">
+    Improving Continuity With Replication Between Regions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meeting-compliance-and-data-residency-requirements" title="Meeting Compliance and Data Residency Requirements" class="md-nav__link">
+    Meeting Compliance and Data Residency Requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geographic-expansion" title="Geographic Expansion" class="md-nav__link">
+    Geographic Expansion
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scripts-for-sts" title="Scripts for STS" class="md-nav__link">
+    Scripts for STS
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installing-nginx" title="Installing Nginx" class="md-nav__link">
+    Installing Nginx
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nginx-config" title="Nginx Config" class="md-nav__link">
+    Nginx Config
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-apache" title="Installing Apache" class="md-nav__link">
+    Installing Apache
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apache-config" title="Apache Config" class="md-nav__link">
+    Apache Config
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-nodejs-with-nvm" title="Installing Node.js with NVM" class="md-nav__link">
+    Installing Node.js with NVM
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iptables-route" title="IPTables Route" class="md-nav__link">
+    IPTables Route
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-git" title="Installing git" class="md-nav__link">
+    Installing git
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-pm2" title="Installing pm2" class="md-nav__link">
+    Installing pm2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kill-process-on-port-80" title="Kill process on port 80" class="md-nav__link">
+    Kill process on port 80
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cpu-stress" title="CPU Stress" class="md-nav__link">
+    CPU Stress
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bootstrap-script-ec2-user-data-script" title="Bootstrap script (ec2 user data script)" class="md-nav__link">
+    Bootstrap script (ec2 user data script)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="aws-intro-session">AWS Intro Session<a class="headerlink" href="#aws-intro-session" title="Permanent link">&para;</a></h1>
+<p>In this session we are going to discuss about AWS and its basic services and use cases</p>
+<hr />
+<h2 id="links">Links<a class="headerlink" href="#links" title="Permanent link">&para;</a></h2>
+<p><a href="https://goo.gl/cbfa1U">Slide</a></p>
+<h2 id="what-is-cloud-computing">What is Cloud Computing ?<a class="headerlink" href="#what-is-cloud-computing" title="Permanent link">&para;</a></h2>
+<p>Cloud computing is shared pools of configurable computer system resources and higher-level services that can be rapidly provisioned with minimal management effort, often over the Internet. <a href="https://en.wikipedia.org/wiki/Cloud_computings">wiki</a></p>
+<h2 id="six-benefits-of-moving-to-aws-cloud">Six benefits of moving to AWS cloud<a class="headerlink" href="#six-benefits-of-moving-to-aws-cloud" title="Permanent link">&para;</a></h2>
+<h3 id="trade-capital-expense-for-variable-expense">Trade capital expense for variable expense<a class="headerlink" href="#trade-capital-expense-for-variable-expense" title="Permanent link">&para;</a></h3>
+<p>Instead of having to invest heavily in data centers and servers before you know how you’re going to use them, you can pay only when you consume computing resources, and pay only for how much you consume.</p>
+<h3 id="benefit-from-massive-economies-of-scale">Benefit from massive economies of scale<a class="headerlink" href="#benefit-from-massive-economies-of-scale" title="Permanent link">&para;</a></h3>
+<p>By using cloud computing, you can achieve a lower variable cost than you can get on your own. Because usage from hundreds of thousands of customers is aggregated in the cloud, providers such as AWS can achieve higher economies of scale, which translates into lower pay as-you-go prices.</p>
+<h3 id="stop-guessing-about-capacity">Stop guessing about capacity<a class="headerlink" href="#stop-guessing-about-capacity" title="Permanent link">&para;</a></h3>
+<p>Eliminate guessing on your infrastructure capacity needs. When you make a capacity decision prior to deploying an application, you often end up either sitting on expensive idle resources or dealing with limited capacity. With cloud computing, these problems go away. You can access as much or as little capacity as you need, and scale up and down as required with only a few minutes’ notice.</p>
+<h3 id="increase-speed-and-agility">Increase speed and agility<a class="headerlink" href="#increase-speed-and-agility" title="Permanent link">&para;</a></h3>
+<p>In a cloud computing environment, new IT resources are only a click away, which means that you reduce the time to make those resources available to your developers from weeks to just minutes. This results in a dramatic increase in agility for the organization, since the cost and time it takes to experiment and develop is significantly lower.</p>
+<h3 id="stop-spending-money-running-and-maintaining-data-centers">Stop spending money running and maintaining data centers<a class="headerlink" href="#stop-spending-money-running-and-maintaining-data-centers" title="Permanent link">&para;</a></h3>
+<p>Focus on projects that differentiate your business, not the infrastructure. Cloud computing lets you focus on your own customers, rather than on the heavy lifting of racking, stacking, and powering servers.</p>
+<h3 id="go-global-in-minutes">Go global in minutes<a class="headerlink" href="#go-global-in-minutes" title="Permanent link">&para;</a></h3>
+<p>Easily deploy your application in multiple regions around the world with just a few clicks. This means you can provide lower latency and a better experience for your customers at minimal cost.</p>
+<h2 id="scaling-infrastructure">Scaling Infrastructure<a class="headerlink" href="#scaling-infrastructure" title="Permanent link">&para;</a></h2>
+<h3 id="traditional-infrastructure">Traditional Infrastructure<a class="headerlink" href="#traditional-infrastructure" title="Permanent link">&para;</a></h3>
+<p><img alt="alt text" src="../images/aws-scale-01.jpg" title="Traditional Infrastructure" />
+Traditional Infrastructure is not scale able at all, You can surely provision more and more servers to your data center but its really hard to estimate the server required for a healthy infrastructure. even if you are able to estimate your usage you would end up with a lot of un utilized resources in your data center</p>
+<h3 id="aws-infrastructure-with-auto-scaling">AWS Infrastructure with auto scaling<a class="headerlink" href="#aws-infrastructure-with-auto-scaling" title="Permanent link">&para;</a></h3>
+<p><img alt="alt text" src="../images/aws-scale-02.jpg" title="Traditional Infrastructure" />
+AWS Infrastructure helps you slace in and scale out your servers based on the triggers you specify. In this way you can always provision the right amount of servers to keep your application cool and your customers happy. But getting to this point requires a lot of effort in terms of decoupling your server code and running it in stateless fashion.</p>
+<h2 id="cloud-computing-service-models">Cloud Computing Service Models<a class="headerlink" href="#cloud-computing-service-models" title="Permanent link">&para;</a></h2>
+<h3 id="iass">IASS<a class="headerlink" href="#iass" title="Permanent link">&para;</a></h3>
+<p>"Infrastructure as a service" (IaaS) refers to online services that provide high-level APIs used to dereference various low-level details of underlying network infrastructure like physical computing resources, location, data partitioning, scaling, security, backup etc. A hypervisor, such as Xen, Oracle VirtualBox, Oracle VM, KVM, VMware ESX/ESXi, or Hyper-V, LXD, runs the virtual machines as guests.</p>
+<h3 id="paas">PAAS<a class="headerlink" href="#paas" title="Permanent link">&para;</a></h3>
+<p>PaaS vendors offer a development environment to application developers. The provider typically develops toolkit and standards for development and channels for distribution and payment. In the PaaS models, cloud providers deliver a computing platform, typically including operating system, programming-language execution environment, database, and web server. Application developers can develop and run their software solutions on a cloud platform without the cost and complexity of buying and managing the underlying hardware and software layers.</p>
+<h3 id="saas">SAAS<a class="headerlink" href="#saas" title="Permanent link">&para;</a></h3>
+<p>In the software as a service (SaaS) model, users gain access to application software and databases. Cloud providers manage the infrastructure and platforms that run the applications. SaaS is sometimes referred to as "on-demand software" and is usually priced on a pay-per-use basis or using a subscription fee.[69] In the SaaS model, cloud providers install and operate application software in the cloud and cloud users access the software from cloud clients. Cloud users do not manage the cloud infrastructure and platform where the application runs. This eliminates the need to install and run the application on the cloud user's own computers, which simplifies maintenance and support.</p>
+<h3 id="mbaas">MBAAS<a class="headerlink" href="#mbaas" title="Permanent link">&para;</a></h3>
+<p>In the mobile "backend" as a service (m) model, also known as backend as a service (BaaS), web app and mobile app developers are provided with a way to link their applications to cloud storage and cloud computing services with application programming interfaces (APIs) exposed to their applications and custom software development kits (SDKs). Services include user management, push notifications, integration with social networking services and more.</p>
+<h3 id="faas">FAAS<a class="headerlink" href="#faas" title="Permanent link">&para;</a></h3>
+<p>Serverless computing is a cloud computing code execution model in which the cloud provider fully manages starting and stopping virtual machines as necessary to serve requests, and requests are billed by an abstract measure of the resources required to satisfy the request, rather than per virtual machine, per hour. Despite the name, it does not actually involve running code without servers. Serverless computing is so named because the business or person that owns the system does not have to purchase, rent or provision servers or virtual machines for the back-end code to run on.</p>
+<h2 id="cloud-computing-deployment-models">Cloud Computing Deployment Models<a class="headerlink" href="#cloud-computing-deployment-models" title="Permanent link">&para;</a></h2>
+<p><img alt="alt text" src="../images/aws-deployment-models.png" title="Cloud Deployment Models" /></p>
+<h3 id="private-cloud">Private cloud<a class="headerlink" href="#private-cloud" title="Permanent link">&para;</a></h3>
+<p>Private cloud is cloud infrastructure operated solely for a single organization, whether managed internally or by a third party, and hosted either internally or externally. Undertaking a private cloud project requires significant engagement to virtualize the business environment, and requires the organization to reevaluate decisions about existing resources. It can improve business, but every step in the project raises security issues that must be addressed to prevent serious vulnerabilities. Self-run data centers are generally capital intensive.</p>
+<h3 id="public-cloud">Public cloud<a class="headerlink" href="#public-cloud" title="Permanent link">&para;</a></h3>
+<p>A cloud is called a "public cloud" when the services are rendered over a network that is open for public use. Public cloud services may be free. Technically there may be little or no difference between public and private cloud architecture, however, security consideration may be substantially different for services (applications, storage, and other resources) that are made available by a service provider for a public audience and when communication is effected over a non-trusted network. Generally, public cloud service providers like Amazon Web Services (AWS), Oracle, Microsoft and Google own and operate the infrastructure at their data center and access is generally via the Internet.</p>
+<h3 id="hybrid-cloud">Hybrid cloud<a class="headerlink" href="#hybrid-cloud" title="Permanent link">&para;</a></h3>
+<p>Hybrid cloud is a composition of two or more clouds (private, community or public) that remain distinct entities but are bound together, offering the benefits of multiple deployment models. Hybrid cloud can also mean the ability to connect collocation, managed and/or dedicated services with cloud resources. Gartner defines a hybrid cloud service as a cloud computing service that is composed of some combination of private, public and community cloud services, from different service providers. A hybrid cloud service crosses isolation and provider boundaries so that it can't be simply put in one category of private, public, or community cloud service. It allows one to extend either the capacity or the capability of a cloud service, by aggregation, integration or customization with another cloud service.</p>
+<h2 id="why-choose-aws">Why Choose AWS?<a class="headerlink" href="#why-choose-aws" title="Permanent link">&para;</a></h2>
+<h3 id="aws-pace-of-innovation">AWS pace of innovation<a class="headerlink" href="#aws-pace-of-innovation" title="Permanent link">&para;</a></h3>
+<p><img alt="alt text" src="../images/aws-pace-of-innovation.png" title="AWS pace of innovation" /></p>
+<h3 id="aws-global-infrastructure">AWS Global Infrastructure<a class="headerlink" href="#aws-global-infrastructure" title="Permanent link">&para;</a></h3>
+<p><img alt="alt text" src="../images/aws-global.png" title="AWS Global Infrastructure" />
+The AWS Cloud spans 55 Availability Zones within 18 geographic Regions and 1 Local Region around the world, with announced plans for 12 more Availability Zones and four more Regions in Bahrain, Hong Kong SAR, Sweden, and a second AWS GovCloud Region in the US.</p>
+<h4 id="high-availability-through-multiple-availability-zones">High Availability Through Multiple Availability Zones<a class="headerlink" href="#high-availability-through-multiple-availability-zones" title="Permanent link">&para;</a></h4>
+<p>Unlike virtually every other technology infrastructure provider, each AWS Region has multiple Availability Zones and data centers. As we’ve learned from running the leading cloud infrastructure technology platform since 2006, customers who care about the availability and performance of their applications want to deploy these applications across multiple Availability Zones in the same region for fault tolerance and low latency. Availability Zones are connected to each other with fast, private fiber-optic networking, enabling you to easily architect applications that automatically fail-over between Availability Zones without interruption.</p>
+<h4 id="improving-continuity-with-replication-between-regions">Improving Continuity With Replication Between Regions<a class="headerlink" href="#improving-continuity-with-replication-between-regions" title="Permanent link">&para;</a></h4>
+<p>In addition to replicating applications and data across multiple data centers in the same Region using Availability Zones, you can also choose to increase redundancy and fault tolerance further by replicating data between geographic Regions. You can do so using both private, high speed networking and public internet connections to provide an additional layer of business continuity, or to provide low latency access across the globe.</p>
+<h4 id="meeting-compliance-and-data-residency-requirements">Meeting Compliance and Data Residency Requirements<a class="headerlink" href="#meeting-compliance-and-data-residency-requirements" title="Permanent link">&para;</a></h4>
+<p>You retain complete control and ownership over the region in which your data is physically located, making it easy to meet regional compliance and data residency requirements.</p>
+<h4 id="geographic-expansion">Geographic Expansion<a class="headerlink" href="#geographic-expansion" title="Permanent link">&para;</a></h4>
+<p>The AWS Cloud has announced plans to expand with 12 new Availability Zones in four new geographic Regions: Bahrain, Hong Kong SAR, Sweden, and a second AWS GovCloud Region in the US.</p>
+<h2 id="scripts-for-sts">Scripts for STS<a class="headerlink" href="#scripts-for-sts" title="Permanent link">&para;</a></h2>
+<h3 id="installing-nginx">Installing Nginx<a class="headerlink" href="#installing-nginx" title="Permanent link">&para;</a></h3>
+<pre><code class="yml">sudo amazon-linux-extras install -y nginx1.12
+sudo systemctl start nginx
+sudo systemctl restart nginx
+sudo nano /etc/nginx/nginx.conf
+</code></pre>
+
+<h3 id="nginx-config">Nginx Config<a class="headerlink" href="#nginx-config" title="Permanent link">&para;</a></h3>
+<pre><code class="yml">server {
+  listen 80;
+  server_name tutorial;
+  location / {
+    proxy_set_header  X-Real-IP  $remote_addr;
+    proxy_set_header  Host       $http_host;
+    proxy_pass        http://127.0.0.1:3000;
+  }
+}
+</code></pre>
+
+<h3 id="installing-apache">Installing Apache<a class="headerlink" href="#installing-apache" title="Permanent link">&para;</a></h3>
+<pre><code class="yml">sudo yum -y install httpd
+sudo service httpd start
+sudo systemctl restart httpd
+sudo nano /etc/httpd/conf/httpd.conf
+</code></pre>
+
+<h3 id="apache-config">Apache Config<a class="headerlink" href="#apache-config" title="Permanent link">&para;</a></h3>
+<pre><code class="xml">&lt;VirtualHost *:80&gt;
+ServerName errbit.ourcompany.com
+ProxyPreserveHost On
+ProxyPass / http://localhost:3000/
+ProxyPassReverse / http://localhost:3000/
+&lt;/VirtualHost&gt; 
+</code></pre>
+
+<h3 id="installing-nodejs-with-nvm">Installing Node.js with NVM<a class="headerlink" href="#installing-nodejs-with-nvm" title="Permanent link">&para;</a></h3>
+<pre><code class="yml">curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+. ~/.nvm/nvm.sh
+nvm install node
+</code></pre>
+
+<h3 id="iptables-route">IPTables Route<a class="headerlink" href="#iptables-route" title="Permanent link">&para;</a></h3>
+<pre><code class="yml">sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000
+</code></pre>
+
+<h3 id="installing-git">Installing git<a class="headerlink" href="#installing-git" title="Permanent link">&para;</a></h3>
+<pre><code class="yml">yum install git -y
+git clone https://github.com/aminahmedkhan/aws-ec2-demo.git
+</code></pre>
+
+<h3 id="installing-pm2">Installing pm2<a class="headerlink" href="#installing-pm2" title="Permanent link">&para;</a></h3>
+<pre><code class="yml">npm i -g pm2
+pm2 start bin/www
+pm2 startup
+pm2 save
+</code></pre>
+
+<h3 id="kill-process-on-port-80">Kill process on port 80<a class="headerlink" href="#kill-process-on-port-80" title="Permanent link">&para;</a></h3>
+<pre><code class="yml">sudo kill `sudo lsof -t -i:80`
+</code></pre>
+
+<h3 id="cpu-stress">CPU Stress<a class="headerlink" href="#cpu-stress" title="Permanent link">&para;</a></h3>
+<pre><code class="yml">cat /proc/cpuinfo
+yes &gt; /dev/null &amp;
+</code></pre>
+
+<h3 id="bootstrap-script-ec2-user-data-script">Bootstrap script (ec2 user data script)<a class="headerlink" href="#bootstrap-script-ec2-user-data-script" title="Permanent link">&para;</a></h3>
+<pre><code class="yml">#!/bin/bash
+yum install -y gcc-c++ make -y
+curl -sL https://rpm.nodesource.com/setup_6.x | sudo -E bash -
+yum install nodejs -y
+yum install git -y
+git clone https://github.com/aminahmedkhan/aws-ec2-demo.git
+npm --prefix aws-ec2-demo i aws-ec2-demo
+sudo node aws-ec2-demo/bin/www
+</code></pre>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../intro-service-worker-2/" title="3. Intro to Service Workers (2 of 2)" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                3. Intro to Service Workers (2 of 2)
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../js-mdn-01/" title="5. JS-MDN-01" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                5. JS-MDN-01
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.6cdc17f0.js"></script>
+      
+      <script>app.initialize({version:"0.17.2",url:{base:".."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>

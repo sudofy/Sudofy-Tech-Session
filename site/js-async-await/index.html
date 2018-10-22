@@ -1,0 +1,557 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.2.2">
+    
+    
+      
+        <title>1. JS Async Await - Sudofy Tech Session (STS)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.7a4cdee3.css">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  </head>
+  
+    <body>
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="Sudofy Tech Session (STS)" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                Sudofy Tech Session (STS)
+              </span>
+              <span class="md-header-nav__topic">
+                1. JS Async Await
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <span class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </span>
+    Sudofy Tech Session (STS)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sts-intro/" title="0. Introduction" class="md-nav__link">
+      0. Introduction
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        1. JS Async Await
+      </label>
+    
+    <a href="./" title="1. JS Async Await" class="md-nav__link md-nav__link--active">
+      1. JS Async Await
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#links" title="Links" class="md-nav__link">
+    Links
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-event-loops-and-call-stack" title="WHY Event Loops and Call Stack ?" class="md-nav__link">
+    WHY Event Loops and Call Stack ?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-aysnc-await" title="WHY Aysnc Await ?" class="md-nav__link">
+    WHY Aysnc Await ?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-generators" title="WHY Generators ?" class="md-nav__link">
+    WHY Generators ?
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sts-date" title="STS Date" class="md-nav__link">
+    STS Date
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sts-duration" title="STS Duration" class="md-nav__link">
+    STS Duration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sts-slides" title="STS Slides" class="md-nav__link">
+    STS Slides
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sts-snacks-are-on-the-house" title="STS Snacks are on the house" class="md-nav__link">
+    STS Snacks are on the house
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../intro-service-worker/" title="2. Intro to Service Workers (1 of 2)" class="md-nav__link">
+      2. Intro to Service Workers (1 of 2)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../intro-service-worker-2/" title="3. Intro to Service Workers (2 of 2)" class="md-nav__link">
+      3. Intro to Service Workers (2 of 2)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../aws-intro/" title="4. Hello (AWS) World" class="md-nav__link">
+      4. Hello (AWS) World
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../js-mdn-01/" title="5. JS-MDN-01" class="md-nav__link">
+      5. JS-MDN-01
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#links" title="Links" class="md-nav__link">
+    Links
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-event-loops-and-call-stack" title="WHY Event Loops and Call Stack ?" class="md-nav__link">
+    WHY Event Loops and Call Stack ?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-aysnc-await" title="WHY Aysnc Await ?" class="md-nav__link">
+    WHY Aysnc Await ?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-generators" title="WHY Generators ?" class="md-nav__link">
+    WHY Generators ?
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sts-date" title="STS Date" class="md-nav__link">
+    STS Date
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sts-duration" title="STS Duration" class="md-nav__link">
+    STS Duration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sts-slides" title="STS Slides" class="md-nav__link">
+    STS Slides
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sts-snacks-are-on-the-house" title="STS Snacks are on the house" class="md-nav__link">
+    STS Snacks are on the house
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="event-loops-and-the-asynchronous-programming-in-javascript">Event loops and the asynchronous programming in Javascript<a class="headerlink" href="#event-loops-and-the-asynchronous-programming-in-javascript" title="Permanent link">&para;</a></h1>
+<p>This STS is based on the importance of Asynchronous programming in Javascript and how Javascript actually works, how it executes callbacks and handles asynchronous code. It will also cover how to use Callbacks, Promises and Async Await effectively in your code. This session will also cover little bit about the concept of Generators in javaScript.</p>
+<h2 id="links">Links<a class="headerlink" href="#links" title="Permanent link">&para;</a></h2>
+<p><a href="https://bit.ly/2MjR3OW">Slide</a></p>
+<hr />
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>The session is divided into three sections. The first section will cover how event loops and call stack work in JavaScript. The Second section will cover how to write non-blocking and asynchronous code in JavaScript and how to use Promises, call backs and Async-Await effectively and then the last section will cover the concept of Generators in Javascript.</p>
+<hr />
+<h2 id="why-event-loops-and-call-stack">WHY Event Loops and Call Stack ?<a class="headerlink" href="#why-event-loops-and-call-stack" title="Permanent link">&para;</a></h2>
+<p>Call stacks and event loops are very important and it helps you understand how Javascript actually runs on browser and node. It also helps you in understanding how callbacks are actually handled in JavaScript.</p>
+<hr />
+<h2 id="why-aysnc-await">WHY Aysnc Await ?<a class="headerlink" href="#why-aysnc-await" title="Permanent link">&para;</a></h2>
+<p>ES 2017 introduced Asynchronous functions. Async functions are essentially a cleaner way to work with asynchronous code in JavaScript.</p>
+<p>Here are some important points to remember:</p>
+<ul>
+<li>Async/await is a new way to write asynchronous code. Previous options for asynchronous code are callbacks and promises.</li>
+<li>Async/await is actually built on top of promises. It cannot be used with plain callbacks or node callbacks.</li>
+<li>Async/await is, like promises, non blocking.</li>
+<li>Async/await makes asynchronous code look and behave a little more like synchronous code. This is where all its power lies.</li>
+</ul>
+<hr />
+<h2 id="why-generators">WHY Generators ?<a class="headerlink" href="#why-generators" title="Permanent link">&para;</a></h2>
+<p>Generators are functions that you can use to control the iterator. They can be suspended and later resumed at any time.</p>
+<p>So if you wanna do something in your function which involves stopping it and perform other operations and then resume that function again, you should learn how to use Generators.</p>
+<hr />
+<h4 id="sts-date">STS Date<a class="headerlink" href="#sts-date" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>04 - AUG - 2017</p>
+</blockquote>
+<h4 id="sts-duration">STS Duration<a class="headerlink" href="#sts-duration" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>30-45 Mins </p>
+</blockquote>
+<h4 id="sts-slides">STS Slides<a class="headerlink" href="#sts-slides" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p><a href="https://bit.ly/2MjR3OW">Google Docs Slides</a></p>
+</blockquote>
+<h4 id="sts-snacks-are-on-the-house">STS Snacks are on the house<a class="headerlink" href="#sts-snacks-are-on-the-house" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Donuts !</p>
+</blockquote>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../sts-intro/" title="0. Introduction" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                0. Introduction
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../intro-service-worker/" title="2. Intro to Service Workers (1 of 2)" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                2. Intro to Service Workers (1 of 2)
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.6cdc17f0.js"></script>
+      
+      <script>app.initialize({version:"0.17.2",url:{base:".."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
